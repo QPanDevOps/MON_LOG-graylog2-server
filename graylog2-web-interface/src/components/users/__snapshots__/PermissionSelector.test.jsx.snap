@@ -1,6 +1,492 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<PermissionSelector /> should render with empty permissions 1`] = `
+.c4.btn-danger {
+  background-color: #ad0707;
+  border-color: #b23939;
+  color: rgb(252,249,249);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-danger:hover {
+  background-color: #a00e0e;
+  border-color: #a53636;
+  color: #e9e6e6;
+}
+
+.c4.btn-danger.active {
+  background-color: #b75151;
+  border-color: #bc6363;
+  color: rgb(252,249,249);
+}
+
+.c4.btn-danger.active:hover {
+  background-color: #a94c4c;
+  border-color: #ad5c5c;
+  color: #e9e6e6;
+}
+
+.c4.btn-danger[disabled],
+.c4.btn-danger.disabled {
+  background-color: #c07272;
+  border-color: #bc6363;
+  color: rgb(252,250,250);
+}
+
+.c4.btn-danger[disabled]:hover,
+.c4.btn-danger.disabled:hover {
+  background-color: #c07272;
+  border-color: #bc6363;
+  color: rgb(252,250,250);
+}
+
+.c4.btn-default {
+  background-color: #e6e6e6;
+  border-color: #e0e0e0;
+  color: rgb(73,73,73);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-default:hover {
+  background-color: #d4d4d4;
+  border-color: #cfcfcf;
+  color: #444444;
+}
+
+.c4.btn-default.active {
+  background-color: #dadada;
+  border-color: #d4d4d4;
+  color: rgb(49,49,49);
+}
+
+.c4.btn-default.active:hover {
+  background-color: #cacaca;
+  border-color: #c4c4c4;
+  color: #2f2f2f;
+}
+
+.c4.btn-default[disabled],
+.c4.btn-default.disabled {
+  background-color: #cecece;
+  border-color: #d4d4d4;
+  color: rgb(80,80,80);
+}
+
+.c4.btn-default[disabled]:hover,
+.c4.btn-default.disabled:hover {
+  background-color: #cecece;
+  border-color: #d4d4d4;
+  color: rgb(80,80,80);
+}
+
+.c4.btn-info {
+  background-color: #0063be;
+  border-color: #3970c2;
+  color: rgb(249,250,252);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-info:hover {
+  background-color: #0c5cb0;
+  border-color: #3668b3;
+  color: #e6e7e9;
+}
+
+.c4.btn-info.active {
+  background-color: #517cc5;
+  border-color: #6386c9;
+  color: rgb(249,250,252);
+}
+
+.c4.btn-info.active:hover {
+  background-color: #4b73b6;
+  border-color: #5c7dba;
+  color: #e6e7e9;
+}
+
+.c4.btn-info[disabled],
+.c4.btn-info.disabled {
+  background-color: #7290cd;
+  border-color: #6386c9;
+  color: rgb(250,251,253);
+}
+
+.c4.btn-info[disabled]:hover,
+.c4.btn-info.disabled:hover {
+  background-color: #7290cd;
+  border-color: #6386c9;
+  color: rgb(250,251,253);
+}
+
+.c4.btn-link {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-link:hover {
+  background-color: #ebebeb26;
+  border-color: #ebebeb26;
+  color: #68267b;
+}
+
+.c4.btn-link.active {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #410057;
+}
+
+.c4.btn-link.active:hover {
+  background-color: rgba(255,255,255,0);
+  border-color: #ebebeb26;
+  color: #3d0c51;
+}
+
+.c4.btn-link[disabled],
+.c4.btn-link.disabled {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+}
+
+.c4.btn-link[disabled]:hover,
+.c4.btn-link.disabled:hover {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+}
+
+.c4.btn-primary {
+  background-color: #702785;
+  border-color: #7b458e;
+  color: rgb(234,229,236);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-primary:hover {
+  background-color: #68267b;
+  border-color: #724083;
+  color: #d8d3da;
+}
+
+.c4.btn-primary.active {
+  background-color: #855996;
+  border-color: #8f699d;
+  color: rgb(250,249,251);
+}
+
+.c4.btn-primary.active:hover {
+  background-color: #7c538b;
+  border-color: #846292;
+  color: #e7e6e8;
+}
+
+.c4.btn-primary[disabled],
+.c4.btn-primary.disabled {
+  background-color: #9877a5;
+  border-color: #8f699d;
+  color: rgb(251,250,251);
+}
+
+.c4.btn-primary[disabled]:hover,
+.c4.btn-primary.disabled:hover {
+  background-color: #9877a5;
+  border-color: #8f699d;
+  color: rgb(251,250,251);
+}
+
+.c4.btn-success {
+  background-color: #00ae42;
+  border-color: #39b356;
+  color: rgb(249,252,249);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-success:hover {
+  background-color: #0ca13e;
+  border-color: #36a550;
+  color: #e6e9e6;
+}
+
+.c4.btn-success.active {
+  background-color: #51b866;
+  border-color: #63bc74;
+  color: rgb(249,252,250);
+}
+
+.c4.btn-success.active:hover {
+  background-color: #4baa5f;
+  border-color: #5cae6c;
+  color: #e6e9e7;
+}
+
+.c4.btn-success[disabled],
+.c4.btn-success.disabled {
+  background-color: #72c180;
+  border-color: #63bc74;
+  color: rgb(250,252,250);
+}
+
+.c4.btn-success[disabled]:hover,
+.c4.btn-success.disabled:hover {
+  background-color: #72c180;
+  border-color: #63bc74;
+  color: rgb(250,252,250);
+}
+
+.c4.btn-warning {
+  background-color: #ffd200;
+  border-color: #f9cd07;
+  color: rgb(57,47,0);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-warning:hover {
+  background-color: #ebc20c;
+  border-color: #e6bd0e;
+  color: #362d0c;
+}
+
+.c4.btn-warning.active {
+  background-color: #f2c70a;
+  border-color: #ebc20c;
+  color: rgb(54,45,2);
+}
+
+.c4.btn-warning.active:hover {
+  background-color: #e0b80f;
+  border-color: #d9b310;
+  color: #332b0c;
+}
+
+.c4.btn-warning[disabled],
+.c4.btn-warning.disabled {
+  background-color: #e4bc0e;
+  border-color: #ebc20c;
+  color: rgb(88,73,5);
+}
+
+.c4.btn-warning[disabled]:hover,
+.c4.btn-warning.disabled:hover {
+  background-color: #e4bc0e;
+  border-color: #ebc20c;
+  color: rgb(88,73,5);
+}
+
+.c2 {
+  color: #1f1f1f;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.c3 {
+  color: #1f1f1f;
+  background-color: #fff;
+  border-color: #cdcdcd;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #9b9b9b;
+}
+
+.c3::-moz-placeholder {
+  color: #9b9b9b;
+}
+
+.c3:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+.c3::placeholder {
+  color: #9b9b9b;
+}
+
+.c3:focus {
+  border-color: #7894ce;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
+}
+
+.c3[disabled],
+.c3[readonly],
+fieldset[disabled] .c3 {
+  background-color: #cdcdcd;
+}
+
+.c3 ~ .form-control-feedback.glyphicon {
+  display: none;
+}
+
+.c6 {
+  background-color: #fff;
+  border-color: #cdcdcd;
+}
+
+.c6 .list-group-item-heading {
+  font-weight: bold;
+}
+
+.c6.disabled,
+.c6.disabled:hover,
+.c6.disabled:focus {
+  color: #9b9b9b;
+  background-color: #e6e6e6;
+}
+
+.c6.disabled .list-group-item-heading,
+.c6.disabled:hover .list-group-item-heading,
+.c6.disabled:focus .list-group-item-heading {
+  color: inherit;
+  font-weight: bold;
+}
+
+.c6.disabled .list-group-item-text,
+.c6.disabled:hover .list-group-item-text,
+.c6.disabled:focus .list-group-item-text {
+  color: #9b9b9b;
+}
+
+.c6.active,
+.c6.active:hover,
+.c6.active:focus {
+  color: #ffffff;
+  background-color: #9b7ca8;
+  border-color: #9b7ca8;
+  z-index: auto;
+}
+
+.c6.active .list-group-item-heading,
+.c6.active:hover .list-group-item-heading,
+.c6.active:focus .list-group-item-heading,
+.c6.active .list-group-item-heading > small,
+.c6.active:hover .list-group-item-heading > small,
+.c6.active:focus .list-group-item-heading > small,
+.c6.active .list-group-item-heading > .small,
+.c6.active:hover .list-group-item-heading > .small,
+.c6.active:focus .list-group-item-heading > .small {
+  color: inherit;
+  font-weight: bold;
+}
+
+.c6.active .list-group-item-text,
+.c6.active:hover .list-group-item-text,
+.c6.active:focus .list-group-item-text {
+  color: #9b7ca8;
+}
+
+a.c6,
+button.c6 {
+  color: #702785;
+}
+
+a.c6 .list-group-item-heading,
+button.c6 .list-group-item-heading {
+  color: #383838;
+  font-weight: bold;
+}
+
+a.c6:hover:not(.disabled),
+button.c6:hover:not(.disabled),
+a.c6:focus:not(.disabled),
+button.c6:focus:not(.disabled) {
+  background-color: #6a6a6a;
+  color: #fff;
+}
+
+a.c6:hover:not(.disabled).active,
+button.c6:hover:not(.disabled).active,
+a.c6:focus:not(.disabled).active,
+button.c6:focus:not(.disabled).active {
+  color: #fff;
+  border-color: #702785;
+  background-color: #702785;
+}
+
+a.c6:hover:not(.disabled) .list-group-item-heading,
+button.c6:hover:not(.disabled) .list-group-item-heading,
+a.c6:focus:not(.disabled) .list-group-item-heading,
+button.c6:focus:not(.disabled) .list-group-item-heading {
+  color: #fff;
+}
+
+.c1 {
+  background-color: #fff;
+  border: 1px solid rgb(198,207,231);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 9px;
+}
+
+.c0 .nav-tabs {
+  border-bottom-color: rgb(198,207,231);
+}
+
+.c0 .nav-tabs > li > a {
+  -webkit-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+  color: #1f1f1f;
+  border-color: #cdcdcd #cdcdcd rgb(198,207,231);
+}
+
+.c0 .nav-tabs > li > a:hover {
+  background-color: #cdcdcd;
+  color: rgb(46,46,46);
+}
+
+.c0 .nav-tabs > li.active > a,
+.c0 .nav-tabs > li.active > a:hover,
+.c0 .nav-tabs > li.active > a:focus {
+  color: #1f1f1f;
+  background-color: #ffffff;
+  border-color: rgb(198,207,231);
+  border-bottom-color: transparent;
+}
+
+.c0 .nav-tabs > li.disabled > a,
+.c0 .nav-tabs > li.disabled > a:hover,
+.c0 .nav-tabs > li.disabled > a:focus {
+  color: #9b9b9b;
+  background-color: #ffffff;
+  border-color: #ffffff #ffffff rgb(198,207,231);
+  cursor: not-allowed;
+}
+
+.c0.nav-justified > .active > a,
+.c0.nav-justified > .active > a:hover,
+.c0.nav-justified > .active > a:focus {
+  border-color: rgb(198,207,231);
+}
+
+.c5 {
+  background-color: #e6e6e6;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+.c5 .form-group {
+  margin: 0;
+}
+
+@media (min-width:768px) {
+  .c0.nav-justified > li > a {
+    border-bottom-color: rgb(198,207,231);
+  }
+
+  .c0.nav-justified > .active > a,
+  .c0.nav-justified > .active > a:hover,
+  .c0.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+
 <PermissionSelector
   dashboards={
     Immutable.List [
@@ -37,13 +523,13 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
     >
       <ForwardRef
         animation={false}
-        className="Tabs-sc-1hzj2zf-0 cVtdaR"
+        className="c0"
         defaultActiveKey={1}
         id="permissionSelectorTabs"
       >
         <Uncontrolled(Tabs)
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cVtdaR"
+          className="c0"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
           innerRef={null}
@@ -53,7 +539,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
             animation={false}
             bsClass="tab"
             bsStyle="tabs"
-            className="Tabs-sc-1hzj2zf-0 cVtdaR"
+            className="c0"
             id="permissionSelectorTabs"
             mountOnEnter={false}
             onSelect={[Function]}
@@ -61,12 +547,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
           >
             <TabContainer
               activeKey={1}
-              className="Tabs-sc-1hzj2zf-0 cVtdaR"
+              className="c0"
               id="permissionSelectorTabs"
               onSelect={[Function]}
             >
               <div
-                className="Tabs-sc-1hzj2zf-0 cVtdaR"
+                className="c0"
                 id="permissionSelectorTabs"
               >
                 <Nav
@@ -182,19 +668,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                       title="Streams"
                     >
                       <Tab
-                        className="Tab-loa0kh-0 elQeLn"
+                        className="c1"
                         eventKey={1}
                         title="Streams"
                       >
                         <TabPane
                           bsClass="tab-pane"
-                          className="Tab-loa0kh-0 elQeLn"
+                          className="c1"
                           eventKey={1}
                         >
                           <div
                             aria-hidden={false}
                             aria-labelledby="permissionSelectorTabs-tab-1"
-                            className="Tab-loa0kh-0 elQeLn tab-pane active"
+                            className="c1 tab-pane active"
                             id="permissionSelectorTabs-pane-1"
                             role="tabpanel"
                           >
@@ -315,21 +801,21 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       >
                                                         <FormGroup
                                                           bsClass="form-group"
-                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                          className=""
                                                           controlId="filter-streams-data-filter"
                                                           validationState={null}
                                                         >
                                                           <div
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                            className="form-group"
                                                           >
                                                             <ControlLabel>
                                                               <ControlLabel
                                                                 bsClass="control-label"
-                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                className="c2"
                                                                 srOnly={false}
                                                               >
                                                                 <label
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  className="c2 control-label"
                                                                   htmlFor="filter-streams-data-filter"
                                                                 >
                                                                   Filter Streams
@@ -352,7 +838,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                 >
                                                                   <FormControl
                                                                     bsClass="form-control"
-                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
+                                                                    className="c3"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Streams"
@@ -361,7 +847,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     type="text"
                                                                   >
                                                                     <input
-                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      className="c3 form-control"
                                                                       id="filter-streams-data-filter"
                                                                       label="Filter Streams"
                                                                       name="filter-streams-data-filter"
@@ -399,7 +885,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -409,7 +895,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -448,7 +934,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -459,7 +945,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -498,18 +984,18 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                  className="c5"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                    className="c5"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                      className="c6 c5"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
+                                                        className="c6 c5 list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -535,12 +1021,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="select-all-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -600,11 +1086,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -637,12 +1123,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -667,12 +1153,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -708,12 +1194,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -777,11 +1263,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -814,12 +1300,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -844,12 +1330,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -885,12 +1371,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -964,19 +1450,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                       title="Dashboards"
                     >
                       <Tab
-                        className="Tab-loa0kh-0 elQeLn"
+                        className="c1"
                         eventKey={2}
                         title="Dashboards"
                       >
                         <TabPane
                           bsClass="tab-pane"
-                          className="Tab-loa0kh-0 elQeLn"
+                          className="c1"
                           eventKey={2}
                         >
                           <div
                             aria-hidden={true}
                             aria-labelledby="permissionSelectorTabs-tab-2"
-                            className="Tab-loa0kh-0 elQeLn tab-pane"
+                            className="c1 tab-pane"
                             id="permissionSelectorTabs-pane-2"
                             role="tabpanel"
                           >
@@ -1097,21 +1583,21 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       >
                                                         <FormGroup
                                                           bsClass="form-group"
-                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                          className=""
                                                           controlId="filter-dashboards-data-filter"
                                                           validationState={null}
                                                         >
                                                           <div
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                            className="form-group"
                                                           >
                                                             <ControlLabel>
                                                               <ControlLabel
                                                                 bsClass="control-label"
-                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                className="c2"
                                                                 srOnly={false}
                                                               >
                                                                 <label
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  className="c2 control-label"
                                                                   htmlFor="filter-dashboards-data-filter"
                                                                 >
                                                                   Filter Dashboards
@@ -1134,7 +1620,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                 >
                                                                   <FormControl
                                                                     bsClass="form-control"
-                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
+                                                                    className="c3"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Dashboards"
@@ -1143,7 +1629,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     type="text"
                                                                   >
                                                                     <input
-                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      className="c3 form-control"
                                                                       id="filter-dashboards-data-filter"
                                                                       label="Filter Dashboards"
                                                                       name="filter-dashboards-data-filter"
@@ -1181,7 +1667,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -1191,7 +1677,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -1230,7 +1716,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -1241,7 +1727,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -1280,18 +1766,18 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                  className="c5"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                    className="c5"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                      className="c6 c5"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
+                                                        className="c6 c5 list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -1317,12 +1803,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="select-all-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -1382,11 +1868,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -1419,12 +1905,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -1449,12 +1935,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -1490,12 +1976,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -1559,11 +2045,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -1596,12 +2082,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -1626,12 +2112,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -1667,12 +2153,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -1754,6 +2240,492 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
 `;
 
 exports[`<PermissionSelector /> should render with set permissions 1`] = `
+.c4.btn-danger {
+  background-color: #ad0707;
+  border-color: #b23939;
+  color: rgb(252,249,249);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-danger:hover {
+  background-color: #a00e0e;
+  border-color: #a53636;
+  color: #e9e6e6;
+}
+
+.c4.btn-danger.active {
+  background-color: #b75151;
+  border-color: #bc6363;
+  color: rgb(252,249,249);
+}
+
+.c4.btn-danger.active:hover {
+  background-color: #a94c4c;
+  border-color: #ad5c5c;
+  color: #e9e6e6;
+}
+
+.c4.btn-danger[disabled],
+.c4.btn-danger.disabled {
+  background-color: #c07272;
+  border-color: #bc6363;
+  color: rgb(252,250,250);
+}
+
+.c4.btn-danger[disabled]:hover,
+.c4.btn-danger.disabled:hover {
+  background-color: #c07272;
+  border-color: #bc6363;
+  color: rgb(252,250,250);
+}
+
+.c4.btn-default {
+  background-color: #e6e6e6;
+  border-color: #e0e0e0;
+  color: rgb(73,73,73);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-default:hover {
+  background-color: #d4d4d4;
+  border-color: #cfcfcf;
+  color: #444444;
+}
+
+.c4.btn-default.active {
+  background-color: #dadada;
+  border-color: #d4d4d4;
+  color: rgb(49,49,49);
+}
+
+.c4.btn-default.active:hover {
+  background-color: #cacaca;
+  border-color: #c4c4c4;
+  color: #2f2f2f;
+}
+
+.c4.btn-default[disabled],
+.c4.btn-default.disabled {
+  background-color: #cecece;
+  border-color: #d4d4d4;
+  color: rgb(80,80,80);
+}
+
+.c4.btn-default[disabled]:hover,
+.c4.btn-default.disabled:hover {
+  background-color: #cecece;
+  border-color: #d4d4d4;
+  color: rgb(80,80,80);
+}
+
+.c4.btn-info {
+  background-color: #0063be;
+  border-color: #3970c2;
+  color: rgb(249,250,252);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-info:hover {
+  background-color: #0c5cb0;
+  border-color: #3668b3;
+  color: #e6e7e9;
+}
+
+.c4.btn-info.active {
+  background-color: #517cc5;
+  border-color: #6386c9;
+  color: rgb(249,250,252);
+}
+
+.c4.btn-info.active:hover {
+  background-color: #4b73b6;
+  border-color: #5c7dba;
+  color: #e6e7e9;
+}
+
+.c4.btn-info[disabled],
+.c4.btn-info.disabled {
+  background-color: #7290cd;
+  border-color: #6386c9;
+  color: rgb(250,251,253);
+}
+
+.c4.btn-info[disabled]:hover,
+.c4.btn-info.disabled:hover {
+  background-color: #7290cd;
+  border-color: #6386c9;
+  color: rgb(250,251,253);
+}
+
+.c4.btn-link {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-link:hover {
+  background-color: #ebebeb26;
+  border-color: #ebebeb26;
+  color: #68267b;
+}
+
+.c4.btn-link.active {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #410057;
+}
+
+.c4.btn-link.active:hover {
+  background-color: rgba(255,255,255,0);
+  border-color: #ebebeb26;
+  color: #3d0c51;
+}
+
+.c4.btn-link[disabled],
+.c4.btn-link.disabled {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+}
+
+.c4.btn-link[disabled]:hover,
+.c4.btn-link.disabled:hover {
+  background-color: rgba(255,255,255,0);
+  border-color: rgba(255,255,255,0);
+  color: #702785;
+}
+
+.c4.btn-primary {
+  background-color: #702785;
+  border-color: #7b458e;
+  color: rgb(234,229,236);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-primary:hover {
+  background-color: #68267b;
+  border-color: #724083;
+  color: #d8d3da;
+}
+
+.c4.btn-primary.active {
+  background-color: #855996;
+  border-color: #8f699d;
+  color: rgb(250,249,251);
+}
+
+.c4.btn-primary.active:hover {
+  background-color: #7c538b;
+  border-color: #846292;
+  color: #e7e6e8;
+}
+
+.c4.btn-primary[disabled],
+.c4.btn-primary.disabled {
+  background-color: #9877a5;
+  border-color: #8f699d;
+  color: rgb(251,250,251);
+}
+
+.c4.btn-primary[disabled]:hover,
+.c4.btn-primary.disabled:hover {
+  background-color: #9877a5;
+  border-color: #8f699d;
+  color: rgb(251,250,251);
+}
+
+.c4.btn-success {
+  background-color: #00ae42;
+  border-color: #39b356;
+  color: rgb(249,252,249);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-success:hover {
+  background-color: #0ca13e;
+  border-color: #36a550;
+  color: #e6e9e6;
+}
+
+.c4.btn-success.active {
+  background-color: #51b866;
+  border-color: #63bc74;
+  color: rgb(249,252,250);
+}
+
+.c4.btn-success.active:hover {
+  background-color: #4baa5f;
+  border-color: #5cae6c;
+  color: #e6e9e7;
+}
+
+.c4.btn-success[disabled],
+.c4.btn-success.disabled {
+  background-color: #72c180;
+  border-color: #63bc74;
+  color: rgb(250,252,250);
+}
+
+.c4.btn-success[disabled]:hover,
+.c4.btn-success.disabled:hover {
+  background-color: #72c180;
+  border-color: #63bc74;
+  color: rgb(250,252,250);
+}
+
+.c4.btn-warning {
+  background-color: #ffd200;
+  border-color: #f9cd07;
+  color: rgb(57,47,0);
+  -webkit-transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
+}
+
+.c4.btn-warning:hover {
+  background-color: #ebc20c;
+  border-color: #e6bd0e;
+  color: #362d0c;
+}
+
+.c4.btn-warning.active {
+  background-color: #f2c70a;
+  border-color: #ebc20c;
+  color: rgb(54,45,2);
+}
+
+.c4.btn-warning.active:hover {
+  background-color: #e0b80f;
+  border-color: #d9b310;
+  color: #332b0c;
+}
+
+.c4.btn-warning[disabled],
+.c4.btn-warning.disabled {
+  background-color: #e4bc0e;
+  border-color: #ebc20c;
+  color: rgb(88,73,5);
+}
+
+.c4.btn-warning[disabled]:hover,
+.c4.btn-warning.disabled:hover {
+  background-color: #e4bc0e;
+  border-color: #ebc20c;
+  color: rgb(88,73,5);
+}
+
+.c2 {
+  color: #1f1f1f;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.c3 {
+  color: #1f1f1f;
+  background-color: #fff;
+  border-color: #cdcdcd;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #9b9b9b;
+}
+
+.c3::-moz-placeholder {
+  color: #9b9b9b;
+}
+
+.c3:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+.c3::placeholder {
+  color: #9b9b9b;
+}
+
+.c3:focus {
+  border-color: #7894ce;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
+}
+
+.c3[disabled],
+.c3[readonly],
+fieldset[disabled] .c3 {
+  background-color: #cdcdcd;
+}
+
+.c3 ~ .form-control-feedback.glyphicon {
+  display: none;
+}
+
+.c6 {
+  background-color: #fff;
+  border-color: #cdcdcd;
+}
+
+.c6 .list-group-item-heading {
+  font-weight: bold;
+}
+
+.c6.disabled,
+.c6.disabled:hover,
+.c6.disabled:focus {
+  color: #9b9b9b;
+  background-color: #e6e6e6;
+}
+
+.c6.disabled .list-group-item-heading,
+.c6.disabled:hover .list-group-item-heading,
+.c6.disabled:focus .list-group-item-heading {
+  color: inherit;
+  font-weight: bold;
+}
+
+.c6.disabled .list-group-item-text,
+.c6.disabled:hover .list-group-item-text,
+.c6.disabled:focus .list-group-item-text {
+  color: #9b9b9b;
+}
+
+.c6.active,
+.c6.active:hover,
+.c6.active:focus {
+  color: #ffffff;
+  background-color: #9b7ca8;
+  border-color: #9b7ca8;
+  z-index: auto;
+}
+
+.c6.active .list-group-item-heading,
+.c6.active:hover .list-group-item-heading,
+.c6.active:focus .list-group-item-heading,
+.c6.active .list-group-item-heading > small,
+.c6.active:hover .list-group-item-heading > small,
+.c6.active:focus .list-group-item-heading > small,
+.c6.active .list-group-item-heading > .small,
+.c6.active:hover .list-group-item-heading > .small,
+.c6.active:focus .list-group-item-heading > .small {
+  color: inherit;
+  font-weight: bold;
+}
+
+.c6.active .list-group-item-text,
+.c6.active:hover .list-group-item-text,
+.c6.active:focus .list-group-item-text {
+  color: #9b7ca8;
+}
+
+a.c6,
+button.c6 {
+  color: #702785;
+}
+
+a.c6 .list-group-item-heading,
+button.c6 .list-group-item-heading {
+  color: #383838;
+  font-weight: bold;
+}
+
+a.c6:hover:not(.disabled),
+button.c6:hover:not(.disabled),
+a.c6:focus:not(.disabled),
+button.c6:focus:not(.disabled) {
+  background-color: #6a6a6a;
+  color: #fff;
+}
+
+a.c6:hover:not(.disabled).active,
+button.c6:hover:not(.disabled).active,
+a.c6:focus:not(.disabled).active,
+button.c6:focus:not(.disabled).active {
+  color: #fff;
+  border-color: #702785;
+  background-color: #702785;
+}
+
+a.c6:hover:not(.disabled) .list-group-item-heading,
+button.c6:hover:not(.disabled) .list-group-item-heading,
+a.c6:focus:not(.disabled) .list-group-item-heading,
+button.c6:focus:not(.disabled) .list-group-item-heading {
+  color: #fff;
+}
+
+.c1 {
+  background-color: #fff;
+  border: 1px solid rgb(198,207,231);
+  border-top: 0;
+  border-radius: 0 0 4px 4px;
+  padding: 9px;
+}
+
+.c0 .nav-tabs {
+  border-bottom-color: rgb(198,207,231);
+}
+
+.c0 .nav-tabs > li > a {
+  -webkit-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+  color: #1f1f1f;
+  border-color: #cdcdcd #cdcdcd rgb(198,207,231);
+}
+
+.c0 .nav-tabs > li > a:hover {
+  background-color: #cdcdcd;
+  color: rgb(46,46,46);
+}
+
+.c0 .nav-tabs > li.active > a,
+.c0 .nav-tabs > li.active > a:hover,
+.c0 .nav-tabs > li.active > a:focus {
+  color: #1f1f1f;
+  background-color: #ffffff;
+  border-color: rgb(198,207,231);
+  border-bottom-color: transparent;
+}
+
+.c0 .nav-tabs > li.disabled > a,
+.c0 .nav-tabs > li.disabled > a:hover,
+.c0 .nav-tabs > li.disabled > a:focus {
+  color: #9b9b9b;
+  background-color: #ffffff;
+  border-color: #ffffff #ffffff rgb(198,207,231);
+  cursor: not-allowed;
+}
+
+.c0.nav-justified > .active > a,
+.c0.nav-justified > .active > a:hover,
+.c0.nav-justified > .active > a:focus {
+  border-color: rgb(198,207,231);
+}
+
+.c5 {
+  background-color: #e6e6e6;
+  font-size: 1rem;
+  padding: 0 15px;
+}
+
+.c5 .form-group {
+  margin: 0;
+}
+
+@media (min-width:768px) {
+  .c0.nav-justified > li > a {
+    border-bottom-color: rgb(198,207,231);
+  }
+
+  .c0.nav-justified > .active > a,
+  .c0.nav-justified > .active > a:hover,
+  .c0.nav-justified > .active > a:focus {
+    border-bottom-color: #ffffff;
+  }
+}
+
 <PermissionSelector
   dashboards={
     Immutable.List [
@@ -1796,13 +2768,13 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
     >
       <ForwardRef
         animation={false}
-        className="Tabs-sc-1hzj2zf-0 cVtdaR"
+        className="c0"
         defaultActiveKey={1}
         id="permissionSelectorTabs"
       >
         <Uncontrolled(Tabs)
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cVtdaR"
+          className="c0"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
           innerRef={null}
@@ -1812,7 +2784,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
             animation={false}
             bsClass="tab"
             bsStyle="tabs"
-            className="Tabs-sc-1hzj2zf-0 cVtdaR"
+            className="c0"
             id="permissionSelectorTabs"
             mountOnEnter={false}
             onSelect={[Function]}
@@ -1820,12 +2792,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
           >
             <TabContainer
               activeKey={1}
-              className="Tabs-sc-1hzj2zf-0 cVtdaR"
+              className="c0"
               id="permissionSelectorTabs"
               onSelect={[Function]}
             >
               <div
-                className="Tabs-sc-1hzj2zf-0 cVtdaR"
+                className="c0"
                 id="permissionSelectorTabs"
               >
                 <Nav
@@ -1941,19 +2913,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                       title="Streams"
                     >
                       <Tab
-                        className="Tab-loa0kh-0 elQeLn"
+                        className="c1"
                         eventKey={1}
                         title="Streams"
                       >
                         <TabPane
                           bsClass="tab-pane"
-                          className="Tab-loa0kh-0 elQeLn"
+                          className="c1"
                           eventKey={1}
                         >
                           <div
                             aria-hidden={false}
                             aria-labelledby="permissionSelectorTabs-tab-1"
-                            className="Tab-loa0kh-0 elQeLn tab-pane active"
+                            className="c1 tab-pane active"
                             id="permissionSelectorTabs-pane-1"
                             role="tabpanel"
                           >
@@ -2074,21 +3046,21 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       >
                                                         <FormGroup
                                                           bsClass="form-group"
-                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                          className=""
                                                           controlId="filter-streams-data-filter"
                                                           validationState={null}
                                                         >
                                                           <div
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                            className="form-group"
                                                           >
                                                             <ControlLabel>
                                                               <ControlLabel
                                                                 bsClass="control-label"
-                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                className="c2"
                                                                 srOnly={false}
                                                               >
                                                                 <label
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  className="c2 control-label"
                                                                   htmlFor="filter-streams-data-filter"
                                                                 >
                                                                   Filter Streams
@@ -2111,7 +3083,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                 >
                                                                   <FormControl
                                                                     bsClass="form-control"
-                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
+                                                                    className="c3"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Streams"
@@ -2120,7 +3092,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     type="text"
                                                                   >
                                                                     <input
-                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      className="c3 form-control"
                                                                       id="filter-streams-data-filter"
                                                                       label="Filter Streams"
                                                                       name="filter-streams-data-filter"
@@ -2158,7 +3130,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -2168,7 +3140,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -2207,7 +3179,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -2218,7 +3190,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -2257,18 +3229,18 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                  className="c5"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                    className="c5"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                      className="c6 c5"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
+                                                        className="c6 c5 list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -2294,12 +3266,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="select-all-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -2359,11 +3331,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -2396,12 +3368,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="info"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      className="c4 btn btn-info active"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -2426,12 +3398,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -2467,12 +3439,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -2536,11 +3508,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -2573,12 +3545,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -2603,12 +3575,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="info"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      className="c4 btn btn-info active"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -2644,12 +3616,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -2723,19 +3695,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                       title="Dashboards"
                     >
                       <Tab
-                        className="Tab-loa0kh-0 elQeLn"
+                        className="c1"
                         eventKey={2}
                         title="Dashboards"
                       >
                         <TabPane
                           bsClass="tab-pane"
-                          className="Tab-loa0kh-0 elQeLn"
+                          className="c1"
                           eventKey={2}
                         >
                           <div
                             aria-hidden={true}
                             aria-labelledby="permissionSelectorTabs-tab-2"
-                            className="Tab-loa0kh-0 elQeLn tab-pane"
+                            className="c1 tab-pane"
                             id="permissionSelectorTabs-pane-2"
                             role="tabpanel"
                           >
@@ -2856,21 +3828,21 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       >
                                                         <FormGroup
                                                           bsClass="form-group"
-                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                          className=""
                                                           controlId="filter-dashboards-data-filter"
                                                           validationState={null}
                                                         >
                                                           <div
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                            className="form-group"
                                                           >
                                                             <ControlLabel>
                                                               <ControlLabel
                                                                 bsClass="control-label"
-                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                className="c2"
                                                                 srOnly={false}
                                                               >
                                                                 <label
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  className="c2 control-label"
                                                                   htmlFor="filter-dashboards-data-filter"
                                                                 >
                                                                   Filter Dashboards
@@ -2893,7 +3865,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                 >
                                                                   <FormControl
                                                                     bsClass="form-control"
-                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
+                                                                    className="c3"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Dashboards"
@@ -2902,7 +3874,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     type="text"
                                                                   >
                                                                     <input
-                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      className="c3 form-control"
                                                                       id="filter-dashboards-data-filter"
                                                                       label="Filter Dashboards"
                                                                       name="filter-dashboards-data-filter"
@@ -2940,7 +3912,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -2950,7 +3922,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -2989,7 +3961,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                      className="c4"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -3000,7 +3972,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                        className="c4 btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -3039,18 +4011,18 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                  className="c5"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                    className="c5"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
+                                                      className="c6 c5"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
+                                                        className="c6 c5 list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -3076,12 +4048,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="select-all-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -3141,11 +4113,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -3178,12 +4150,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -3208,12 +4180,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -3249,12 +4221,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
@@ -3318,11 +4290,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
+                                                    className="c6"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
+                                                      className="c6 list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -3355,12 +4327,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="info"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      className="c4 btn btn-info active"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -3385,12 +4357,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     block={false}
                                                                     bsClass="btn"
                                                                     bsStyle="default"
-                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
+                                                                    className="c4"
                                                                     disabled={false}
                                                                     onClick={[Function]}
                                                                   >
                                                                     <button
-                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      className="c4 btn btn-default"
                                                                       disabled={false}
                                                                       onClick={[Function]}
                                                                       type="button"
@@ -3426,12 +4398,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             >
                                                               <FormGroup
                                                                 bsClass="form-group"
-                                                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                                                className=""
                                                                 controlId="id-checkbox"
                                                                 validationState={null}
                                                               >
                                                                 <div
-                                                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                                                  className="form-group"
                                                                 >
                                                                   <InputWrapper
                                                                     className="form-group-inline"
