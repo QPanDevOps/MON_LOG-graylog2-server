@@ -37,13 +37,13 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
     >
       <ForwardRef
         animation={false}
-        className="Tabs-sc-1hzj2zf-0 cKfMMR"
+        className="Tabs-sc-1hzj2zf-0 cVtdaR"
         defaultActiveKey={1}
         id="permissionSelectorTabs"
       >
         <Uncontrolled(Tabs)
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cKfMMR"
+          className="Tabs-sc-1hzj2zf-0 cVtdaR"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
           innerRef={null}
@@ -53,7 +53,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
             animation={false}
             bsClass="tab"
             bsStyle="tabs"
-            className="Tabs-sc-1hzj2zf-0 cKfMMR"
+            className="Tabs-sc-1hzj2zf-0 cVtdaR"
             id="permissionSelectorTabs"
             mountOnEnter={false}
             onSelect={[Function]}
@@ -61,12 +61,12 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
           >
             <TabContainer
               activeKey={1}
-              className="Tabs-sc-1hzj2zf-0 cKfMMR"
+              className="Tabs-sc-1hzj2zf-0 cVtdaR"
               id="permissionSelectorTabs"
               onSelect={[Function]}
             >
               <div
-                className="Tabs-sc-1hzj2zf-0 cKfMMR"
+                className="Tabs-sc-1hzj2zf-0 cVtdaR"
                 id="permissionSelectorTabs"
               >
                 <Nav
@@ -233,118 +233,126 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                 titleKey="title"
                               >
                                 <div>
-                                  <Row>
-                                    <Row
-                                      bsClass="row"
-                                      className="Row-sc-3iisrt-0 gPzTHl"
-                                      componentClass="div"
+                                  <Row
+                                    bsClass="row"
+                                    componentClass="div"
+                                  >
+                                    <div
+                                      className="row"
                                     >
-                                      <div
-                                        className="Row-sc-3iisrt-0 gPzTHl row"
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
                                       >
-                                        <Col
-                                          bsClass="col"
-                                          componentClass="div"
-                                          md={12}
+                                        <div
+                                          className="col-md-12"
                                         >
-                                          <div
-                                            className="col-md-12"
+                                          <TypeAheadDataFilter
+                                            data={
+                                              Array [
+                                                Object {
+                                                  "description": "stream1",
+                                                  "id": "01",
+                                                },
+                                                Object {
+                                                  "description": "stream2",
+                                                  "id": "02",
+                                                },
+                                              ]
+                                            }
+                                            displayKey="value"
+                                            filterBy=""
+                                            filterSuggestionAccessor=""
+                                            filterSuggestions={Array []}
+                                            id="filter-streams-data-filter"
+                                            label="Filter Streams"
+                                            onDataFiltered={[Function]}
+                                            searchInKeys={
+                                              Array [
+                                                "title",
+                                              ]
+                                            }
                                           >
-                                            <TypeAheadDataFilter
-                                              data={
-                                                Array [
-                                                  Object {
-                                                    "description": "stream1",
-                                                    "id": "01",
-                                                  },
-                                                  Object {
-                                                    "description": "stream2",
-                                                    "id": "02",
-                                                  },
-                                                ]
-                                              }
-                                              displayKey="value"
-                                              filterBy=""
-                                              filterSuggestionAccessor=""
-                                              filterSuggestions={Array []}
-                                              id="filter-streams-data-filter"
-                                              label="Filter Streams"
-                                              onDataFiltered={[Function]}
-                                              searchInKeys={
-                                                Array [
-                                                  "title",
-                                                ]
-                                              }
+                                            <div
+                                              className="filter"
                                             >
-                                              <div
-                                                className="filter"
-                                              >
-                                                <form
-                                                  className="form-inline"
-                                                  onSubmit={[Function]}
-                                                  style={
-                                                    Object {
-                                                      "display": "inline",
-                                                    }
+                                              <form
+                                                className="form-inline"
+                                                onSubmit={[Function]}
+                                                style={
+                                                  Object {
+                                                    "display": "inline",
                                                   }
+                                                }
+                                              >
+                                                <TypeAheadInput
+                                                  displayKey="value"
+                                                  id="filter-streams-data-filter"
+                                                  label="Filter Streams"
+                                                  onSuggestionSelected={[Function]}
+                                                  suggestionText="Filter by : "
+                                                  suggestions={Array []}
                                                 >
-                                                  <TypeAheadInput
-                                                    displayKey="value"
+                                                  <Input
+                                                    addonAfter={null}
+                                                    bsStyle={null}
+                                                    buttonAfter={null}
+                                                    help=""
                                                     id="filter-streams-data-filter"
                                                     label="Filter Streams"
-                                                    onSuggestionSelected={[Function]}
-                                                    suggestionText="Filter by : "
-                                                    suggestions={Array []}
+                                                    placeholder=""
+                                                    type="text"
+                                                    wrapperClassName="typeahead-wrapper"
                                                   >
-                                                    <Input
-                                                      addonAfter={null}
-                                                      bsStyle={null}
-                                                      buttonAfter={null}
-                                                      help=""
-                                                      id="filter-streams-data-filter"
-                                                      label="Filter Streams"
-                                                      placeholder=""
-                                                      type="text"
-                                                      wrapperClassName="typeahead-wrapper"
+                                                    <Component
+                                                      controlId="filter-streams-data-filter"
+                                                      validationState={null}
                                                     >
-                                                      <Component
+                                                      <FormGroup__StyledFormGroup
                                                         controlId="filter-streams-data-filter"
                                                         validationState={null}
                                                       >
-                                                        <FormGroup__StyledFormGroup
+                                                        <FormGroup
+                                                          bsClass="form-group"
+                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                                           controlId="filter-streams-data-filter"
                                                           validationState={null}
                                                         >
-                                                          <FormGroup
-                                                            bsClass="form-group"
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                                            controlId="filter-streams-data-filter"
-                                                            validationState={null}
+                                                          <div
+                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                                           >
-                                                            <div
-                                                              className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                                            >
-                                                              <ControlLabel>
-                                                                <ControlLabel
-                                                                  bsClass="control-label"
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                                                  srOnly={false}
+                                                            <ControlLabel>
+                                                              <ControlLabel
+                                                                bsClass="control-label"
+                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                srOnly={false}
+                                                              >
+                                                                <label
+                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  htmlFor="filter-streams-data-filter"
                                                                 >
-                                                                  <label
-                                                                    className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                                                    htmlFor="filter-streams-data-filter"
-                                                                  >
-                                                                    Filter Streams
-                                                                  </label>
-                                                                </ControlLabel>
+                                                                  Filter Streams
+                                                                </label>
                                                               </ControlLabel>
-                                                              <InputWrapper
+                                                            </ControlLabel>
+                                                            <InputWrapper
+                                                              className="typeahead-wrapper"
+                                                            >
+                                                              <div
                                                                 className="typeahead-wrapper"
                                                               >
-                                                                <div
-                                                                  className="typeahead-wrapper"
+                                                                <FormControl
+                                                                  componentClass="input"
+                                                                  inputRef={[Function]}
+                                                                  label="Filter Streams"
+                                                                  name="filter-streams-data-filter"
+                                                                  placeholder=""
+                                                                  type="text"
                                                                 >
                                                                   <FormControl
+                                                                    bsClass="form-control"
+                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Streams"
@@ -352,35 +360,33 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     placeholder=""
                                                                     type="text"
                                                                   >
-                                                                    <FormControl
-                                                                      bsClass="form-control"
-                                                                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                                                                      componentClass="input"
-                                                                      inputRef={[Function]}
+                                                                    <input
+                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      id="filter-streams-data-filter"
                                                                       label="Filter Streams"
                                                                       name="filter-streams-data-filter"
                                                                       placeholder=""
                                                                       type="text"
-                                                                    >
-                                                                      <input
-                                                                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                                                        id="filter-streams-data-filter"
-                                                                        label="Filter Streams"
-                                                                        name="filter-streams-data-filter"
-                                                                        placeholder=""
-                                                                        type="text"
-                                                                      />
-                                                                    </FormControl>
+                                                                    />
                                                                   </FormControl>
-                                                                </div>
-                                                              </InputWrapper>
-                                                            </div>
-                                                          </FormGroup>
-                                                        </FormGroup__StyledFormGroup>
-                                                      </Component>
-                                                    </Input>
-                                                  </TypeAheadInput>
-                                                  <Button
+                                                                </FormControl>
+                                                              </div>
+                                                            </InputWrapper>
+                                                          </div>
+                                                        </FormGroup>
+                                                      </FormGroup__StyledFormGroup>
+                                                    </Component>
+                                                  </Input>
+                                                </TypeAheadInput>
+                                                <ForwardRef
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="submit"
+                                                >
+                                                  <Button__StyledButton
                                                     style={
                                                       Object {
                                                         "marginLeft": 5,
@@ -393,7 +399,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -403,7 +409,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -415,8 +421,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                         Filter
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                  <Button
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                                <ForwardRef
+                                                  disabled={true}
+                                                  onClick={[Function]}
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="button"
+                                                >
+                                                  <Button__StyledButton
                                                     disabled={true}
                                                     onClick={[Function]}
                                                     style={
@@ -431,7 +448,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -442,7 +459,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -455,19 +472,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                         Reset
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                </form>
-                                                <ul
-                                                  className="pill-list"
-                                                >
-                                                  <Component />
-                                                </ul>
-                                              </div>
-                                            </TypeAheadDataFilter>
-                                          </div>
-                                        </Col>
-                                      </div>
-                                    </Row>
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                              </form>
+                                              <ul
+                                                className="pill-list"
+                                              >
+                                                <Component />
+                                              </ul>
+                                            </div>
+                                          </TypeAheadDataFilter>
+                                        </div>
+                                      </Col>
+                                    </div>
                                   </Row>
                                   <ControlledTableList>
                                     <div>
@@ -481,18 +498,18 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -583,11 +600,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -605,54 +622,66 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -748,11 +777,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -770,54 +799,66 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -974,118 +1015,126 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                 titleKey="title"
                               >
                                 <div>
-                                  <Row>
-                                    <Row
-                                      bsClass="row"
-                                      className="Row-sc-3iisrt-0 gPzTHl"
-                                      componentClass="div"
+                                  <Row
+                                    bsClass="row"
+                                    componentClass="div"
+                                  >
+                                    <div
+                                      className="row"
                                     >
-                                      <div
-                                        className="Row-sc-3iisrt-0 gPzTHl row"
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
                                       >
-                                        <Col
-                                          bsClass="col"
-                                          componentClass="div"
-                                          md={12}
+                                        <div
+                                          className="col-md-12"
                                         >
-                                          <div
-                                            className="col-md-12"
+                                          <TypeAheadDataFilter
+                                            data={
+                                              Array [
+                                                Object {
+                                                  "description": "dashboard1",
+                                                  "id": "01",
+                                                },
+                                                Object {
+                                                  "description": "dashboard2",
+                                                  "id": "02",
+                                                },
+                                              ]
+                                            }
+                                            displayKey="value"
+                                            filterBy=""
+                                            filterSuggestionAccessor=""
+                                            filterSuggestions={Array []}
+                                            id="filter-dashboards-data-filter"
+                                            label="Filter Dashboards"
+                                            onDataFiltered={[Function]}
+                                            searchInKeys={
+                                              Array [
+                                                "title",
+                                              ]
+                                            }
                                           >
-                                            <TypeAheadDataFilter
-                                              data={
-                                                Array [
-                                                  Object {
-                                                    "description": "dashboard1",
-                                                    "id": "01",
-                                                  },
-                                                  Object {
-                                                    "description": "dashboard2",
-                                                    "id": "02",
-                                                  },
-                                                ]
-                                              }
-                                              displayKey="value"
-                                              filterBy=""
-                                              filterSuggestionAccessor=""
-                                              filterSuggestions={Array []}
-                                              id="filter-dashboards-data-filter"
-                                              label="Filter Dashboards"
-                                              onDataFiltered={[Function]}
-                                              searchInKeys={
-                                                Array [
-                                                  "title",
-                                                ]
-                                              }
+                                            <div
+                                              className="filter"
                                             >
-                                              <div
-                                                className="filter"
-                                              >
-                                                <form
-                                                  className="form-inline"
-                                                  onSubmit={[Function]}
-                                                  style={
-                                                    Object {
-                                                      "display": "inline",
-                                                    }
+                                              <form
+                                                className="form-inline"
+                                                onSubmit={[Function]}
+                                                style={
+                                                  Object {
+                                                    "display": "inline",
                                                   }
+                                                }
+                                              >
+                                                <TypeAheadInput
+                                                  displayKey="value"
+                                                  id="filter-dashboards-data-filter"
+                                                  label="Filter Dashboards"
+                                                  onSuggestionSelected={[Function]}
+                                                  suggestionText="Filter by : "
+                                                  suggestions={Array []}
                                                 >
-                                                  <TypeAheadInput
-                                                    displayKey="value"
+                                                  <Input
+                                                    addonAfter={null}
+                                                    bsStyle={null}
+                                                    buttonAfter={null}
+                                                    help=""
                                                     id="filter-dashboards-data-filter"
                                                     label="Filter Dashboards"
-                                                    onSuggestionSelected={[Function]}
-                                                    suggestionText="Filter by : "
-                                                    suggestions={Array []}
+                                                    placeholder=""
+                                                    type="text"
+                                                    wrapperClassName="typeahead-wrapper"
                                                   >
-                                                    <Input
-                                                      addonAfter={null}
-                                                      bsStyle={null}
-                                                      buttonAfter={null}
-                                                      help=""
-                                                      id="filter-dashboards-data-filter"
-                                                      label="Filter Dashboards"
-                                                      placeholder=""
-                                                      type="text"
-                                                      wrapperClassName="typeahead-wrapper"
+                                                    <Component
+                                                      controlId="filter-dashboards-data-filter"
+                                                      validationState={null}
                                                     >
-                                                      <Component
+                                                      <FormGroup__StyledFormGroup
                                                         controlId="filter-dashboards-data-filter"
                                                         validationState={null}
                                                       >
-                                                        <FormGroup__StyledFormGroup
+                                                        <FormGroup
+                                                          bsClass="form-group"
+                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                                           controlId="filter-dashboards-data-filter"
                                                           validationState={null}
                                                         >
-                                                          <FormGroup
-                                                            bsClass="form-group"
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                                            controlId="filter-dashboards-data-filter"
-                                                            validationState={null}
+                                                          <div
+                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                                           >
-                                                            <div
-                                                              className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                                            >
-                                                              <ControlLabel>
-                                                                <ControlLabel
-                                                                  bsClass="control-label"
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                                                  srOnly={false}
+                                                            <ControlLabel>
+                                                              <ControlLabel
+                                                                bsClass="control-label"
+                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                srOnly={false}
+                                                              >
+                                                                <label
+                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  htmlFor="filter-dashboards-data-filter"
                                                                 >
-                                                                  <label
-                                                                    className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                                                    htmlFor="filter-dashboards-data-filter"
-                                                                  >
-                                                                    Filter Dashboards
-                                                                  </label>
-                                                                </ControlLabel>
+                                                                  Filter Dashboards
+                                                                </label>
                                                               </ControlLabel>
-                                                              <InputWrapper
+                                                            </ControlLabel>
+                                                            <InputWrapper
+                                                              className="typeahead-wrapper"
+                                                            >
+                                                              <div
                                                                 className="typeahead-wrapper"
                                                               >
-                                                                <div
-                                                                  className="typeahead-wrapper"
+                                                                <FormControl
+                                                                  componentClass="input"
+                                                                  inputRef={[Function]}
+                                                                  label="Filter Dashboards"
+                                                                  name="filter-dashboards-data-filter"
+                                                                  placeholder=""
+                                                                  type="text"
                                                                 >
                                                                   <FormControl
+                                                                    bsClass="form-control"
+                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Dashboards"
@@ -1093,35 +1142,33 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                                     placeholder=""
                                                                     type="text"
                                                                   >
-                                                                    <FormControl
-                                                                      bsClass="form-control"
-                                                                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                                                                      componentClass="input"
-                                                                      inputRef={[Function]}
+                                                                    <input
+                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      id="filter-dashboards-data-filter"
                                                                       label="Filter Dashboards"
                                                                       name="filter-dashboards-data-filter"
                                                                       placeholder=""
                                                                       type="text"
-                                                                    >
-                                                                      <input
-                                                                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                                                        id="filter-dashboards-data-filter"
-                                                                        label="Filter Dashboards"
-                                                                        name="filter-dashboards-data-filter"
-                                                                        placeholder=""
-                                                                        type="text"
-                                                                      />
-                                                                    </FormControl>
+                                                                    />
                                                                   </FormControl>
-                                                                </div>
-                                                              </InputWrapper>
-                                                            </div>
-                                                          </FormGroup>
-                                                        </FormGroup__StyledFormGroup>
-                                                      </Component>
-                                                    </Input>
-                                                  </TypeAheadInput>
-                                                  <Button
+                                                                </FormControl>
+                                                              </div>
+                                                            </InputWrapper>
+                                                          </div>
+                                                        </FormGroup>
+                                                      </FormGroup__StyledFormGroup>
+                                                    </Component>
+                                                  </Input>
+                                                </TypeAheadInput>
+                                                <ForwardRef
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="submit"
+                                                >
+                                                  <Button__StyledButton
                                                     style={
                                                       Object {
                                                         "marginLeft": 5,
@@ -1134,7 +1181,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -1144,7 +1191,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -1156,8 +1203,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                         Filter
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                  <Button
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                                <ForwardRef
+                                                  disabled={true}
+                                                  onClick={[Function]}
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="button"
+                                                >
+                                                  <Button__StyledButton
                                                     disabled={true}
                                                     onClick={[Function]}
                                                     style={
@@ -1172,7 +1230,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -1183,7 +1241,7 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -1196,19 +1254,19 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                         Reset
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                </form>
-                                                <ul
-                                                  className="pill-list"
-                                                >
-                                                  <Component />
-                                                </ul>
-                                              </div>
-                                            </TypeAheadDataFilter>
-                                          </div>
-                                        </Col>
-                                      </div>
-                                    </Row>
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                              </form>
+                                              <ul
+                                                className="pill-list"
+                                              >
+                                                <Component />
+                                              </ul>
+                                            </div>
+                                          </TypeAheadDataFilter>
+                                        </div>
+                                      </Col>
+                                    </div>
                                   </Row>
                                   <ControlledTableList>
                                     <div>
@@ -1222,18 +1280,18 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -1324,11 +1382,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -1346,54 +1404,66 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -1489,11 +1559,11 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -1511,54 +1581,66 @@ exports[`<PermissionSelector /> should render with empty permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -1714,13 +1796,13 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
     >
       <ForwardRef
         animation={false}
-        className="Tabs-sc-1hzj2zf-0 cKfMMR"
+        className="Tabs-sc-1hzj2zf-0 cVtdaR"
         defaultActiveKey={1}
         id="permissionSelectorTabs"
       >
         <Uncontrolled(Tabs)
           animation={false}
-          className="Tabs-sc-1hzj2zf-0 cKfMMR"
+          className="Tabs-sc-1hzj2zf-0 cVtdaR"
           defaultActiveKey={1}
           id="permissionSelectorTabs"
           innerRef={null}
@@ -1730,7 +1812,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
             animation={false}
             bsClass="tab"
             bsStyle="tabs"
-            className="Tabs-sc-1hzj2zf-0 cKfMMR"
+            className="Tabs-sc-1hzj2zf-0 cVtdaR"
             id="permissionSelectorTabs"
             mountOnEnter={false}
             onSelect={[Function]}
@@ -1738,12 +1820,12 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
           >
             <TabContainer
               activeKey={1}
-              className="Tabs-sc-1hzj2zf-0 cKfMMR"
+              className="Tabs-sc-1hzj2zf-0 cVtdaR"
               id="permissionSelectorTabs"
               onSelect={[Function]}
             >
               <div
-                className="Tabs-sc-1hzj2zf-0 cKfMMR"
+                className="Tabs-sc-1hzj2zf-0 cVtdaR"
                 id="permissionSelectorTabs"
               >
                 <Nav
@@ -1910,118 +1992,126 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                 titleKey="title"
                               >
                                 <div>
-                                  <Row>
-                                    <Row
-                                      bsClass="row"
-                                      className="Row-sc-3iisrt-0 gPzTHl"
-                                      componentClass="div"
+                                  <Row
+                                    bsClass="row"
+                                    componentClass="div"
+                                  >
+                                    <div
+                                      className="row"
                                     >
-                                      <div
-                                        className="Row-sc-3iisrt-0 gPzTHl row"
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
                                       >
-                                        <Col
-                                          bsClass="col"
-                                          componentClass="div"
-                                          md={12}
+                                        <div
+                                          className="col-md-12"
                                         >
-                                          <div
-                                            className="col-md-12"
+                                          <TypeAheadDataFilter
+                                            data={
+                                              Array [
+                                                Object {
+                                                  "description": "stream1",
+                                                  "id": "01",
+                                                },
+                                                Object {
+                                                  "description": "stream2",
+                                                  "id": "02",
+                                                },
+                                              ]
+                                            }
+                                            displayKey="value"
+                                            filterBy=""
+                                            filterSuggestionAccessor=""
+                                            filterSuggestions={Array []}
+                                            id="filter-streams-data-filter"
+                                            label="Filter Streams"
+                                            onDataFiltered={[Function]}
+                                            searchInKeys={
+                                              Array [
+                                                "title",
+                                              ]
+                                            }
                                           >
-                                            <TypeAheadDataFilter
-                                              data={
-                                                Array [
-                                                  Object {
-                                                    "description": "stream1",
-                                                    "id": "01",
-                                                  },
-                                                  Object {
-                                                    "description": "stream2",
-                                                    "id": "02",
-                                                  },
-                                                ]
-                                              }
-                                              displayKey="value"
-                                              filterBy=""
-                                              filterSuggestionAccessor=""
-                                              filterSuggestions={Array []}
-                                              id="filter-streams-data-filter"
-                                              label="Filter Streams"
-                                              onDataFiltered={[Function]}
-                                              searchInKeys={
-                                                Array [
-                                                  "title",
-                                                ]
-                                              }
+                                            <div
+                                              className="filter"
                                             >
-                                              <div
-                                                className="filter"
-                                              >
-                                                <form
-                                                  className="form-inline"
-                                                  onSubmit={[Function]}
-                                                  style={
-                                                    Object {
-                                                      "display": "inline",
-                                                    }
+                                              <form
+                                                className="form-inline"
+                                                onSubmit={[Function]}
+                                                style={
+                                                  Object {
+                                                    "display": "inline",
                                                   }
+                                                }
+                                              >
+                                                <TypeAheadInput
+                                                  displayKey="value"
+                                                  id="filter-streams-data-filter"
+                                                  label="Filter Streams"
+                                                  onSuggestionSelected={[Function]}
+                                                  suggestionText="Filter by : "
+                                                  suggestions={Array []}
                                                 >
-                                                  <TypeAheadInput
-                                                    displayKey="value"
+                                                  <Input
+                                                    addonAfter={null}
+                                                    bsStyle={null}
+                                                    buttonAfter={null}
+                                                    help=""
                                                     id="filter-streams-data-filter"
                                                     label="Filter Streams"
-                                                    onSuggestionSelected={[Function]}
-                                                    suggestionText="Filter by : "
-                                                    suggestions={Array []}
+                                                    placeholder=""
+                                                    type="text"
+                                                    wrapperClassName="typeahead-wrapper"
                                                   >
-                                                    <Input
-                                                      addonAfter={null}
-                                                      bsStyle={null}
-                                                      buttonAfter={null}
-                                                      help=""
-                                                      id="filter-streams-data-filter"
-                                                      label="Filter Streams"
-                                                      placeholder=""
-                                                      type="text"
-                                                      wrapperClassName="typeahead-wrapper"
+                                                    <Component
+                                                      controlId="filter-streams-data-filter"
+                                                      validationState={null}
                                                     >
-                                                      <Component
+                                                      <FormGroup__StyledFormGroup
                                                         controlId="filter-streams-data-filter"
                                                         validationState={null}
                                                       >
-                                                        <FormGroup__StyledFormGroup
+                                                        <FormGroup
+                                                          bsClass="form-group"
+                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                                           controlId="filter-streams-data-filter"
                                                           validationState={null}
                                                         >
-                                                          <FormGroup
-                                                            bsClass="form-group"
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                                            controlId="filter-streams-data-filter"
-                                                            validationState={null}
+                                                          <div
+                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                                           >
-                                                            <div
-                                                              className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                                            >
-                                                              <ControlLabel>
-                                                                <ControlLabel
-                                                                  bsClass="control-label"
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                                                  srOnly={false}
+                                                            <ControlLabel>
+                                                              <ControlLabel
+                                                                bsClass="control-label"
+                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                srOnly={false}
+                                                              >
+                                                                <label
+                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  htmlFor="filter-streams-data-filter"
                                                                 >
-                                                                  <label
-                                                                    className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                                                    htmlFor="filter-streams-data-filter"
-                                                                  >
-                                                                    Filter Streams
-                                                                  </label>
-                                                                </ControlLabel>
+                                                                  Filter Streams
+                                                                </label>
                                                               </ControlLabel>
-                                                              <InputWrapper
+                                                            </ControlLabel>
+                                                            <InputWrapper
+                                                              className="typeahead-wrapper"
+                                                            >
+                                                              <div
                                                                 className="typeahead-wrapper"
                                                               >
-                                                                <div
-                                                                  className="typeahead-wrapper"
+                                                                <FormControl
+                                                                  componentClass="input"
+                                                                  inputRef={[Function]}
+                                                                  label="Filter Streams"
+                                                                  name="filter-streams-data-filter"
+                                                                  placeholder=""
+                                                                  type="text"
                                                                 >
                                                                   <FormControl
+                                                                    bsClass="form-control"
+                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Streams"
@@ -2029,35 +2119,33 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     placeholder=""
                                                                     type="text"
                                                                   >
-                                                                    <FormControl
-                                                                      bsClass="form-control"
-                                                                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                                                                      componentClass="input"
-                                                                      inputRef={[Function]}
+                                                                    <input
+                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      id="filter-streams-data-filter"
                                                                       label="Filter Streams"
                                                                       name="filter-streams-data-filter"
                                                                       placeholder=""
                                                                       type="text"
-                                                                    >
-                                                                      <input
-                                                                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                                                        id="filter-streams-data-filter"
-                                                                        label="Filter Streams"
-                                                                        name="filter-streams-data-filter"
-                                                                        placeholder=""
-                                                                        type="text"
-                                                                      />
-                                                                    </FormControl>
+                                                                    />
                                                                   </FormControl>
-                                                                </div>
-                                                              </InputWrapper>
-                                                            </div>
-                                                          </FormGroup>
-                                                        </FormGroup__StyledFormGroup>
-                                                      </Component>
-                                                    </Input>
-                                                  </TypeAheadInput>
-                                                  <Button
+                                                                </FormControl>
+                                                              </div>
+                                                            </InputWrapper>
+                                                          </div>
+                                                        </FormGroup>
+                                                      </FormGroup__StyledFormGroup>
+                                                    </Component>
+                                                  </Input>
+                                                </TypeAheadInput>
+                                                <ForwardRef
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="submit"
+                                                >
+                                                  <Button__StyledButton
                                                     style={
                                                       Object {
                                                         "marginLeft": 5,
@@ -2070,7 +2158,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -2080,7 +2168,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -2092,8 +2180,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                         Filter
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                  <Button
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                                <ForwardRef
+                                                  disabled={true}
+                                                  onClick={[Function]}
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="button"
+                                                >
+                                                  <Button__StyledButton
                                                     disabled={true}
                                                     onClick={[Function]}
                                                     style={
@@ -2108,7 +2207,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -2119,7 +2218,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -2132,19 +2231,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                         Reset
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                </form>
-                                                <ul
-                                                  className="pill-list"
-                                                >
-                                                  <Component />
-                                                </ul>
-                                              </div>
-                                            </TypeAheadDataFilter>
-                                          </div>
-                                        </Col>
-                                      </div>
-                                    </Row>
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                              </form>
+                                              <ul
+                                                className="pill-list"
+                                              >
+                                                <Component />
+                                              </ul>
+                                            </div>
+                                          </TypeAheadDataFilter>
+                                        </div>
+                                      </Col>
+                                    </div>
                                   </Row>
                                   <ControlledTableList>
                                     <div>
@@ -2158,18 +2257,18 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -2260,11 +2359,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -2282,54 +2381,66 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={true}
                                                                 bsStyle="info"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={true}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="info"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-info active"
+                                                                  <Button
+                                                                    active={true}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="info"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -2425,11 +2536,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -2447,54 +2558,66 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={true}
                                                                 bsStyle="info"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={true}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="info"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-info active"
+                                                                  <Button
+                                                                    active={true}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="info"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -2651,118 +2774,126 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                 titleKey="title"
                               >
                                 <div>
-                                  <Row>
-                                    <Row
-                                      bsClass="row"
-                                      className="Row-sc-3iisrt-0 gPzTHl"
-                                      componentClass="div"
+                                  <Row
+                                    bsClass="row"
+                                    componentClass="div"
+                                  >
+                                    <div
+                                      className="row"
                                     >
-                                      <div
-                                        className="Row-sc-3iisrt-0 gPzTHl row"
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={12}
                                       >
-                                        <Col
-                                          bsClass="col"
-                                          componentClass="div"
-                                          md={12}
+                                        <div
+                                          className="col-md-12"
                                         >
-                                          <div
-                                            className="col-md-12"
+                                          <TypeAheadDataFilter
+                                            data={
+                                              Array [
+                                                Object {
+                                                  "description": "dashboard1",
+                                                  "id": "01",
+                                                },
+                                                Object {
+                                                  "description": "dashboard2",
+                                                  "id": "02",
+                                                },
+                                              ]
+                                            }
+                                            displayKey="value"
+                                            filterBy=""
+                                            filterSuggestionAccessor=""
+                                            filterSuggestions={Array []}
+                                            id="filter-dashboards-data-filter"
+                                            label="Filter Dashboards"
+                                            onDataFiltered={[Function]}
+                                            searchInKeys={
+                                              Array [
+                                                "title",
+                                              ]
+                                            }
                                           >
-                                            <TypeAheadDataFilter
-                                              data={
-                                                Array [
-                                                  Object {
-                                                    "description": "dashboard1",
-                                                    "id": "01",
-                                                  },
-                                                  Object {
-                                                    "description": "dashboard2",
-                                                    "id": "02",
-                                                  },
-                                                ]
-                                              }
-                                              displayKey="value"
-                                              filterBy=""
-                                              filterSuggestionAccessor=""
-                                              filterSuggestions={Array []}
-                                              id="filter-dashboards-data-filter"
-                                              label="Filter Dashboards"
-                                              onDataFiltered={[Function]}
-                                              searchInKeys={
-                                                Array [
-                                                  "title",
-                                                ]
-                                              }
+                                            <div
+                                              className="filter"
                                             >
-                                              <div
-                                                className="filter"
-                                              >
-                                                <form
-                                                  className="form-inline"
-                                                  onSubmit={[Function]}
-                                                  style={
-                                                    Object {
-                                                      "display": "inline",
-                                                    }
+                                              <form
+                                                className="form-inline"
+                                                onSubmit={[Function]}
+                                                style={
+                                                  Object {
+                                                    "display": "inline",
                                                   }
+                                                }
+                                              >
+                                                <TypeAheadInput
+                                                  displayKey="value"
+                                                  id="filter-dashboards-data-filter"
+                                                  label="Filter Dashboards"
+                                                  onSuggestionSelected={[Function]}
+                                                  suggestionText="Filter by : "
+                                                  suggestions={Array []}
                                                 >
-                                                  <TypeAheadInput
-                                                    displayKey="value"
+                                                  <Input
+                                                    addonAfter={null}
+                                                    bsStyle={null}
+                                                    buttonAfter={null}
+                                                    help=""
                                                     id="filter-dashboards-data-filter"
                                                     label="Filter Dashboards"
-                                                    onSuggestionSelected={[Function]}
-                                                    suggestionText="Filter by : "
-                                                    suggestions={Array []}
+                                                    placeholder=""
+                                                    type="text"
+                                                    wrapperClassName="typeahead-wrapper"
                                                   >
-                                                    <Input
-                                                      addonAfter={null}
-                                                      bsStyle={null}
-                                                      buttonAfter={null}
-                                                      help=""
-                                                      id="filter-dashboards-data-filter"
-                                                      label="Filter Dashboards"
-                                                      placeholder=""
-                                                      type="text"
-                                                      wrapperClassName="typeahead-wrapper"
+                                                    <Component
+                                                      controlId="filter-dashboards-data-filter"
+                                                      validationState={null}
                                                     >
-                                                      <Component
+                                                      <FormGroup__StyledFormGroup
                                                         controlId="filter-dashboards-data-filter"
                                                         validationState={null}
                                                       >
-                                                        <FormGroup__StyledFormGroup
+                                                        <FormGroup
+                                                          bsClass="form-group"
+                                                          className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                                           controlId="filter-dashboards-data-filter"
                                                           validationState={null}
                                                         >
-                                                          <FormGroup
-                                                            bsClass="form-group"
-                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                                            controlId="filter-dashboards-data-filter"
-                                                            validationState={null}
+                                                          <div
+                                                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                                           >
-                                                            <div
-                                                              className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                                            >
-                                                              <ControlLabel>
-                                                                <ControlLabel
-                                                                  bsClass="control-label"
-                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                                                  srOnly={false}
+                                                            <ControlLabel>
+                                                              <ControlLabel
+                                                                bsClass="control-label"
+                                                                className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                                                srOnly={false}
+                                                              >
+                                                                <label
+                                                                  className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                                                  htmlFor="filter-dashboards-data-filter"
                                                                 >
-                                                                  <label
-                                                                    className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                                                    htmlFor="filter-dashboards-data-filter"
-                                                                  >
-                                                                    Filter Dashboards
-                                                                  </label>
-                                                                </ControlLabel>
+                                                                  Filter Dashboards
+                                                                </label>
                                                               </ControlLabel>
-                                                              <InputWrapper
+                                                            </ControlLabel>
+                                                            <InputWrapper
+                                                              className="typeahead-wrapper"
+                                                            >
+                                                              <div
                                                                 className="typeahead-wrapper"
                                                               >
-                                                                <div
-                                                                  className="typeahead-wrapper"
+                                                                <FormControl
+                                                                  componentClass="input"
+                                                                  inputRef={[Function]}
+                                                                  label="Filter Dashboards"
+                                                                  name="filter-dashboards-data-filter"
+                                                                  placeholder=""
+                                                                  type="text"
                                                                 >
                                                                   <FormControl
+                                                                    bsClass="form-control"
+                                                                    className="FormControl-sc-1amoaox-0 kmJcge"
                                                                     componentClass="input"
                                                                     inputRef={[Function]}
                                                                     label="Filter Dashboards"
@@ -2770,35 +2901,33 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                                     placeholder=""
                                                                     type="text"
                                                                   >
-                                                                    <FormControl
-                                                                      bsClass="form-control"
-                                                                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                                                                      componentClass="input"
-                                                                      inputRef={[Function]}
+                                                                    <input
+                                                                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                                      id="filter-dashboards-data-filter"
                                                                       label="Filter Dashboards"
                                                                       name="filter-dashboards-data-filter"
                                                                       placeholder=""
                                                                       type="text"
-                                                                    >
-                                                                      <input
-                                                                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                                                        id="filter-dashboards-data-filter"
-                                                                        label="Filter Dashboards"
-                                                                        name="filter-dashboards-data-filter"
-                                                                        placeholder=""
-                                                                        type="text"
-                                                                      />
-                                                                    </FormControl>
+                                                                    />
                                                                   </FormControl>
-                                                                </div>
-                                                              </InputWrapper>
-                                                            </div>
-                                                          </FormGroup>
-                                                        </FormGroup__StyledFormGroup>
-                                                      </Component>
-                                                    </Input>
-                                                  </TypeAheadInput>
-                                                  <Button
+                                                                </FormControl>
+                                                              </div>
+                                                            </InputWrapper>
+                                                          </div>
+                                                        </FormGroup>
+                                                      </FormGroup__StyledFormGroup>
+                                                    </Component>
+                                                  </Input>
+                                                </TypeAheadInput>
+                                                <ForwardRef
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="submit"
+                                                >
+                                                  <Button__StyledButton
                                                     style={
                                                       Object {
                                                         "marginLeft": 5,
@@ -2811,7 +2940,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={false}
                                                       style={
                                                         Object {
@@ -2821,7 +2950,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="submit"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={false}
                                                         style={
                                                           Object {
@@ -2833,8 +2962,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                         Filter
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                  <Button
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                                <ForwardRef
+                                                  disabled={true}
+                                                  onClick={[Function]}
+                                                  style={
+                                                    Object {
+                                                      "marginLeft": 5,
+                                                    }
+                                                  }
+                                                  type="button"
+                                                >
+                                                  <Button__StyledButton
                                                     disabled={true}
                                                     onClick={[Function]}
                                                     style={
@@ -2849,7 +2989,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       block={false}
                                                       bsClass="btn"
                                                       bsStyle="default"
-                                                      className="Button-c9cbmb-0 bNulii"
+                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                       disabled={true}
                                                       onClick={[Function]}
                                                       style={
@@ -2860,7 +3000,7 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                       type="button"
                                                     >
                                                       <button
-                                                        className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                                                         disabled={true}
                                                         onClick={[Function]}
                                                         style={
@@ -2873,19 +3013,19 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                         Reset
                                                       </button>
                                                     </Button>
-                                                  </Button>
-                                                </form>
-                                                <ul
-                                                  className="pill-list"
-                                                >
-                                                  <Component />
-                                                </ul>
-                                              </div>
-                                            </TypeAheadDataFilter>
-                                          </div>
-                                        </Col>
-                                      </div>
-                                    </Row>
+                                                  </Button__StyledButton>
+                                                </ForwardRef>
+                                              </form>
+                                              <ul
+                                                className="pill-list"
+                                              >
+                                                <Component />
+                                              </ul>
+                                            </div>
+                                          </TypeAheadDataFilter>
+                                        </div>
+                                      </Col>
+                                    </div>
                                   </Row>
                                   <ControlledTableList>
                                     <div>
@@ -2899,18 +3039,18 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                             <ControlledTableListHeader>
                                               <ControlledTableListHeader__StyledListGroupItem>
                                                 <ForwardRef
-                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                  className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                 >
                                                   <ListGroupItem__StyledListGroupItem
-                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                    className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                   >
                                                     <ListGroupItem
                                                       bsClass="list-group-item"
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                                                       listItem={false}
                                                     >
                                                       <span
-                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                                                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                                                       >
                                                         <Input
                                                           addonAfter={null}
@@ -3001,11 +3141,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -3023,54 +3163,66 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>
@@ -3166,11 +3318,11 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                 <ListGroupItem__StyledListGroupItem>
                                                   <ListGroupItem
                                                     bsClass="list-group-item"
-                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                                                    className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                                                     listItem={false}
                                                   >
                                                     <span
-                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                                                      className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                                                     >
                                                       <div
                                                         className="itemWrapper "
@@ -3188,54 +3340,66 @@ exports[`<PermissionSelector /> should render with set permissions 1`] = `
                                                             <div
                                                               className="btn-group btn-group-sm"
                                                             >
-                                                              <Button
+                                                              <ForwardRef
                                                                 active={true}
                                                                 bsStyle="info"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={true}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="info"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-info active"
+                                                                  <Button
+                                                                    active={true}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="info"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow reading
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
-                                                              <Button
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-info active"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow reading
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
+                                                              <ForwardRef
                                                                 active={false}
                                                                 bsStyle="default"
                                                                 onClick={[Function]}
                                                               >
-                                                                <Button
+                                                                <Button__StyledButton
                                                                   active={false}
-                                                                  block={false}
-                                                                  bsClass="btn"
                                                                   bsStyle="default"
-                                                                  className="Button-c9cbmb-0 bNulii"
-                                                                  disabled={false}
                                                                   onClick={[Function]}
                                                                 >
-                                                                  <button
-                                                                    className="Button-c9cbmb-0 bNulii btn btn-default"
+                                                                  <Button
+                                                                    active={false}
+                                                                    block={false}
+                                                                    bsClass="btn"
+                                                                    bsStyle="default"
+                                                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                                                     disabled={false}
                                                                     onClick={[Function]}
-                                                                    type="button"
                                                                   >
-                                                                    Allow editing
-                                                                  </button>
-                                                                </Button>
-                                                              </Button>
+                                                                    <button
+                                                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
+                                                                      disabled={false}
+                                                                      onClick={[Function]}
+                                                                      type="button"
+                                                                    >
+                                                                      Allow editing
+                                                                    </button>
+                                                                  </Button>
+                                                                </Button__StyledButton>
+                                                              </ForwardRef>
                                                             </div>
                                                           </ButtonGroup>
                                                         </div>

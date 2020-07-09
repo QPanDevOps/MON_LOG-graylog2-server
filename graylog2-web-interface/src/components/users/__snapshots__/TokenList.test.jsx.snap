@@ -14,86 +14,90 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
       <div
         className="form-group"
       >
-        <Row>
-          <Row
-            bsClass="row"
-            className="Row-sc-3iisrt-0 gPzTHl"
-            componentClass="div"
+        <Row
+          bsClass="row"
+          componentClass="div"
+        >
+          <div
+            className="row"
           >
-            <div
-              className="Row-sc-3iisrt-0 gPzTHl row"
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={2}
             >
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={2}
+              <div
+                className="col-sm-2"
               >
-                <div
-                  className="col-sm-2"
+                <ControlLabel
+                  className="tokenNewNameLabel"
                 >
                   <ControlLabel
-                    className="tokenNewNameLabel"
+                    bsClass="control-label"
+                    className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel"
+                    srOnly={false}
                   >
-                    <ControlLabel
-                      bsClass="control-label"
-                      className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel"
-                      srOnly={false}
+                    <label
+                      className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel control-label"
                     >
-                      <label
-                        className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel control-label"
-                      >
-                        Token Name
-                      </label>
-                    </ControlLabel>
+                      Token Name
+                    </label>
                   </ControlLabel>
-                </div>
-              </Col>
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={4}
+                </ControlLabel>
+              </div>
+            </Col>
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={4}
+            >
+              <div
+                className="col-sm-4"
               >
-                <div
-                  className="col-sm-4"
+                <FormControl
+                  id="create-token-input"
+                  onChange={[Function]}
+                  placeholder="e.g ServiceName"
+                  type="text"
+                  value=""
                 >
                   <FormControl
+                    bsClass="form-control"
+                    className="FormControl-sc-1amoaox-0 kmJcge"
+                    componentClass="input"
                     id="create-token-input"
                     onChange={[Function]}
                     placeholder="e.g ServiceName"
                     type="text"
                     value=""
                   >
-                    <FormControl
-                      bsClass="form-control"
-                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                      componentClass="input"
+                    <input
+                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
                       id="create-token-input"
                       onChange={[Function]}
                       placeholder="e.g ServiceName"
                       type="text"
                       value=""
-                    >
-                      <input
-                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                        id="create-token-input"
-                        onChange={[Function]}
-                        placeholder="e.g ServiceName"
-                        type="text"
-                        value=""
-                      />
-                    </FormControl>
+                    />
                   </FormControl>
-                </div>
-              </Col>
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={2}
+                </FormControl>
+              </div>
+            </Col>
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={2}
+            >
+              <div
+                className="col-sm-2"
               >
-                <div
-                  className="col-sm-2"
+                <ForwardRef
+                  bsStyle="primary"
+                  disabled={true}
+                  id="create-token"
+                  type="submit"
                 >
-                  <Button
+                  <Button__StyledButton
                     bsStyle="primary"
                     disabled={true}
                     id="create-token"
@@ -104,13 +108,13 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                       block={false}
                       bsClass="btn"
                       bsStyle="primary"
-                      className="Button-c9cbmb-0 bNulii"
+                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                       disabled={true}
                       id="create-token"
                       type="submit"
                     >
                       <button
-                        className="Button-c9cbmb-0 bNulii btn btn-primary"
+                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-primary"
                         disabled={true}
                         id="create-token"
                         type="submit"
@@ -118,11 +122,11 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                         Create Token
                       </button>
                     </Button>
-                  </Button>
-                </div>
-              </Col>
-            </div>
-          </Row>
+                  </Button__StyledButton>
+                </ForwardRef>
+              </div>
+            </Col>
+          </div>
         </Row>
       </div>
       <hr />
@@ -146,108 +150,116 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
       titleKey="name"
     >
       <div>
-        <Row>
-          <Row
-            bsClass="row"
-            className="Row-sc-3iisrt-0 gPzTHl"
-            componentClass="div"
+        <Row
+          bsClass="row"
+          componentClass="div"
+        >
+          <div
+            className="row"
           >
-            <div
-              className="Row-sc-3iisrt-0 gPzTHl row"
+            <Col
+              bsClass="col"
+              componentClass="div"
+              md={12}
             >
-              <Col
-                bsClass="col"
-                componentClass="div"
-                md={12}
+              <div
+                className="col-md-12"
               >
-                <div
-                  className="col-md-12"
+                <TypeAheadDataFilter
+                  data={Array []}
+                  displayKey="value"
+                  filterBy=""
+                  filterSuggestionAccessor=""
+                  filterSuggestions={Array []}
+                  id="filter-data-filter"
+                  label="Filter"
+                  onDataFiltered={[Function]}
+                  searchInKeys={
+                    Array [
+                      "name",
+                      "token",
+                    ]
+                  }
                 >
-                  <TypeAheadDataFilter
-                    data={Array []}
-                    displayKey="value"
-                    filterBy=""
-                    filterSuggestionAccessor=""
-                    filterSuggestions={Array []}
-                    id="filter-data-filter"
-                    label="Filter"
-                    onDataFiltered={[Function]}
-                    searchInKeys={
-                      Array [
-                        "name",
-                        "token",
-                      ]
-                    }
+                  <div
+                    className="filter"
                   >
-                    <div
-                      className="filter"
-                    >
-                      <form
-                        className="form-inline"
-                        onSubmit={[Function]}
-                        style={
-                          Object {
-                            "display": "inline",
-                          }
+                    <form
+                      className="form-inline"
+                      onSubmit={[Function]}
+                      style={
+                        Object {
+                          "display": "inline",
                         }
+                      }
+                    >
+                      <TypeAheadInput
+                        displayKey="value"
+                        id="filter-data-filter"
+                        label="Filter"
+                        onSuggestionSelected={[Function]}
+                        suggestionText="Filter by : "
+                        suggestions={Array []}
                       >
-                        <TypeAheadInput
-                          displayKey="value"
+                        <Input
+                          addonAfter={null}
+                          bsStyle={null}
+                          buttonAfter={null}
+                          help=""
                           id="filter-data-filter"
                           label="Filter"
-                          onSuggestionSelected={[Function]}
-                          suggestionText="Filter by : "
-                          suggestions={Array []}
+                          placeholder=""
+                          type="text"
+                          wrapperClassName="typeahead-wrapper"
                         >
-                          <Input
-                            addonAfter={null}
-                            bsStyle={null}
-                            buttonAfter={null}
-                            help=""
-                            id="filter-data-filter"
-                            label="Filter"
-                            placeholder=""
-                            type="text"
-                            wrapperClassName="typeahead-wrapper"
+                          <Component
+                            controlId="filter-data-filter"
+                            validationState={null}
                           >
-                            <Component
+                            <FormGroup__StyledFormGroup
                               controlId="filter-data-filter"
                               validationState={null}
                             >
-                              <FormGroup__StyledFormGroup
+                              <FormGroup
+                                bsClass="form-group"
+                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                 controlId="filter-data-filter"
                                 validationState={null}
                               >
-                                <FormGroup
-                                  bsClass="form-group"
-                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                  controlId="filter-data-filter"
-                                  validationState={null}
+                                <div
+                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                 >
-                                  <div
-                                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                  >
-                                    <ControlLabel>
-                                      <ControlLabel
-                                        bsClass="control-label"
-                                        className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                        srOnly={false}
+                                  <ControlLabel>
+                                    <ControlLabel
+                                      bsClass="control-label"
+                                      className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                      srOnly={false}
+                                    >
+                                      <label
+                                        className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                        htmlFor="filter-data-filter"
                                       >
-                                        <label
-                                          className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                          htmlFor="filter-data-filter"
-                                        >
-                                          Filter
-                                        </label>
-                                      </ControlLabel>
+                                        Filter
+                                      </label>
                                     </ControlLabel>
-                                    <InputWrapper
+                                  </ControlLabel>
+                                  <InputWrapper
+                                    className="typeahead-wrapper"
+                                  >
+                                    <div
                                       className="typeahead-wrapper"
                                     >
-                                      <div
-                                        className="typeahead-wrapper"
+                                      <FormControl
+                                        componentClass="input"
+                                        inputRef={[Function]}
+                                        label="Filter"
+                                        name="filter-data-filter"
+                                        placeholder=""
+                                        type="text"
                                       >
                                         <FormControl
+                                          bsClass="form-control"
+                                          className="FormControl-sc-1amoaox-0 kmJcge"
                                           componentClass="input"
                                           inputRef={[Function]}
                                           label="Filter"
@@ -255,35 +267,33 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                                           placeholder=""
                                           type="text"
                                         >
-                                          <FormControl
-                                            bsClass="form-control"
-                                            className="FormControl-sc-1amoaox-0 fKSsjP"
-                                            componentClass="input"
-                                            inputRef={[Function]}
+                                          <input
+                                            className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                            id="filter-data-filter"
                                             label="Filter"
                                             name="filter-data-filter"
                                             placeholder=""
                                             type="text"
-                                          >
-                                            <input
-                                              className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                              id="filter-data-filter"
-                                              label="Filter"
-                                              name="filter-data-filter"
-                                              placeholder=""
-                                              type="text"
-                                            />
-                                          </FormControl>
+                                          />
                                         </FormControl>
-                                      </div>
-                                    </InputWrapper>
-                                  </div>
-                                </FormGroup>
-                              </FormGroup__StyledFormGroup>
-                            </Component>
-                          </Input>
-                        </TypeAheadInput>
-                        <Button
+                                      </FormControl>
+                                    </div>
+                                  </InputWrapper>
+                                </div>
+                              </FormGroup>
+                            </FormGroup__StyledFormGroup>
+                          </Component>
+                        </Input>
+                      </TypeAheadInput>
+                      <ForwardRef
+                        style={
+                          Object {
+                            "marginLeft": 5,
+                          }
+                        }
+                        type="submit"
+                      >
+                        <Button__StyledButton
                           style={
                             Object {
                               "marginLeft": 5,
@@ -296,7 +306,7 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                             block={false}
                             bsClass="btn"
                             bsStyle="default"
-                            className="Button-c9cbmb-0 bNulii"
+                            className="Button__StyledButton-c9cbmb-0 jHWfTP"
                             disabled={false}
                             style={
                               Object {
@@ -306,7 +316,7 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                             type="submit"
                           >
                             <button
-                              className="Button-c9cbmb-0 bNulii btn btn-default"
+                              className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                               disabled={false}
                               style={
                                 Object {
@@ -318,8 +328,19 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                               Filter
                             </button>
                           </Button>
-                        </Button>
-                        <Button
+                        </Button__StyledButton>
+                      </ForwardRef>
+                      <ForwardRef
+                        disabled={true}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "marginLeft": 5,
+                          }
+                        }
+                        type="button"
+                      >
+                        <Button__StyledButton
                           disabled={true}
                           onClick={[Function]}
                           style={
@@ -334,7 +355,7 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                             block={false}
                             bsClass="btn"
                             bsStyle="default"
-                            className="Button-c9cbmb-0 bNulii"
+                            className="Button__StyledButton-c9cbmb-0 jHWfTP"
                             disabled={true}
                             onClick={[Function]}
                             style={
@@ -345,7 +366,7 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                             type="button"
                           >
                             <button
-                              className="Button-c9cbmb-0 bNulii btn btn-default"
+                              className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                               disabled={true}
                               onClick={[Function]}
                               style={
@@ -358,19 +379,19 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                               Reset
                             </button>
                           </Button>
-                        </Button>
-                      </form>
-                      <ul
-                        className="pill-list"
-                      >
-                        <Component />
-                      </ul>
-                    </div>
-                  </TypeAheadDataFilter>
-                </div>
-              </Col>
-            </div>
-          </Row>
+                        </Button__StyledButton>
+                      </ForwardRef>
+                    </form>
+                    <ul
+                      className="pill-list"
+                    >
+                      <Component />
+                    </ul>
+                  </div>
+                </TypeAheadDataFilter>
+              </div>
+            </Col>
+          </div>
         </Row>
         <ControlledTableList>
           <div>
@@ -384,18 +405,18 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                   <ControlledTableListHeader>
                     <ControlledTableListHeader__StyledListGroupItem>
                       <ForwardRef
-                        className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                        className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                       >
                         <ListGroupItem__StyledListGroupItem
-                          className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                          className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                         >
                           <ListGroupItem
                             bsClass="list-group-item"
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                             listItem={false}
                           >
                             <span
-                              className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                              className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                             >
                               <ControlledTableListHeader__HeaderWrapper>
                                 <div
@@ -413,11 +434,11 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                       <ListGroupItem__StyledListGroupItem>
                         <ListGroupItem
                           bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                           listItem={false}
                         >
                           <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           >
                             No items to display
                           </span>
@@ -489,86 +510,90 @@ exports[`<TokenList /> should render with tokens 1`] = `
       <div
         className="form-group"
       >
-        <Row>
-          <Row
-            bsClass="row"
-            className="Row-sc-3iisrt-0 gPzTHl"
-            componentClass="div"
+        <Row
+          bsClass="row"
+          componentClass="div"
+        >
+          <div
+            className="row"
           >
-            <div
-              className="Row-sc-3iisrt-0 gPzTHl row"
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={2}
             >
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={2}
+              <div
+                className="col-sm-2"
               >
-                <div
-                  className="col-sm-2"
+                <ControlLabel
+                  className="tokenNewNameLabel"
                 >
                   <ControlLabel
-                    className="tokenNewNameLabel"
+                    bsClass="control-label"
+                    className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel"
+                    srOnly={false}
                   >
-                    <ControlLabel
-                      bsClass="control-label"
-                      className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel"
-                      srOnly={false}
+                    <label
+                      className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel control-label"
                     >
-                      <label
-                        className="ControlLabel-sc-1edmum5-0 jKzIRX tokenNewNameLabel control-label"
-                      >
-                        Token Name
-                      </label>
-                    </ControlLabel>
+                      Token Name
+                    </label>
                   </ControlLabel>
-                </div>
-              </Col>
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={4}
+                </ControlLabel>
+              </div>
+            </Col>
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={4}
+            >
+              <div
+                className="col-sm-4"
               >
-                <div
-                  className="col-sm-4"
+                <FormControl
+                  id="create-token-input"
+                  onChange={[Function]}
+                  placeholder="e.g ServiceName"
+                  type="text"
+                  value=""
                 >
                   <FormControl
+                    bsClass="form-control"
+                    className="FormControl-sc-1amoaox-0 kmJcge"
+                    componentClass="input"
                     id="create-token-input"
                     onChange={[Function]}
                     placeholder="e.g ServiceName"
                     type="text"
                     value=""
                   >
-                    <FormControl
-                      bsClass="form-control"
-                      className="FormControl-sc-1amoaox-0 fKSsjP"
-                      componentClass="input"
+                    <input
+                      className="FormControl-sc-1amoaox-0 kmJcge form-control"
                       id="create-token-input"
                       onChange={[Function]}
                       placeholder="e.g ServiceName"
                       type="text"
                       value=""
-                    >
-                      <input
-                        className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                        id="create-token-input"
-                        onChange={[Function]}
-                        placeholder="e.g ServiceName"
-                        type="text"
-                        value=""
-                      />
-                    </FormControl>
+                    />
                   </FormControl>
-                </div>
-              </Col>
-              <Col
-                bsClass="col"
-                componentClass="div"
-                sm={2}
+                </FormControl>
+              </div>
+            </Col>
+            <Col
+              bsClass="col"
+              componentClass="div"
+              sm={2}
+            >
+              <div
+                className="col-sm-2"
               >
-                <div
-                  className="col-sm-2"
+                <ForwardRef
+                  bsStyle="primary"
+                  disabled={true}
+                  id="create-token"
+                  type="submit"
                 >
-                  <Button
+                  <Button__StyledButton
                     bsStyle="primary"
                     disabled={true}
                     id="create-token"
@@ -579,13 +604,13 @@ exports[`<TokenList /> should render with tokens 1`] = `
                       block={false}
                       bsClass="btn"
                       bsStyle="primary"
-                      className="Button-c9cbmb-0 bNulii"
+                      className="Button__StyledButton-c9cbmb-0 jHWfTP"
                       disabled={true}
                       id="create-token"
                       type="submit"
                     >
                       <button
-                        className="Button-c9cbmb-0 bNulii btn btn-primary"
+                        className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-primary"
                         disabled={true}
                         id="create-token"
                         type="submit"
@@ -593,11 +618,11 @@ exports[`<TokenList /> should render with tokens 1`] = `
                         Create Token
                       </button>
                     </Button>
-                  </Button>
-                </div>
-              </Col>
-            </div>
-          </Row>
+                  </Button__StyledButton>
+                </ForwardRef>
+              </div>
+            </Col>
+          </div>
         </Row>
       </div>
       <hr />
@@ -634,121 +659,129 @@ exports[`<TokenList /> should render with tokens 1`] = `
       titleKey="name"
     >
       <div>
-        <Row>
-          <Row
-            bsClass="row"
-            className="Row-sc-3iisrt-0 gPzTHl"
-            componentClass="div"
+        <Row
+          bsClass="row"
+          componentClass="div"
+        >
+          <div
+            className="row"
           >
-            <div
-              className="Row-sc-3iisrt-0 gPzTHl row"
+            <Col
+              bsClass="col"
+              componentClass="div"
+              md={12}
             >
-              <Col
-                bsClass="col"
-                componentClass="div"
-                md={12}
+              <div
+                className="col-md-12"
               >
-                <div
-                  className="col-md-12"
+                <TypeAheadDataFilter
+                  data={
+                    Array [
+                      Object {
+                        "id": "abc1",
+                        "name": "Acme",
+                        "token": "beef2001",
+                      },
+                      Object {
+                        "id": "abc2",
+                        "name": "Hamfred",
+                        "token": "beef2002",
+                      },
+                    ]
+                  }
+                  displayKey="value"
+                  filterBy=""
+                  filterSuggestionAccessor=""
+                  filterSuggestions={Array []}
+                  id="filter-data-filter"
+                  label="Filter"
+                  onDataFiltered={[Function]}
+                  searchInKeys={
+                    Array [
+                      "name",
+                      "token",
+                    ]
+                  }
                 >
-                  <TypeAheadDataFilter
-                    data={
-                      Array [
-                        Object {
-                          "id": "abc1",
-                          "name": "Acme",
-                          "token": "beef2001",
-                        },
-                        Object {
-                          "id": "abc2",
-                          "name": "Hamfred",
-                          "token": "beef2002",
-                        },
-                      ]
-                    }
-                    displayKey="value"
-                    filterBy=""
-                    filterSuggestionAccessor=""
-                    filterSuggestions={Array []}
-                    id="filter-data-filter"
-                    label="Filter"
-                    onDataFiltered={[Function]}
-                    searchInKeys={
-                      Array [
-                        "name",
-                        "token",
-                      ]
-                    }
+                  <div
+                    className="filter"
                   >
-                    <div
-                      className="filter"
-                    >
-                      <form
-                        className="form-inline"
-                        onSubmit={[Function]}
-                        style={
-                          Object {
-                            "display": "inline",
-                          }
+                    <form
+                      className="form-inline"
+                      onSubmit={[Function]}
+                      style={
+                        Object {
+                          "display": "inline",
                         }
+                      }
+                    >
+                      <TypeAheadInput
+                        displayKey="value"
+                        id="filter-data-filter"
+                        label="Filter"
+                        onSuggestionSelected={[Function]}
+                        suggestionText="Filter by : "
+                        suggestions={Array []}
                       >
-                        <TypeAheadInput
-                          displayKey="value"
+                        <Input
+                          addonAfter={null}
+                          bsStyle={null}
+                          buttonAfter={null}
+                          help=""
                           id="filter-data-filter"
                           label="Filter"
-                          onSuggestionSelected={[Function]}
-                          suggestionText="Filter by : "
-                          suggestions={Array []}
+                          placeholder=""
+                          type="text"
+                          wrapperClassName="typeahead-wrapper"
                         >
-                          <Input
-                            addonAfter={null}
-                            bsStyle={null}
-                            buttonAfter={null}
-                            help=""
-                            id="filter-data-filter"
-                            label="Filter"
-                            placeholder=""
-                            type="text"
-                            wrapperClassName="typeahead-wrapper"
+                          <Component
+                            controlId="filter-data-filter"
+                            validationState={null}
                           >
-                            <Component
+                            <FormGroup__StyledFormGroup
                               controlId="filter-data-filter"
                               validationState={null}
                             >
-                              <FormGroup__StyledFormGroup
+                              <FormGroup
+                                bsClass="form-group"
+                                className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                                 controlId="filter-data-filter"
                                 validationState={null}
                               >
-                                <FormGroup
-                                  bsClass="form-group"
-                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                                  controlId="filter-data-filter"
-                                  validationState={null}
+                                <div
+                                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                                 >
-                                  <div
-                                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                                  >
-                                    <ControlLabel>
-                                      <ControlLabel
-                                        bsClass="control-label"
-                                        className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                                        srOnly={false}
+                                  <ControlLabel>
+                                    <ControlLabel
+                                      bsClass="control-label"
+                                      className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                      srOnly={false}
+                                    >
+                                      <label
+                                        className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                        htmlFor="filter-data-filter"
                                       >
-                                        <label
-                                          className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                                          htmlFor="filter-data-filter"
-                                        >
-                                          Filter
-                                        </label>
-                                      </ControlLabel>
+                                        Filter
+                                      </label>
                                     </ControlLabel>
-                                    <InputWrapper
+                                  </ControlLabel>
+                                  <InputWrapper
+                                    className="typeahead-wrapper"
+                                  >
+                                    <div
                                       className="typeahead-wrapper"
                                     >
-                                      <div
-                                        className="typeahead-wrapper"
+                                      <FormControl
+                                        componentClass="input"
+                                        inputRef={[Function]}
+                                        label="Filter"
+                                        name="filter-data-filter"
+                                        placeholder=""
+                                        type="text"
                                       >
                                         <FormControl
+                                          bsClass="form-control"
+                                          className="FormControl-sc-1amoaox-0 kmJcge"
                                           componentClass="input"
                                           inputRef={[Function]}
                                           label="Filter"
@@ -756,35 +789,33 @@ exports[`<TokenList /> should render with tokens 1`] = `
                                           placeholder=""
                                           type="text"
                                         >
-                                          <FormControl
-                                            bsClass="form-control"
-                                            className="FormControl-sc-1amoaox-0 fKSsjP"
-                                            componentClass="input"
-                                            inputRef={[Function]}
+                                          <input
+                                            className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                            id="filter-data-filter"
                                             label="Filter"
                                             name="filter-data-filter"
                                             placeholder=""
                                             type="text"
-                                          >
-                                            <input
-                                              className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                              id="filter-data-filter"
-                                              label="Filter"
-                                              name="filter-data-filter"
-                                              placeholder=""
-                                              type="text"
-                                            />
-                                          </FormControl>
+                                          />
                                         </FormControl>
-                                      </div>
-                                    </InputWrapper>
-                                  </div>
-                                </FormGroup>
-                              </FormGroup__StyledFormGroup>
-                            </Component>
-                          </Input>
-                        </TypeAheadInput>
-                        <Button
+                                      </FormControl>
+                                    </div>
+                                  </InputWrapper>
+                                </div>
+                              </FormGroup>
+                            </FormGroup__StyledFormGroup>
+                          </Component>
+                        </Input>
+                      </TypeAheadInput>
+                      <ForwardRef
+                        style={
+                          Object {
+                            "marginLeft": 5,
+                          }
+                        }
+                        type="submit"
+                      >
+                        <Button__StyledButton
                           style={
                             Object {
                               "marginLeft": 5,
@@ -797,7 +828,7 @@ exports[`<TokenList /> should render with tokens 1`] = `
                             block={false}
                             bsClass="btn"
                             bsStyle="default"
-                            className="Button-c9cbmb-0 bNulii"
+                            className="Button__StyledButton-c9cbmb-0 jHWfTP"
                             disabled={false}
                             style={
                               Object {
@@ -807,7 +838,7 @@ exports[`<TokenList /> should render with tokens 1`] = `
                             type="submit"
                           >
                             <button
-                              className="Button-c9cbmb-0 bNulii btn btn-default"
+                              className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                               disabled={false}
                               style={
                                 Object {
@@ -819,8 +850,19 @@ exports[`<TokenList /> should render with tokens 1`] = `
                               Filter
                             </button>
                           </Button>
-                        </Button>
-                        <Button
+                        </Button__StyledButton>
+                      </ForwardRef>
+                      <ForwardRef
+                        disabled={true}
+                        onClick={[Function]}
+                        style={
+                          Object {
+                            "marginLeft": 5,
+                          }
+                        }
+                        type="button"
+                      >
+                        <Button__StyledButton
                           disabled={true}
                           onClick={[Function]}
                           style={
@@ -835,7 +877,7 @@ exports[`<TokenList /> should render with tokens 1`] = `
                             block={false}
                             bsClass="btn"
                             bsStyle="default"
-                            className="Button-c9cbmb-0 bNulii"
+                            className="Button__StyledButton-c9cbmb-0 jHWfTP"
                             disabled={true}
                             onClick={[Function]}
                             style={
@@ -846,7 +888,7 @@ exports[`<TokenList /> should render with tokens 1`] = `
                             type="button"
                           >
                             <button
-                              className="Button-c9cbmb-0 bNulii btn btn-default"
+                              className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-default"
                               disabled={true}
                               onClick={[Function]}
                               style={
@@ -859,19 +901,19 @@ exports[`<TokenList /> should render with tokens 1`] = `
                               Reset
                             </button>
                           </Button>
-                        </Button>
-                      </form>
-                      <ul
-                        className="pill-list"
-                      >
-                        <Component />
-                      </ul>
-                    </div>
-                  </TypeAheadDataFilter>
-                </div>
-              </Col>
-            </div>
-          </Row>
+                        </Button__StyledButton>
+                      </ForwardRef>
+                    </form>
+                    <ul
+                      className="pill-list"
+                    >
+                      <Component />
+                    </ul>
+                  </div>
+                </TypeAheadDataFilter>
+              </div>
+            </Col>
+          </div>
         </Row>
         <ControlledTableList>
           <div>
@@ -885,18 +927,18 @@ exports[`<TokenList /> should render with tokens 1`] = `
                   <ControlledTableListHeader>
                     <ControlledTableListHeader__StyledListGroupItem>
                       <ForwardRef
-                        className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                        className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                       >
                         <ListGroupItem__StyledListGroupItem
-                          className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                          className="ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                         >
                           <ListGroupItem
                             bsClass="list-group-item"
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci"
+                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW"
                             listItem={false}
                           >
                             <span
-                              className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX ControlledTableListHeader__StyledListGroupItem-tr2y34-0 LwXci list-group-item"
+                              className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM ControlledTableListHeader__StyledListGroupItem-tr2y34-0 jFAa-dW list-group-item"
                             >
                               <ControlledTableListHeader__HeaderWrapper>
                                 <div
@@ -916,11 +958,11 @@ exports[`<TokenList /> should render with tokens 1`] = `
                       <ListGroupItem__StyledListGroupItem>
                         <ListGroupItem
                           bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                           listItem={false}
                         >
                           <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           >
                             <div
                               className="itemWrapper itemWrapperStatic"
@@ -942,32 +984,39 @@ exports[`<TokenList /> should render with tokens 1`] = `
                                       text="beef2001"
                                       title="Copy to clipboard"
                                     />
-                                    <Button
+                                    <ForwardRef
                                       bsSize="xsmall"
                                       bsStyle="primary"
                                       disabled={false}
                                       onClick={[Function]}
                                     >
-                                      <Button
-                                        active={false}
-                                        block={false}
-                                        bsClass="btn"
+                                      <Button__StyledButton
                                         bsSize="xsmall"
                                         bsStyle="primary"
-                                        className="Button-c9cbmb-0 bNulii"
                                         disabled={false}
                                         onClick={[Function]}
                                       >
-                                        <button
-                                          className="Button-c9cbmb-0 bNulii btn btn-xs btn-primary"
+                                        <Button
+                                          active={false}
+                                          block={false}
+                                          bsClass="btn"
+                                          bsSize="xsmall"
+                                          bsStyle="primary"
+                                          className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                           disabled={false}
                                           onClick={[Function]}
-                                          type="button"
                                         >
-                                          Delete
-                                        </button>
-                                      </Button>
-                                    </Button>
+                                          <button
+                                            className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-xs btn-primary"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            type="button"
+                                          >
+                                            Delete
+                                          </button>
+                                        </Button>
+                                      </Button__StyledButton>
+                                    </ForwardRef>
                                   </div>
                                 </ButtonGroup>
                               </div>
@@ -990,11 +1039,11 @@ exports[`<TokenList /> should render with tokens 1`] = `
                       <ListGroupItem__StyledListGroupItem>
                         <ListGroupItem
                           bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                           listItem={false}
                         >
                           <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
+                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           >
                             <div
                               className="itemWrapper itemWrapperStatic"
@@ -1016,32 +1065,39 @@ exports[`<TokenList /> should render with tokens 1`] = `
                                       text="beef2002"
                                       title="Copy to clipboard"
                                     />
-                                    <Button
+                                    <ForwardRef
                                       bsSize="xsmall"
                                       bsStyle="primary"
                                       disabled={false}
                                       onClick={[Function]}
                                     >
-                                      <Button
-                                        active={false}
-                                        block={false}
-                                        bsClass="btn"
+                                      <Button__StyledButton
                                         bsSize="xsmall"
                                         bsStyle="primary"
-                                        className="Button-c9cbmb-0 bNulii"
                                         disabled={false}
                                         onClick={[Function]}
                                       >
-                                        <button
-                                          className="Button-c9cbmb-0 bNulii btn btn-xs btn-primary"
+                                        <Button
+                                          active={false}
+                                          block={false}
+                                          bsClass="btn"
+                                          bsSize="xsmall"
+                                          bsStyle="primary"
+                                          className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                           disabled={false}
                                           onClick={[Function]}
-                                          type="button"
                                         >
-                                          Delete
-                                        </button>
-                                      </Button>
-                                    </Button>
+                                          <button
+                                            className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-xs btn-primary"
+                                            disabled={false}
+                                            onClick={[Function]}
+                                            type="button"
+                                          >
+                                            Delete
+                                          </button>
+                                        </Button>
+                                      </Button__StyledButton>
+                                    </ForwardRef>
                                   </div>
                                 </ButtonGroup>
                               </div>

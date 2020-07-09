@@ -23,72 +23,83 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   }
 >
   <Row
+    bsClass="row"
     className=""
+    componentClass="div"
   >
-    <Row
-      bsClass="row"
-      className="Row-sc-3iisrt-0 gPzTHl"
-      componentClass="div"
+    <div
+      className="row"
     >
-      <div
-        className="Row-sc-3iisrt-0 gPzTHl row"
+      <Col
+        bsClass="col"
+        componentClass="div"
+        sm={8}
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          sm={8}
+        <div
+          className="col-sm-8"
         >
-          <div
-            className="col-sm-8"
+          <Input
+            addonAfter={null}
+            bsStyle={null}
+            buttonAfter={null}
+            help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
+            id="pattern-input"
+            label="Pattern"
+            onChange={[Function]}
+            placeholder=""
+            required={true}
+            rows={9}
+            type="textarea"
+            value=""
           >
-            <Input
-              addonAfter={null}
-              bsStyle={null}
-              buttonAfter={null}
-              help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
-              id="pattern-input"
-              label="Pattern"
-              onChange={[Function]}
-              placeholder=""
-              required={true}
-              rows={9}
-              type="textarea"
-              value=""
+            <Component
+              controlId="pattern-input"
+              validationState={null}
             >
-              <Component
+              <FormGroup__StyledFormGroup
                 controlId="pattern-input"
                 validationState={null}
               >
-                <FormGroup__StyledFormGroup
+                <FormGroup
+                  bsClass="form-group"
+                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                   controlId="pattern-input"
                   validationState={null}
                 >
-                  <FormGroup
-                    bsClass="form-group"
-                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                    controlId="pattern-input"
-                    validationState={null}
+                  <div
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                   >
-                    <div
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                    >
-                      <ControlLabel>
-                        <ControlLabel
-                          bsClass="control-label"
-                          className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                          srOnly={false}
+                    <ControlLabel>
+                      <ControlLabel
+                        bsClass="control-label"
+                        className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                        srOnly={false}
+                      >
+                        <label
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                          htmlFor="pattern-input"
                         >
-                          <label
-                            className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                            htmlFor="pattern-input"
-                          >
-                            Pattern
-                          </label>
-                        </ControlLabel>
+                          Pattern
+                        </label>
                       </ControlLabel>
-                      <InputWrapper>
-                        <span>
+                    </ControlLabel>
+                    <InputWrapper>
+                      <span>
+                        <FormControl
+                          componentClass="textarea"
+                          inputRef={[Function]}
+                          label="Pattern"
+                          name="pattern-input"
+                          onChange={[Function]}
+                          placeholder=""
+                          required={true}
+                          rows={9}
+                          type="textarea"
+                          value=""
+                        >
                           <FormControl
+                            bsClass="form-control"
+                            className="FormControl-sc-1amoaox-0 kmJcge"
                             componentClass="textarea"
                             inputRef={[Function]}
                             label="Pattern"
@@ -100,11 +111,9 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                             type="textarea"
                             value=""
                           >
-                            <FormControl
-                              bsClass="form-control"
-                              className="FormControl-sc-1amoaox-0 fKSsjP"
-                              componentClass="textarea"
-                              inputRef={[Function]}
+                            <textarea
+                              className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                              id="pattern-input"
                               label="Pattern"
                               name="pattern-input"
                               onChange={[Function]}
@@ -113,121 +122,123 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                               rows={9}
                               type="textarea"
                               value=""
-                            >
-                              <textarea
-                                className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                id="pattern-input"
-                                label="Pattern"
-                                name="pattern-input"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                rows={9}
-                                type="textarea"
-                                value=""
-                              />
-                            </FormControl>
+                            />
                           </FormControl>
-                          <HelpBlock>
-                            <HelpBlock
-                              bsClass="help-block"
-                              className="HelpBlock-i8is92-0 fSaklp"
+                        </FormControl>
+                        <HelpBlock>
+                          <HelpBlock
+                            bsClass="help-block"
+                            className="HelpBlock-i8is92-0 fSaklp"
+                          >
+                            <span
+                              className="HelpBlock-i8is92-0 fSaklp help-block"
                             >
-                              <span
-                                className="HelpBlock-i8is92-0 fSaklp help-block"
-                              >
-                                The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
-                              </span>
-                            </HelpBlock>
+                              The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
+                            </span>
                           </HelpBlock>
-                        </span>
-                      </InputWrapper>
-                    </div>
-                  </FormGroup>
-                </FormGroup__StyledFormGroup>
-              </Component>
-            </Input>
-          </div>
-        </Col>
-        <Col
-          bsClass="col"
-          componentClass="div"
-          sm={4}
+                        </HelpBlock>
+                      </span>
+                    </InputWrapper>
+                  </div>
+                </FormGroup>
+              </FormGroup__StyledFormGroup>
+            </Component>
+          </Input>
+        </div>
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        sm={4}
+      >
+        <div
+          className="col-sm-4"
         >
-          <div
-            className="col-sm-4"
+          <GrokPatternFilter
+            addToPattern={[Function]}
+            patterns={
+              Array [
+                Object {
+                  "name": "COMMONMAC",
+                  "pattern": "(?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})",
+                },
+                Object {
+                  "name": "DATA",
+                  "pattern": ".*?",
+                },
+                Object {
+                  "name": "DATE",
+                  "pattern": "%{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}",
+                },
+              ]
+            }
           >
-            <GrokPatternFilter
-              addToPattern={[Function]}
-              patterns={
-                Array [
-                  Object {
-                    "name": "COMMONMAC",
-                    "pattern": "(?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})",
-                  },
-                  Object {
-                    "name": "DATA",
-                    "pattern": ".*?",
-                  },
-                  Object {
-                    "name": "DATE",
-                    "pattern": "%{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}",
-                  },
-                ]
-              }
+            <Input
+              addonAfter={null}
+              autoComplete="off"
+              bsStyle={null}
+              buttonAfter={null}
+              formGroupClassName="filterFormGroup"
+              help=""
+              id="pattern-selector"
+              label="Filter pattern"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder=""
+              type="text"
+              value=""
             >
-              <Input
-                addonAfter={null}
-                autoComplete="off"
-                bsStyle={null}
-                buttonAfter={null}
-                formGroupClassName="filterFormGroup"
-                help=""
-                id="pattern-selector"
-                label="Filter pattern"
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                placeholder=""
-                type="text"
-                value=""
+              <Component
+                bsClass="filterFormGroup"
+                controlId="pattern-selector"
+                validationState={null}
               >
-                <Component
+                <FormGroup__StyledFormGroup
                   bsClass="filterFormGroup"
                   controlId="pattern-selector"
                   validationState={null}
                 >
-                  <FormGroup__StyledFormGroup
+                  <FormGroup
                     bsClass="filterFormGroup"
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                     controlId="pattern-selector"
                     validationState={null}
                   >
-                    <FormGroup
-                      bsClass="filterFormGroup"
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                      controlId="pattern-selector"
-                      validationState={null}
+                    <div
+                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy filterFormGroup"
                     >
-                      <div
-                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy filterFormGroup"
-                      >
-                        <ControlLabel>
-                          <ControlLabel
-                            bsClass="control-label"
-                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                            srOnly={false}
+                      <ControlLabel>
+                        <ControlLabel
+                          bsClass="control-label"
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                          srOnly={false}
+                        >
+                          <label
+                            className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                            htmlFor="pattern-selector"
                           >
-                            <label
-                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                              htmlFor="pattern-selector"
-                            >
-                              Filter pattern
-                            </label>
-                          </ControlLabel>
+                            Filter pattern
+                          </label>
                         </ControlLabel>
-                        <InputWrapper>
-                          <span>
+                      </ControlLabel>
+                      <InputWrapper>
+                        <span>
+                          <FormControl
+                            autoComplete="off"
+                            componentClass="input"
+                            inputRef={[Function]}
+                            label="Filter pattern"
+                            name="pattern-selector"
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          >
                             <FormControl
                               autoComplete="off"
+                              bsClass="form-control"
+                              className="FormControl-sc-1amoaox-0 kmJcge"
                               componentClass="input"
                               inputRef={[Function]}
                               label="Filter pattern"
@@ -238,12 +249,10 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                               type="text"
                               value=""
                             >
-                              <FormControl
+                              <input
                                 autoComplete="off"
-                                bsClass="form-control"
-                                className="FormControl-sc-1amoaox-0 fKSsjP"
-                                componentClass="input"
-                                inputRef={[Function]}
+                                className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                id="pattern-selector"
                                 label="Filter pattern"
                                 name="pattern-selector"
                                 onChange={[Function]}
@@ -251,78 +260,71 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                 placeholder=""
                                 type="text"
                                 value=""
-                              >
-                                <input
-                                  autoComplete="off"
-                                  className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                  id="pattern-selector"
-                                  label="Filter pattern"
-                                  name="pattern-selector"
-                                  onChange={[Function]}
-                                  onKeyDown={[Function]}
-                                  placeholder=""
-                                  type="text"
-                                  value=""
-                                />
-                              </FormControl>
+                              />
                             </FormControl>
-                          </span>
-                        </InputWrapper>
-                      </div>
-                    </FormGroup>
-                  </FormGroup__StyledFormGroup>
-                </Component>
-              </Input>
+                          </FormControl>
+                        </span>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
+                </FormGroup__StyledFormGroup>
+              </Component>
+            </Input>
+            <ListGroup
+              bsClass="resultList"
+            >
               <ListGroup
                 bsClass="resultList"
               >
-                <ListGroup
-                  bsClass="resultList"
+                <div
+                  className="resultList"
                 >
-                  <div
-                    className="resultList"
+                  <ForwardRef
+                    header="COMMONMAC"
+                    id="list-item-0"
+                    key="COMMONMAC"
+                    onKeyDown={[Function]}
                   >
-                    <ForwardRef
+                    <ListGroupItem__StyledListGroupItem
                       header="COMMONMAC"
                       id="list-item-0"
-                      key="COMMONMAC"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem__StyledListGroupItem
+                      <ListGroupItem
+                        bsClass="list-group-item"
+                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                         header="COMMONMAC"
                         id="list-item-0"
+                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <ListGroupItem
-                          bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
-                          header="COMMONMAC"
+                        <span
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           id="list-item-0"
-                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
-                            id="list-item-0"
-                            onKeyDown={[Function]}
+                          <h4
+                            className="list-group-item-heading"
                           >
-                            <h4
-                              className="list-group-item-heading"
+                            COMMONMAC
+                          </h4>
+                          <p
+                            className="list-group-item-text"
+                          >
+                            <span
+                              className="patternDisplay"
                             >
-                              COMMONMAC
-                            </h4>
-                            <p
-                              className="list-group-item-text"
+                              (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})
+                            </span>
+                            <span
+                              className="addButton"
                             >
-                              <span
-                                className="patternDisplay"
+                              <ForwardRef
+                                bsSize="xsmall"
+                                bsStyle="primary"
+                                onClick={[Function]}
                               >
-                                (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})
-                              </span>
-                              <span
-                                className="addButton"
-                              >
-                                <Button
+                                <Button__StyledButton
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -333,12 +335,12 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="Button-c9cbmb-0 bNulii"
+                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="Button-c9cbmb-0 bNulii btn btn-xs btn-primary"
+                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -346,54 +348,60 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                       Add
                                     </button>
                                   </Button>
-                                </Button>
-                              </span>
-                            </p>
-                          </span>
-                        </ListGroupItem>
-                      </ListGroupItem__StyledListGroupItem>
-                    </ForwardRef>
-                    <ForwardRef
+                                </Button__StyledButton>
+                              </ForwardRef>
+                            </span>
+                          </p>
+                        </span>
+                      </ListGroupItem>
+                    </ListGroupItem__StyledListGroupItem>
+                  </ForwardRef>
+                  <ForwardRef
+                    header="DATA"
+                    id="list-item-1"
+                    key="DATA"
+                    onKeyDown={[Function]}
+                  >
+                    <ListGroupItem__StyledListGroupItem
                       header="DATA"
                       id="list-item-1"
-                      key="DATA"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem__StyledListGroupItem
+                      <ListGroupItem
+                        bsClass="list-group-item"
+                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                         header="DATA"
                         id="list-item-1"
+                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <ListGroupItem
-                          bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
-                          header="DATA"
+                        <span
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           id="list-item-1"
-                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
-                            id="list-item-1"
-                            onKeyDown={[Function]}
+                          <h4
+                            className="list-group-item-heading"
                           >
-                            <h4
-                              className="list-group-item-heading"
+                            DATA
+                          </h4>
+                          <p
+                            className="list-group-item-text"
+                          >
+                            <span
+                              className="patternDisplay"
                             >
-                              DATA
-                            </h4>
-                            <p
-                              className="list-group-item-text"
+                              .*?
+                            </span>
+                            <span
+                              className="addButton"
                             >
-                              <span
-                                className="patternDisplay"
+                              <ForwardRef
+                                bsSize="xsmall"
+                                bsStyle="primary"
+                                onClick={[Function]}
                               >
-                                .*?
-                              </span>
-                              <span
-                                className="addButton"
-                              >
-                                <Button
+                                <Button__StyledButton
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -404,12 +412,12 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="Button-c9cbmb-0 bNulii"
+                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="Button-c9cbmb-0 bNulii btn btn-xs btn-primary"
+                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -417,54 +425,60 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                       Add
                                     </button>
                                   </Button>
-                                </Button>
-                              </span>
-                            </p>
-                          </span>
-                        </ListGroupItem>
-                      </ListGroupItem__StyledListGroupItem>
-                    </ForwardRef>
-                    <ForwardRef
+                                </Button__StyledButton>
+                              </ForwardRef>
+                            </span>
+                          </p>
+                        </span>
+                      </ListGroupItem>
+                    </ListGroupItem__StyledListGroupItem>
+                  </ForwardRef>
+                  <ForwardRef
+                    header="DATE"
+                    id="list-item-2"
+                    key="DATE"
+                    onKeyDown={[Function]}
+                  >
+                    <ListGroupItem__StyledListGroupItem
                       header="DATE"
                       id="list-item-2"
-                      key="DATE"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem__StyledListGroupItem
+                      <ListGroupItem
+                        bsClass="list-group-item"
+                        className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM"
                         header="DATE"
                         id="list-item-2"
+                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <ListGroupItem
-                          bsClass="list-group-item"
-                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX"
-                          header="DATE"
+                        <span
+                          className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 hXIynM list-group-item"
                           id="list-item-2"
-                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <span
-                            className="ListGroupItem__StyledListGroupItem-sc-1ky0joo-0 fIiBmX list-group-item"
-                            id="list-item-2"
-                            onKeyDown={[Function]}
+                          <h4
+                            className="list-group-item-heading"
                           >
-                            <h4
-                              className="list-group-item-heading"
+                            DATE
+                          </h4>
+                          <p
+                            className="list-group-item-text"
+                          >
+                            <span
+                              className="patternDisplay"
                             >
-                              DATE
-                            </h4>
-                            <p
-                              className="list-group-item-text"
+                              %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}
+                            </span>
+                            <span
+                              className="addButton"
                             >
-                              <span
-                                className="patternDisplay"
+                              <ForwardRef
+                                bsSize="xsmall"
+                                bsStyle="primary"
+                                onClick={[Function]}
                               >
-                                %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}
-                              </span>
-                              <span
-                                className="addButton"
-                              >
-                                <Button
+                                <Button__StyledButton
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -475,12 +489,12 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="Button-c9cbmb-0 bNulii"
+                                    className="Button__StyledButton-c9cbmb-0 jHWfTP"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="Button-c9cbmb-0 bNulii btn btn-xs btn-primary"
+                                      className="Button__StyledButton-c9cbmb-0 jHWfTP btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -488,21 +502,21 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
                                       Add
                                     </button>
                                   </Button>
-                                </Button>
-                              </span>
-                            </p>
-                          </span>
-                        </ListGroupItem>
-                      </ListGroupItem__StyledListGroupItem>
-                    </ForwardRef>
-                  </div>
-                </ListGroup>
+                                </Button__StyledButton>
+                              </ForwardRef>
+                            </span>
+                          </p>
+                        </span>
+                      </ListGroupItem>
+                    </ListGroupItem__StyledListGroupItem>
+                  </ForwardRef>
+                </div>
               </ListGroup>
-            </GrokPatternFilter>
-          </div>
-        </Col>
-      </div>
-    </Row>
+            </ListGroup>
+          </GrokPatternFilter>
+        </div>
+      </Col>
+    </div>
   </Row>
 </GrokPatternInput>
 `;
@@ -515,72 +529,83 @@ exports[`<GrokPatternInput /> should render grok pattern input without patterns 
   patterns={Array []}
 >
   <Row
+    bsClass="row"
     className=""
+    componentClass="div"
   >
-    <Row
-      bsClass="row"
-      className="Row-sc-3iisrt-0 gPzTHl"
-      componentClass="div"
+    <div
+      className="row"
     >
-      <div
-        className="Row-sc-3iisrt-0 gPzTHl row"
+      <Col
+        bsClass="col"
+        componentClass="div"
+        sm={8}
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          sm={8}
+        <div
+          className="col-sm-8"
         >
-          <div
-            className="col-sm-8"
+          <Input
+            addonAfter={null}
+            bsStyle={null}
+            buttonAfter={null}
+            help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
+            id="pattern-input"
+            label="Pattern"
+            onChange={[Function]}
+            placeholder=""
+            required={true}
+            rows={9}
+            type="textarea"
+            value=""
           >
-            <Input
-              addonAfter={null}
-              bsStyle={null}
-              buttonAfter={null}
-              help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
-              id="pattern-input"
-              label="Pattern"
-              onChange={[Function]}
-              placeholder=""
-              required={true}
-              rows={9}
-              type="textarea"
-              value=""
+            <Component
+              controlId="pattern-input"
+              validationState={null}
             >
-              <Component
+              <FormGroup__StyledFormGroup
                 controlId="pattern-input"
                 validationState={null}
               >
-                <FormGroup__StyledFormGroup
+                <FormGroup
+                  bsClass="form-group"
+                  className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                   controlId="pattern-input"
                   validationState={null}
                 >
-                  <FormGroup
-                    bsClass="form-group"
-                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                    controlId="pattern-input"
-                    validationState={null}
+                  <div
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                   >
-                    <div
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
-                    >
-                      <ControlLabel>
-                        <ControlLabel
-                          bsClass="control-label"
-                          className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                          srOnly={false}
+                    <ControlLabel>
+                      <ControlLabel
+                        bsClass="control-label"
+                        className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                        srOnly={false}
+                      >
+                        <label
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                          htmlFor="pattern-input"
                         >
-                          <label
-                            className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                            htmlFor="pattern-input"
-                          >
-                            Pattern
-                          </label>
-                        </ControlLabel>
+                          Pattern
+                        </label>
                       </ControlLabel>
-                      <InputWrapper>
-                        <span>
+                    </ControlLabel>
+                    <InputWrapper>
+                      <span>
+                        <FormControl
+                          componentClass="textarea"
+                          inputRef={[Function]}
+                          label="Pattern"
+                          name="pattern-input"
+                          onChange={[Function]}
+                          placeholder=""
+                          required={true}
+                          rows={9}
+                          type="textarea"
+                          value=""
+                        >
                           <FormControl
+                            bsClass="form-control"
+                            className="FormControl-sc-1amoaox-0 kmJcge"
                             componentClass="textarea"
                             inputRef={[Function]}
                             label="Pattern"
@@ -592,11 +617,9 @@ exports[`<GrokPatternInput /> should render grok pattern input without patterns 
                             type="textarea"
                             value=""
                           >
-                            <FormControl
-                              bsClass="form-control"
-                              className="FormControl-sc-1amoaox-0 fKSsjP"
-                              componentClass="textarea"
-                              inputRef={[Function]}
+                            <textarea
+                              className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                              id="pattern-input"
                               label="Pattern"
                               name="pattern-input"
                               onChange={[Function]}
@@ -605,106 +628,108 @@ exports[`<GrokPatternInput /> should render grok pattern input without patterns 
                               rows={9}
                               type="textarea"
                               value=""
-                            >
-                              <textarea
-                                className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                id="pattern-input"
-                                label="Pattern"
-                                name="pattern-input"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                rows={9}
-                                type="textarea"
-                                value=""
-                              />
-                            </FormControl>
+                            />
                           </FormControl>
-                          <HelpBlock>
-                            <HelpBlock
-                              bsClass="help-block"
-                              className="HelpBlock-i8is92-0 fSaklp"
+                        </FormControl>
+                        <HelpBlock>
+                          <HelpBlock
+                            bsClass="help-block"
+                            className="HelpBlock-i8is92-0 fSaklp"
+                          >
+                            <span
+                              className="HelpBlock-i8is92-0 fSaklp help-block"
                             >
-                              <span
-                                className="HelpBlock-i8is92-0 fSaklp help-block"
-                              >
-                                The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
-                              </span>
-                            </HelpBlock>
+                              The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
+                            </span>
                           </HelpBlock>
-                        </span>
-                      </InputWrapper>
-                    </div>
-                  </FormGroup>
-                </FormGroup__StyledFormGroup>
-              </Component>
-            </Input>
-          </div>
-        </Col>
-        <Col
-          bsClass="col"
-          componentClass="div"
-          sm={4}
+                        </HelpBlock>
+                      </span>
+                    </InputWrapper>
+                  </div>
+                </FormGroup>
+              </FormGroup__StyledFormGroup>
+            </Component>
+          </Input>
+        </div>
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        sm={4}
+      >
+        <div
+          className="col-sm-4"
         >
-          <div
-            className="col-sm-4"
+          <GrokPatternFilter
+            addToPattern={[Function]}
+            patterns={Array []}
           >
-            <GrokPatternFilter
-              addToPattern={[Function]}
-              patterns={Array []}
+            <Input
+              addonAfter={null}
+              autoComplete="off"
+              bsStyle={null}
+              buttonAfter={null}
+              formGroupClassName="filterFormGroup"
+              help=""
+              id="pattern-selector"
+              label="Filter pattern"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder=""
+              type="text"
+              value=""
             >
-              <Input
-                addonAfter={null}
-                autoComplete="off"
-                bsStyle={null}
-                buttonAfter={null}
-                formGroupClassName="filterFormGroup"
-                help=""
-                id="pattern-selector"
-                label="Filter pattern"
-                onChange={[Function]}
-                onKeyDown={[Function]}
-                placeholder=""
-                type="text"
-                value=""
+              <Component
+                bsClass="filterFormGroup"
+                controlId="pattern-selector"
+                validationState={null}
               >
-                <Component
+                <FormGroup__StyledFormGroup
                   bsClass="filterFormGroup"
                   controlId="pattern-selector"
                   validationState={null}
                 >
-                  <FormGroup__StyledFormGroup
+                  <FormGroup
                     bsClass="filterFormGroup"
+                    className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
                     controlId="pattern-selector"
                     validationState={null}
                   >
-                    <FormGroup
-                      bsClass="filterFormGroup"
-                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
-                      controlId="pattern-selector"
-                      validationState={null}
+                    <div
+                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy filterFormGroup"
                     >
-                      <div
-                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy filterFormGroup"
-                      >
-                        <ControlLabel>
-                          <ControlLabel
-                            bsClass="control-label"
-                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
-                            srOnly={false}
+                      <ControlLabel>
+                        <ControlLabel
+                          bsClass="control-label"
+                          className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                          srOnly={false}
+                        >
+                          <label
+                            className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                            htmlFor="pattern-selector"
                           >
-                            <label
-                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
-                              htmlFor="pattern-selector"
-                            >
-                              Filter pattern
-                            </label>
-                          </ControlLabel>
+                            Filter pattern
+                          </label>
                         </ControlLabel>
-                        <InputWrapper>
-                          <span>
+                      </ControlLabel>
+                      <InputWrapper>
+                        <span>
+                          <FormControl
+                            autoComplete="off"
+                            componentClass="input"
+                            inputRef={[Function]}
+                            label="Filter pattern"
+                            name="pattern-selector"
+                            onChange={[Function]}
+                            onKeyDown={[Function]}
+                            placeholder=""
+                            type="text"
+                            value=""
+                          >
                             <FormControl
                               autoComplete="off"
+                              bsClass="form-control"
+                              className="FormControl-sc-1amoaox-0 kmJcge"
                               componentClass="input"
                               inputRef={[Function]}
                               label="Filter pattern"
@@ -715,12 +740,10 @@ exports[`<GrokPatternInput /> should render grok pattern input without patterns 
                               type="text"
                               value=""
                             >
-                              <FormControl
+                              <input
                                 autoComplete="off"
-                                bsClass="form-control"
-                                className="FormControl-sc-1amoaox-0 fKSsjP"
-                                componentClass="input"
-                                inputRef={[Function]}
+                                className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                id="pattern-selector"
                                 label="Filter pattern"
                                 name="pattern-selector"
                                 onChange={[Function]}
@@ -728,44 +751,31 @@ exports[`<GrokPatternInput /> should render grok pattern input without patterns 
                                 placeholder=""
                                 type="text"
                                 value=""
-                              >
-                                <input
-                                  autoComplete="off"
-                                  className="FormControl-sc-1amoaox-0 fKSsjP form-control"
-                                  id="pattern-selector"
-                                  label="Filter pattern"
-                                  name="pattern-selector"
-                                  onChange={[Function]}
-                                  onKeyDown={[Function]}
-                                  placeholder=""
-                                  type="text"
-                                  value=""
-                                />
-                              </FormControl>
+                              />
                             </FormControl>
-                          </span>
-                        </InputWrapper>
-                      </div>
-                    </FormGroup>
-                  </FormGroup__StyledFormGroup>
-                </Component>
-              </Input>
+                          </FormControl>
+                        </span>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
+                </FormGroup__StyledFormGroup>
+              </Component>
+            </Input>
+            <ListGroup
+              bsClass="resultList"
+            >
               <ListGroup
                 bsClass="resultList"
               >
-                <ListGroup
-                  bsClass="resultList"
-                >
-                  <ul
-                    className="resultList"
-                  />
-                </ListGroup>
+                <ul
+                  className="resultList"
+                />
               </ListGroup>
-            </GrokPatternFilter>
-          </div>
-        </Col>
-      </div>
-    </Row>
+            </ListGroup>
+          </GrokPatternFilter>
+        </div>
+      </Col>
+    </div>
   </Row>
 </GrokPatternInput>
 `;
