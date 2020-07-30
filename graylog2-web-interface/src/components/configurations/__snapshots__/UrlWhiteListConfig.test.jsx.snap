@@ -1,27 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`UrlWhiteListConfig render the UrlWhiteListConfig component should create new instance 1`] = `
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -29,6 +8,31 @@ exports[`UrlWhiteListConfig render the UrlWhiteListConfig component should creat
 
 .c1 form {
   margin-bottom: 0;
+}
+
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
 }
 
 .c1 .modal-body .form-group {
@@ -323,14 +327,10 @@ exports[`UrlWhiteListConfig render the UrlWhiteListConfig component should creat
         </table>
       </Table>
     </Table>
-    <ConnectStoresWrapper[IfPermitted] stores=currentUser
+    <IfPermitted
+      anyPermissions={false}
       permissions="urlwhitelist:write"
-    >
-      <IfPermitted
-        anyPermissions={false}
-        permissions="urlwhitelist:write"
-      />
-    </ConnectStoresWrapper[IfPermitted] stores=currentUser>
+    />
     <BootstrapModalForm
       bsSize="lg"
       cancelButtonText="Cancel"

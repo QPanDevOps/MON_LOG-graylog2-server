@@ -281,27 +281,6 @@ exports[`<ContentPackUploadControls /> should render 1`] = `
   color: rgb(88,73,5);
 }
 
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -311,48 +290,65 @@ exports[`<ContentPackUploadControls /> should render 1`] = `
   margin-bottom: 0;
 }
 
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
+}
+
 .c1 .modal-body .form-group {
   margin-bottom: 5px;
 }
 
 <ContentPackUploadControls>
   <span>
-    <ForwardRef
+    <Button
       active={false}
       bsStyle="success"
       className="button"
       id="upload-content-pack-button"
       onClick={[Function]}
     >
-      <Button__StyledButton
+      <Button
         active={false}
+        block={false}
+        bsClass="btn"
         bsStyle="success"
-        className="button"
+        className="c0 button"
+        disabled={false}
         id="upload-content-pack-button"
         onClick={[Function]}
       >
-        <Button
-          active={false}
-          block={false}
-          bsClass="btn"
-          bsStyle="success"
-          className="c0 button"
+        <button
+          className="c0 button btn btn-success"
           disabled={false}
           id="upload-content-pack-button"
           onClick={[Function]}
+          type="button"
         >
-          <button
-            className="c0 button btn btn-success"
-            disabled={false}
-            id="upload-content-pack-button"
-            onClick={[Function]}
-            type="button"
-          >
-            Upload
-          </button>
-        </Button>
-      </Button__StyledButton>
-    </ForwardRef>
+          Upload
+        </button>
+      </Button>
+    </Button>
     <BootstrapModalForm
       cancelButtonText="Cancel"
       formProps={Object {}}

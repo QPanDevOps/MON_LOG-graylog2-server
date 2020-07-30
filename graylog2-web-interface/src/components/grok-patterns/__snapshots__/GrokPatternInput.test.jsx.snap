@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`] = `
-.c4.btn-danger {
+.c5.btn-danger {
   background-color: #ad0707;
   border-color: #b23939;
   color: rgb(252,249,249);
@@ -9,39 +9,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-danger:hover {
+.c5.btn-danger:hover {
   background-color: #a00e0e;
   border-color: #a53636;
   color: #e9e6e6;
 }
 
-.c4.btn-danger.active {
+.c5.btn-danger.active {
   background-color: #b75151;
   border-color: #bc6363;
   color: rgb(252,249,249);
 }
 
-.c4.btn-danger.active:hover {
+.c5.btn-danger.active:hover {
   background-color: #a94c4c;
   border-color: #ad5c5c;
   color: #e9e6e6;
 }
 
-.c4.btn-danger[disabled],
-.c4.btn-danger.disabled {
+.c5.btn-danger[disabled],
+.c5.btn-danger.disabled {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c4.btn-danger[disabled]:hover,
-.c4.btn-danger.disabled:hover {
+.c5.btn-danger[disabled]:hover,
+.c5.btn-danger.disabled:hover {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c4.btn-default {
+.c5.btn-default {
   background-color: #e6e6e6;
   border-color: #e0e0e0;
   color: rgb(73,73,73);
@@ -49,39 +49,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-default:hover {
+.c5.btn-default:hover {
   background-color: #d4d4d4;
   border-color: #cfcfcf;
   color: #444444;
 }
 
-.c4.btn-default.active {
+.c5.btn-default.active {
   background-color: #dadada;
   border-color: #d4d4d4;
   color: rgb(49,49,49);
 }
 
-.c4.btn-default.active:hover {
+.c5.btn-default.active:hover {
   background-color: #cacaca;
   border-color: #c4c4c4;
   color: #2f2f2f;
 }
 
-.c4.btn-default[disabled],
-.c4.btn-default.disabled {
+.c5.btn-default[disabled],
+.c5.btn-default.disabled {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c4.btn-default[disabled]:hover,
-.c4.btn-default.disabled:hover {
+.c5.btn-default[disabled]:hover,
+.c5.btn-default.disabled:hover {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c4.btn-info {
+.c5.btn-info {
   background-color: #0063be;
   border-color: #3970c2;
   color: rgb(249,250,252);
@@ -89,39 +89,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-info:hover {
+.c5.btn-info:hover {
   background-color: #0c5cb0;
   border-color: #3668b3;
   color: #e6e7e9;
 }
 
-.c4.btn-info.active {
+.c5.btn-info.active {
   background-color: #517cc5;
   border-color: #6386c9;
   color: rgb(249,250,252);
 }
 
-.c4.btn-info.active:hover {
+.c5.btn-info.active:hover {
   background-color: #4b73b6;
   border-color: #5c7dba;
   color: #e6e7e9;
 }
 
-.c4.btn-info[disabled],
-.c4.btn-info.disabled {
+.c5.btn-info[disabled],
+.c5.btn-info.disabled {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c4.btn-info[disabled]:hover,
-.c4.btn-info.disabled:hover {
+.c5.btn-info[disabled]:hover,
+.c5.btn-info.disabled:hover {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c4.btn-link {
+.c5.btn-link {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
@@ -129,39 +129,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-link:hover {
+.c5.btn-link:hover {
   background-color: #ebebeb26;
   border-color: #ebebeb26;
   color: #68267b;
 }
 
-.c4.btn-link.active {
+.c5.btn-link.active {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #410057;
 }
 
-.c4.btn-link.active:hover {
+.c5.btn-link.active:hover {
   background-color: rgba(255,255,255,0);
   border-color: #ebebeb26;
   color: #3d0c51;
 }
 
-.c4.btn-link[disabled],
-.c4.btn-link.disabled {
+.c5.btn-link[disabled],
+.c5.btn-link.disabled {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c4.btn-link[disabled]:hover,
-.c4.btn-link.disabled:hover {
+.c5.btn-link[disabled]:hover,
+.c5.btn-link.disabled:hover {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c4.btn-primary {
+.c5.btn-primary {
   background-color: #702785;
   border-color: #7b458e;
   color: rgb(234,229,236);
@@ -169,39 +169,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-primary:hover {
+.c5.btn-primary:hover {
   background-color: #68267b;
   border-color: #724083;
   color: #d8d3da;
 }
 
-.c4.btn-primary.active {
+.c5.btn-primary.active {
   background-color: #855996;
   border-color: #8f699d;
   color: rgb(250,249,251);
 }
 
-.c4.btn-primary.active:hover {
+.c5.btn-primary.active:hover {
   background-color: #7c538b;
   border-color: #846292;
   color: #e7e6e8;
 }
 
-.c4.btn-primary[disabled],
-.c4.btn-primary.disabled {
+.c5.btn-primary[disabled],
+.c5.btn-primary.disabled {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c4.btn-primary[disabled]:hover,
-.c4.btn-primary.disabled:hover {
+.c5.btn-primary[disabled]:hover,
+.c5.btn-primary.disabled:hover {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c4.btn-success {
+.c5.btn-success {
   background-color: #00ae42;
   border-color: #39b356;
   color: rgb(249,252,249);
@@ -209,39 +209,39 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-success:hover {
+.c5.btn-success:hover {
   background-color: #0ca13e;
   border-color: #36a550;
   color: #e6e9e6;
 }
 
-.c4.btn-success.active {
+.c5.btn-success.active {
   background-color: #51b866;
   border-color: #63bc74;
   color: rgb(249,252,250);
 }
 
-.c4.btn-success.active:hover {
+.c5.btn-success.active:hover {
   background-color: #4baa5f;
   border-color: #5cae6c;
   color: #e6e9e7;
 }
 
-.c4.btn-success[disabled],
-.c4.btn-success.disabled {
+.c5.btn-success[disabled],
+.c5.btn-success.disabled {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c4.btn-success[disabled]:hover,
-.c4.btn-success.disabled:hover {
+.c5.btn-success[disabled]:hover,
+.c5.btn-success.disabled:hover {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c4.btn-warning {
+.c5.btn-warning {
   background-color: #ffd200;
   border-color: #f9cd07;
   color: rgb(57,47,0);
@@ -249,179 +249,187 @@ exports[`<GrokPatternInput /> should render grok pattern input with patterns 1`]
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c4.btn-warning:hover {
+.c5.btn-warning:hover {
   background-color: #ebc20c;
   border-color: #e6bd0e;
   color: #362d0c;
 }
 
-.c4.btn-warning.active {
+.c5.btn-warning.active {
   background-color: #f2c70a;
   border-color: #ebc20c;
   color: rgb(54,45,2);
 }
 
-.c4.btn-warning.active:hover {
+.c5.btn-warning.active:hover {
   background-color: #e0b80f;
   border-color: #d9b310;
   color: #332b0c;
 }
 
-.c4.btn-warning[disabled],
-.c4.btn-warning.disabled {
+.c5.btn-warning[disabled],
+.c5.btn-warning.disabled {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c4.btn-warning[disabled]:hover,
-.c4.btn-warning.disabled:hover {
+.c5.btn-warning[disabled]:hover,
+.c5.btn-warning.disabled:hover {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c0 {
+.c1 {
   color: #1f1f1f;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.c1 {
+.c2.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c2.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c2.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c2.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c2.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c2.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c2.form-control[disabled],
+.c2.form-control[readonly],
+fieldset[disabled] .c2.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c2.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
-.c2 {
+.c3 {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   color: #838383;
 }
 
-.c3 {
+.c4 {
   background-color: #fff;
   border-color: #cdcdcd;
 }
 
-.c3 .list-group-item-heading {
+.c4 .list-group-item-heading {
   font-weight: bold;
 }
 
-.c3.disabled,
-.c3.disabled:hover,
-.c3.disabled:focus {
+.c4.disabled,
+.c4.disabled:hover,
+.c4.disabled:focus {
   color: #9b9b9b;
   background-color: #e6e6e6;
 }
 
-.c3.disabled .list-group-item-heading,
-.c3.disabled:hover .list-group-item-heading,
-.c3.disabled:focus .list-group-item-heading {
+.c4.disabled .list-group-item-heading,
+.c4.disabled:hover .list-group-item-heading,
+.c4.disabled:focus .list-group-item-heading {
   color: inherit;
   font-weight: bold;
 }
 
-.c3.disabled .list-group-item-text,
-.c3.disabled:hover .list-group-item-text,
-.c3.disabled:focus .list-group-item-text {
+.c4.disabled .list-group-item-text,
+.c4.disabled:hover .list-group-item-text,
+.c4.disabled:focus .list-group-item-text {
   color: #9b9b9b;
 }
 
-.c3.active,
-.c3.active:hover,
-.c3.active:focus {
+.c4.active,
+.c4.active:hover,
+.c4.active:focus {
   color: #ffffff;
   background-color: #9b7ca8;
   border-color: #9b7ca8;
   z-index: auto;
 }
 
-.c3.active .list-group-item-heading,
-.c3.active:hover .list-group-item-heading,
-.c3.active:focus .list-group-item-heading,
-.c3.active .list-group-item-heading > small,
-.c3.active:hover .list-group-item-heading > small,
-.c3.active:focus .list-group-item-heading > small,
-.c3.active .list-group-item-heading > .small,
-.c3.active:hover .list-group-item-heading > .small,
-.c3.active:focus .list-group-item-heading > .small {
+.c4.active .list-group-item-heading,
+.c4.active:hover .list-group-item-heading,
+.c4.active:focus .list-group-item-heading,
+.c4.active .list-group-item-heading > small,
+.c4.active:hover .list-group-item-heading > small,
+.c4.active:focus .list-group-item-heading > small,
+.c4.active .list-group-item-heading > .small,
+.c4.active:hover .list-group-item-heading > .small,
+.c4.active:focus .list-group-item-heading > .small {
   color: inherit;
   font-weight: bold;
 }
 
-.c3.active .list-group-item-text,
-.c3.active:hover .list-group-item-text,
-.c3.active:focus .list-group-item-text {
+.c4.active .list-group-item-text,
+.c4.active:hover .list-group-item-text,
+.c4.active:focus .list-group-item-text {
   color: #9b7ca8;
 }
 
-a.c3,
-button.c3 {
+a.c4,
+button.c4 {
   color: #702785;
 }
 
-a.c3 .list-group-item-heading,
-button.c3 .list-group-item-heading {
+a.c4 .list-group-item-heading,
+button.c4 .list-group-item-heading {
   color: #383838;
   font-weight: bold;
 }
 
-a.c3:hover:not(.disabled),
-button.c3:hover:not(.disabled),
-a.c3:focus:not(.disabled),
-button.c3:focus:not(.disabled) {
+a.c4:hover:not(.disabled),
+button.c4:hover:not(.disabled),
+a.c4:focus:not(.disabled),
+button.c4:focus:not(.disabled) {
   background-color: #6a6a6a;
   color: #fff;
 }
 
-a.c3:hover:not(.disabled).active,
-button.c3:hover:not(.disabled).active,
-a.c3:focus:not(.disabled).active,
-button.c3:focus:not(.disabled).active {
+a.c4:hover:not(.disabled).active,
+button.c4:hover:not(.disabled).active,
+a.c4:focus:not(.disabled).active,
+button.c4:focus:not(.disabled).active {
   color: #fff;
   border-color: #702785;
   background-color: #702785;
 }
 
-a.c3:hover:not(.disabled) .list-group-item-heading,
-button.c3:hover:not(.disabled) .list-group-item-heading,
-a.c3:focus:not(.disabled) .list-group-item-heading,
-button.c3:focus:not(.disabled) .list-group-item-heading {
+a.c4:hover:not(.disabled) .list-group-item-heading,
+button.c4:hover:not(.disabled) .list-group-item-heading,
+a.c4:focus:not(.disabled) .list-group-item-heading,
+button.c4:focus:not(.disabled) .list-group-item-heading {
   color: #fff;
+}
+
+.c0.content {
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 9px;
+  border-radius: 4px;
 }
 
 <GrokPatternInput
@@ -446,83 +454,72 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
   }
 >
   <Row
-    bsClass="row"
     className=""
-    componentClass="div"
   >
-    <div
-      className="row"
+    <Row
+      bsClass="row"
+      className="c0"
+      componentClass="div"
     >
-      <Col
-        bsClass="col"
-        componentClass="div"
-        sm={8}
+      <div
+        className="c0 row"
       >
-        <div
-          className="col-sm-8"
+        <Col
+          bsClass="col"
+          componentClass="div"
+          sm={8}
         >
-          <Input
-            addonAfter={null}
-            bsStyle={null}
-            buttonAfter={null}
-            help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
-            id="pattern-input"
-            label="Pattern"
-            onChange={[Function]}
-            placeholder=""
-            required={true}
-            rows={9}
-            type="textarea"
-            value=""
+          <div
+            className="col-sm-8"
           >
-            <Component
-              controlId="pattern-input"
-              validationState={null}
+            <Input
+              addonAfter={null}
+              bsStyle={null}
+              buttonAfter={null}
+              help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
+              id="pattern-input"
+              label="Pattern"
+              onChange={[Function]}
+              placeholder=""
+              required={true}
+              rows={9}
+              type="textarea"
+              value=""
             >
-              <FormGroup__StyledFormGroup
+              <Component
                 controlId="pattern-input"
                 validationState={null}
               >
-                <FormGroup
-                  bsClass="form-group"
-                  className=""
+                <FormGroup__StyledFormGroup
                   controlId="pattern-input"
                   validationState={null}
                 >
-                  <div
-                    className="form-group"
+                  <FormGroup
+                    bsClass="form-group"
+                    className=""
+                    controlId="pattern-input"
+                    validationState={null}
                   >
-                    <ControlLabel>
-                      <ControlLabel
-                        bsClass="control-label"
-                        className="c0"
-                        srOnly={false}
-                      >
-                        <label
-                          className="c0 control-label"
-                          htmlFor="pattern-input"
+                    <div
+                      className="form-group"
+                    >
+                      <ControlLabel>
+                        <ControlLabel
+                          bsClass="control-label"
+                          className="c1"
+                          srOnly={false}
                         >
-                          Pattern
-                        </label>
+                          <label
+                            className="c1 control-label"
+                            htmlFor="pattern-input"
+                          >
+                            Pattern
+                          </label>
+                        </ControlLabel>
                       </ControlLabel>
-                    </ControlLabel>
-                    <InputWrapper>
-                      <span>
-                        <FormControl
-                          componentClass="textarea"
-                          inputRef={[Function]}
-                          label="Pattern"
-                          name="pattern-input"
-                          onChange={[Function]}
-                          placeholder=""
-                          required={true}
-                          rows={9}
-                          type="textarea"
-                          value=""
-                        >
+                      <InputWrapper>
+                        <span>
                           <FormControl
-                            bsClass="form-control"
-                            className="c1"
                             componentClass="textarea"
                             inputRef={[Function]}
                             label="Pattern"
@@ -534,9 +531,11 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                             type="textarea"
                             value=""
                           >
-                            <textarea
-                              className="c1 form-control"
-                              id="pattern-input"
+                            <FormControl
+                              bsClass="form-control"
+                              className="c2"
+                              componentClass="textarea"
+                              inputRef={[Function]}
                               label="Pattern"
                               name="pattern-input"
                               onChange={[Function]}
@@ -545,123 +544,121 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                               rows={9}
                               type="textarea"
                               value=""
-                            />
-                          </FormControl>
-                        </FormControl>
-                        <HelpBlock>
-                          <HelpBlock
-                            bsClass="help-block"
-                            className="c2"
-                          >
-                            <span
-                              className="c2 help-block"
                             >
-                              The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
-                            </span>
+                              <textarea
+                                className="c2 form-control"
+                                id="pattern-input"
+                                label="Pattern"
+                                name="pattern-input"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                rows={9}
+                                type="textarea"
+                                value=""
+                              />
+                            </FormControl>
+                          </FormControl>
+                          <HelpBlock>
+                            <HelpBlock
+                              bsClass="help-block"
+                              className="c3"
+                            >
+                              <span
+                                className="c3 help-block"
+                              >
+                                The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
+                              </span>
+                            </HelpBlock>
                           </HelpBlock>
-                        </HelpBlock>
-                      </span>
-                    </InputWrapper>
-                  </div>
-                </FormGroup>
-              </FormGroup__StyledFormGroup>
-            </Component>
-          </Input>
-        </div>
-      </Col>
-      <Col
-        bsClass="col"
-        componentClass="div"
-        sm={4}
-      >
-        <div
-          className="col-sm-4"
+                        </span>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
+                </FormGroup__StyledFormGroup>
+              </Component>
+            </Input>
+          </div>
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          sm={4}
         >
-          <GrokPatternFilter
-            addToPattern={[Function]}
-            patterns={
-              Array [
-                Object {
-                  "name": "COMMONMAC",
-                  "pattern": "(?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})",
-                },
-                Object {
-                  "name": "DATA",
-                  "pattern": ".*?",
-                },
-                Object {
-                  "name": "DATE",
-                  "pattern": "%{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}",
-                },
-              ]
-            }
+          <div
+            className="col-sm-4"
           >
-            <Input
-              addonAfter={null}
-              autoComplete="off"
-              bsStyle={null}
-              buttonAfter={null}
-              formGroupClassName="filterFormGroup"
-              help=""
-              id="pattern-selector"
-              label="Filter pattern"
-              onChange={[Function]}
-              onKeyDown={[Function]}
-              placeholder=""
-              type="text"
-              value=""
+            <GrokPatternFilter
+              addToPattern={[Function]}
+              patterns={
+                Array [
+                  Object {
+                    "name": "COMMONMAC",
+                    "pattern": "(?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})",
+                  },
+                  Object {
+                    "name": "DATA",
+                    "pattern": ".*?",
+                  },
+                  Object {
+                    "name": "DATE",
+                    "pattern": "%{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}",
+                  },
+                ]
+              }
             >
-              <Component
-                bsClass="filterFormGroup"
-                controlId="pattern-selector"
-                validationState={null}
+              <Input
+                addonAfter={null}
+                autoComplete="off"
+                bsStyle={null}
+                buttonAfter={null}
+                formGroupClassName="filterFormGroup"
+                help=""
+                id="pattern-selector"
+                label="Filter pattern"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                type="text"
+                value=""
               >
-                <FormGroup__StyledFormGroup
+                <Component
                   bsClass="filterFormGroup"
                   controlId="pattern-selector"
                   validationState={null}
                 >
-                  <FormGroup
+                  <FormGroup__StyledFormGroup
                     bsClass="filterFormGroup"
-                    className=""
                     controlId="pattern-selector"
                     validationState={null}
                   >
-                    <div
-                      className="filterFormGroup"
+                    <FormGroup
+                      bsClass="filterFormGroup"
+                      className=""
+                      controlId="pattern-selector"
+                      validationState={null}
                     >
-                      <ControlLabel>
-                        <ControlLabel
-                          bsClass="control-label"
-                          className="c0"
-                          srOnly={false}
-                        >
-                          <label
-                            className="c0 control-label"
-                            htmlFor="pattern-selector"
+                      <div
+                        className="filterFormGroup"
+                      >
+                        <ControlLabel>
+                          <ControlLabel
+                            bsClass="control-label"
+                            className="c1"
+                            srOnly={false}
                           >
-                            Filter pattern
-                          </label>
+                            <label
+                              className="c1 control-label"
+                              htmlFor="pattern-selector"
+                            >
+                              Filter pattern
+                            </label>
+                          </ControlLabel>
                         </ControlLabel>
-                      </ControlLabel>
-                      <InputWrapper>
-                        <span>
-                          <FormControl
-                            autoComplete="off"
-                            componentClass="input"
-                            inputRef={[Function]}
-                            label="Filter pattern"
-                            name="pattern-selector"
-                            onChange={[Function]}
-                            onKeyDown={[Function]}
-                            placeholder=""
-                            type="text"
-                            value=""
-                          >
+                        <InputWrapper>
+                          <span>
                             <FormControl
                               autoComplete="off"
-                              bsClass="form-control"
-                              className="c1"
                               componentClass="input"
                               inputRef={[Function]}
                               label="Filter pattern"
@@ -672,10 +669,12 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                               type="text"
                               value=""
                             >
-                              <input
+                              <FormControl
                                 autoComplete="off"
-                                className="c1 form-control"
-                                id="pattern-selector"
+                                bsClass="form-control"
+                                className="c2"
+                                componentClass="input"
+                                inputRef={[Function]}
                                 label="Filter pattern"
                                 name="pattern-selector"
                                 onChange={[Function]}
@@ -683,71 +682,78 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                 placeholder=""
                                 type="text"
                                 value=""
-                              />
+                              >
+                                <input
+                                  autoComplete="off"
+                                  className="c2 form-control"
+                                  id="pattern-selector"
+                                  label="Filter pattern"
+                                  name="pattern-selector"
+                                  onChange={[Function]}
+                                  onKeyDown={[Function]}
+                                  placeholder=""
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
                             </FormControl>
-                          </FormControl>
-                        </span>
-                      </InputWrapper>
-                    </div>
-                  </FormGroup>
-                </FormGroup__StyledFormGroup>
-              </Component>
-            </Input>
-            <ListGroup
-              bsClass="resultList"
-            >
+                          </span>
+                        </InputWrapper>
+                      </div>
+                    </FormGroup>
+                  </FormGroup__StyledFormGroup>
+                </Component>
+              </Input>
               <ListGroup
                 bsClass="resultList"
               >
-                <div
-                  className="resultList"
+                <ListGroup
+                  bsClass="resultList"
                 >
-                  <ForwardRef
-                    header="COMMONMAC"
-                    id="list-item-0"
-                    key="COMMONMAC"
-                    onKeyDown={[Function]}
+                  <div
+                    className="resultList"
                   >
-                    <ListGroupItem__StyledListGroupItem
+                    <ForwardRef
                       header="COMMONMAC"
                       id="list-item-0"
+                      key="COMMONMAC"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem
-                        bsClass="list-group-item"
-                        className="c3"
+                      <ListGroupItem__StyledListGroupItem
                         header="COMMONMAC"
                         id="list-item-0"
-                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <span
-                          className="c3 list-group-item"
+                        <ListGroupItem
+                          bsClass="list-group-item"
+                          className="c4"
+                          header="COMMONMAC"
                           id="list-item-0"
+                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <h4
-                            className="list-group-item-heading"
+                          <span
+                            className="c4 list-group-item"
+                            id="list-item-0"
+                            onKeyDown={[Function]}
                           >
-                            COMMONMAC
-                          </h4>
-                          <p
-                            className="list-group-item-text"
-                          >
-                            <span
-                              className="patternDisplay"
+                            <h4
+                              className="list-group-item-heading"
                             >
-                              (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})
-                            </span>
-                            <span
-                              className="addButton"
+                              COMMONMAC
+                            </h4>
+                            <p
+                              className="list-group-item-text"
                             >
-                              <ForwardRef
-                                bsSize="xsmall"
-                                bsStyle="primary"
-                                onClick={[Function]}
+                              <span
+                                className="patternDisplay"
                               >
-                                <Button__StyledButton
+                                (?:(?:[A-Fa-f0-9]{2}:){5}[A-Fa-f0-9]{2})
+                              </span>
+                              <span
+                                className="addButton"
+                              >
+                                <Button
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -758,12 +764,12 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="c4"
+                                    className="c5"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="c4 btn btn-xs btn-primary"
+                                      className="c5 btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -771,60 +777,54 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                       Add
                                     </button>
                                   </Button>
-                                </Button__StyledButton>
-                              </ForwardRef>
-                            </span>
-                          </p>
-                        </span>
-                      </ListGroupItem>
-                    </ListGroupItem__StyledListGroupItem>
-                  </ForwardRef>
-                  <ForwardRef
-                    header="DATA"
-                    id="list-item-1"
-                    key="DATA"
-                    onKeyDown={[Function]}
-                  >
-                    <ListGroupItem__StyledListGroupItem
+                                </Button>
+                              </span>
+                            </p>
+                          </span>
+                        </ListGroupItem>
+                      </ListGroupItem__StyledListGroupItem>
+                    </ForwardRef>
+                    <ForwardRef
                       header="DATA"
                       id="list-item-1"
+                      key="DATA"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem
-                        bsClass="list-group-item"
-                        className="c3"
+                      <ListGroupItem__StyledListGroupItem
                         header="DATA"
                         id="list-item-1"
-                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <span
-                          className="c3 list-group-item"
+                        <ListGroupItem
+                          bsClass="list-group-item"
+                          className="c4"
+                          header="DATA"
                           id="list-item-1"
+                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <h4
-                            className="list-group-item-heading"
+                          <span
+                            className="c4 list-group-item"
+                            id="list-item-1"
+                            onKeyDown={[Function]}
                           >
-                            DATA
-                          </h4>
-                          <p
-                            className="list-group-item-text"
-                          >
-                            <span
-                              className="patternDisplay"
+                            <h4
+                              className="list-group-item-heading"
                             >
-                              .*?
-                            </span>
-                            <span
-                              className="addButton"
+                              DATA
+                            </h4>
+                            <p
+                              className="list-group-item-text"
                             >
-                              <ForwardRef
-                                bsSize="xsmall"
-                                bsStyle="primary"
-                                onClick={[Function]}
+                              <span
+                                className="patternDisplay"
                               >
-                                <Button__StyledButton
+                                .*?
+                              </span>
+                              <span
+                                className="addButton"
+                              >
+                                <Button
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -835,12 +835,12 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="c4"
+                                    className="c5"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="c4 btn btn-xs btn-primary"
+                                      className="c5 btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -848,60 +848,54 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                       Add
                                     </button>
                                   </Button>
-                                </Button__StyledButton>
-                              </ForwardRef>
-                            </span>
-                          </p>
-                        </span>
-                      </ListGroupItem>
-                    </ListGroupItem__StyledListGroupItem>
-                  </ForwardRef>
-                  <ForwardRef
-                    header="DATE"
-                    id="list-item-2"
-                    key="DATE"
-                    onKeyDown={[Function]}
-                  >
-                    <ListGroupItem__StyledListGroupItem
+                                </Button>
+                              </span>
+                            </p>
+                          </span>
+                        </ListGroupItem>
+                      </ListGroupItem__StyledListGroupItem>
+                    </ForwardRef>
+                    <ForwardRef
                       header="DATE"
                       id="list-item-2"
+                      key="DATE"
                       onKeyDown={[Function]}
                     >
-                      <ListGroupItem
-                        bsClass="list-group-item"
-                        className="c3"
+                      <ListGroupItem__StyledListGroupItem
                         header="DATE"
                         id="list-item-2"
-                        listItem={false}
                         onKeyDown={[Function]}
                       >
-                        <span
-                          className="c3 list-group-item"
+                        <ListGroupItem
+                          bsClass="list-group-item"
+                          className="c4"
+                          header="DATE"
                           id="list-item-2"
+                          listItem={false}
                           onKeyDown={[Function]}
                         >
-                          <h4
-                            className="list-group-item-heading"
+                          <span
+                            className="c4 list-group-item"
+                            id="list-item-2"
+                            onKeyDown={[Function]}
                           >
-                            DATE
-                          </h4>
-                          <p
-                            className="list-group-item-text"
-                          >
-                            <span
-                              className="patternDisplay"
+                            <h4
+                              className="list-group-item-heading"
                             >
-                              %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}
-                            </span>
-                            <span
-                              className="addButton"
+                              DATE
+                            </h4>
+                            <p
+                              className="list-group-item-text"
                             >
-                              <ForwardRef
-                                bsSize="xsmall"
-                                bsStyle="primary"
-                                onClick={[Function]}
+                              <span
+                                className="patternDisplay"
                               >
-                                <Button__StyledButton
+                                %{MONTHDAY}[./-]%{MONTHNUM}[./-]%{YEAR}
+                              </span>
+                              <span
+                                className="addButton"
+                              >
+                                <Button
                                   bsSize="xsmall"
                                   bsStyle="primary"
                                   onClick={[Function]}
@@ -912,12 +906,12 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                     bsClass="btn"
                                     bsSize="xsmall"
                                     bsStyle="primary"
-                                    className="c4"
+                                    className="c5"
                                     disabled={false}
                                     onClick={[Function]}
                                   >
                                     <button
-                                      className="c4 btn btn-xs btn-primary"
+                                      className="c5 btn btn-xs btn-primary"
                                       disabled={false}
                                       onClick={[Function]}
                                       type="button"
@@ -925,75 +919,83 @@ button.c3:focus:not(.disabled) .list-group-item-heading {
                                       Add
                                     </button>
                                   </Button>
-                                </Button__StyledButton>
-                              </ForwardRef>
-                            </span>
-                          </p>
-                        </span>
-                      </ListGroupItem>
-                    </ListGroupItem__StyledListGroupItem>
-                  </ForwardRef>
-                </div>
+                                </Button>
+                              </span>
+                            </p>
+                          </span>
+                        </ListGroupItem>
+                      </ListGroupItem__StyledListGroupItem>
+                    </ForwardRef>
+                  </div>
+                </ListGroup>
               </ListGroup>
-            </ListGroup>
-          </GrokPatternFilter>
-        </div>
-      </Col>
-    </div>
+            </GrokPatternFilter>
+          </div>
+        </Col>
+      </div>
+    </Row>
   </Row>
 </GrokPatternInput>
 `;
 
 exports[`<GrokPatternInput /> should render grok pattern input without patterns 1`] = `
-.c0 {
+.c1 {
   color: #1f1f1f;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.c1 {
+.c2.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c2.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c2.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c2.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c2.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c2.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c2.form-control[disabled],
+.c2.form-control[readonly],
+fieldset[disabled] .c2.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c2.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
-.c2 {
+.c3 {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   color: #838383;
+}
+
+.c0.content {
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 9px;
+  border-radius: 4px;
 }
 
 <GrokPatternInput
@@ -1003,83 +1005,72 @@ fieldset[disabled] .c1 {
   patterns={Array []}
 >
   <Row
-    bsClass="row"
     className=""
-    componentClass="div"
   >
-    <div
-      className="row"
+    <Row
+      bsClass="row"
+      className="c0"
+      componentClass="div"
     >
-      <Col
-        bsClass="col"
-        componentClass="div"
-        sm={8}
+      <div
+        className="c0 row"
       >
-        <div
-          className="col-sm-8"
+        <Col
+          bsClass="col"
+          componentClass="div"
+          sm={8}
         >
-          <Input
-            addonAfter={null}
-            bsStyle={null}
-            buttonAfter={null}
-            help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
-            id="pattern-input"
-            label="Pattern"
-            onChange={[Function]}
-            placeholder=""
-            required={true}
-            rows={9}
-            type="textarea"
-            value=""
+          <div
+            className="col-sm-8"
           >
-            <Component
-              controlId="pattern-input"
-              validationState={null}
+            <Input
+              addonAfter={null}
+              bsStyle={null}
+              buttonAfter={null}
+              help="The pattern which will match the log line e.g: '%{IP:client}' or '.*?'"
+              id="pattern-input"
+              label="Pattern"
+              onChange={[Function]}
+              placeholder=""
+              required={true}
+              rows={9}
+              type="textarea"
+              value=""
             >
-              <FormGroup__StyledFormGroup
+              <Component
                 controlId="pattern-input"
                 validationState={null}
               >
-                <FormGroup
-                  bsClass="form-group"
-                  className=""
+                <FormGroup__StyledFormGroup
                   controlId="pattern-input"
                   validationState={null}
                 >
-                  <div
-                    className="form-group"
+                  <FormGroup
+                    bsClass="form-group"
+                    className=""
+                    controlId="pattern-input"
+                    validationState={null}
                   >
-                    <ControlLabel>
-                      <ControlLabel
-                        bsClass="control-label"
-                        className="c0"
-                        srOnly={false}
-                      >
-                        <label
-                          className="c0 control-label"
-                          htmlFor="pattern-input"
+                    <div
+                      className="form-group"
+                    >
+                      <ControlLabel>
+                        <ControlLabel
+                          bsClass="control-label"
+                          className="c1"
+                          srOnly={false}
                         >
-                          Pattern
-                        </label>
+                          <label
+                            className="c1 control-label"
+                            htmlFor="pattern-input"
+                          >
+                            Pattern
+                          </label>
+                        </ControlLabel>
                       </ControlLabel>
-                    </ControlLabel>
-                    <InputWrapper>
-                      <span>
-                        <FormControl
-                          componentClass="textarea"
-                          inputRef={[Function]}
-                          label="Pattern"
-                          name="pattern-input"
-                          onChange={[Function]}
-                          placeholder=""
-                          required={true}
-                          rows={9}
-                          type="textarea"
-                          value=""
-                        >
+                      <InputWrapper>
+                        <span>
                           <FormControl
-                            bsClass="form-control"
-                            className="c1"
                             componentClass="textarea"
                             inputRef={[Function]}
                             label="Pattern"
@@ -1091,9 +1082,11 @@ fieldset[disabled] .c1 {
                             type="textarea"
                             value=""
                           >
-                            <textarea
-                              className="c1 form-control"
-                              id="pattern-input"
+                            <FormControl
+                              bsClass="form-control"
+                              className="c2"
+                              componentClass="textarea"
+                              inputRef={[Function]}
                               label="Pattern"
                               name="pattern-input"
                               onChange={[Function]}
@@ -1102,108 +1095,106 @@ fieldset[disabled] .c1 {
                               rows={9}
                               type="textarea"
                               value=""
-                            />
-                          </FormControl>
-                        </FormControl>
-                        <HelpBlock>
-                          <HelpBlock
-                            bsClass="help-block"
-                            className="c2"
-                          >
-                            <span
-                              className="c2 help-block"
                             >
-                              The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
-                            </span>
+                              <textarea
+                                className="c2 form-control"
+                                id="pattern-input"
+                                label="Pattern"
+                                name="pattern-input"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                rows={9}
+                                type="textarea"
+                                value=""
+                              />
+                            </FormControl>
+                          </FormControl>
+                          <HelpBlock>
+                            <HelpBlock
+                              bsClass="help-block"
+                              className="c3"
+                            >
+                              <span
+                                className="c3 help-block"
+                              >
+                                The pattern which will match the log line e.g: '%{IP:client}' or '.*?'
+                              </span>
+                            </HelpBlock>
                           </HelpBlock>
-                        </HelpBlock>
-                      </span>
-                    </InputWrapper>
-                  </div>
-                </FormGroup>
-              </FormGroup__StyledFormGroup>
-            </Component>
-          </Input>
-        </div>
-      </Col>
-      <Col
-        bsClass="col"
-        componentClass="div"
-        sm={4}
-      >
-        <div
-          className="col-sm-4"
+                        </span>
+                      </InputWrapper>
+                    </div>
+                  </FormGroup>
+                </FormGroup__StyledFormGroup>
+              </Component>
+            </Input>
+          </div>
+        </Col>
+        <Col
+          bsClass="col"
+          componentClass="div"
+          sm={4}
         >
-          <GrokPatternFilter
-            addToPattern={[Function]}
-            patterns={Array []}
+          <div
+            className="col-sm-4"
           >
-            <Input
-              addonAfter={null}
-              autoComplete="off"
-              bsStyle={null}
-              buttonAfter={null}
-              formGroupClassName="filterFormGroup"
-              help=""
-              id="pattern-selector"
-              label="Filter pattern"
-              onChange={[Function]}
-              onKeyDown={[Function]}
-              placeholder=""
-              type="text"
-              value=""
+            <GrokPatternFilter
+              addToPattern={[Function]}
+              patterns={Array []}
             >
-              <Component
-                bsClass="filterFormGroup"
-                controlId="pattern-selector"
-                validationState={null}
+              <Input
+                addonAfter={null}
+                autoComplete="off"
+                bsStyle={null}
+                buttonAfter={null}
+                formGroupClassName="filterFormGroup"
+                help=""
+                id="pattern-selector"
+                label="Filter pattern"
+                onChange={[Function]}
+                onKeyDown={[Function]}
+                placeholder=""
+                type="text"
+                value=""
               >
-                <FormGroup__StyledFormGroup
+                <Component
                   bsClass="filterFormGroup"
                   controlId="pattern-selector"
                   validationState={null}
                 >
-                  <FormGroup
+                  <FormGroup__StyledFormGroup
                     bsClass="filterFormGroup"
-                    className=""
                     controlId="pattern-selector"
                     validationState={null}
                   >
-                    <div
-                      className="filterFormGroup"
+                    <FormGroup
+                      bsClass="filterFormGroup"
+                      className=""
+                      controlId="pattern-selector"
+                      validationState={null}
                     >
-                      <ControlLabel>
-                        <ControlLabel
-                          bsClass="control-label"
-                          className="c0"
-                          srOnly={false}
-                        >
-                          <label
-                            className="c0 control-label"
-                            htmlFor="pattern-selector"
+                      <div
+                        className="filterFormGroup"
+                      >
+                        <ControlLabel>
+                          <ControlLabel
+                            bsClass="control-label"
+                            className="c1"
+                            srOnly={false}
                           >
-                            Filter pattern
-                          </label>
+                            <label
+                              className="c1 control-label"
+                              htmlFor="pattern-selector"
+                            >
+                              Filter pattern
+                            </label>
+                          </ControlLabel>
                         </ControlLabel>
-                      </ControlLabel>
-                      <InputWrapper>
-                        <span>
-                          <FormControl
-                            autoComplete="off"
-                            componentClass="input"
-                            inputRef={[Function]}
-                            label="Filter pattern"
-                            name="pattern-selector"
-                            onChange={[Function]}
-                            onKeyDown={[Function]}
-                            placeholder=""
-                            type="text"
-                            value=""
-                          >
+                        <InputWrapper>
+                          <span>
                             <FormControl
                               autoComplete="off"
-                              bsClass="form-control"
-                              className="c1"
                               componentClass="input"
                               inputRef={[Function]}
                               label="Filter pattern"
@@ -1214,10 +1205,12 @@ fieldset[disabled] .c1 {
                               type="text"
                               value=""
                             >
-                              <input
+                              <FormControl
                                 autoComplete="off"
-                                className="c1 form-control"
-                                id="pattern-selector"
+                                bsClass="form-control"
+                                className="c2"
+                                componentClass="input"
+                                inputRef={[Function]}
                                 label="Filter pattern"
                                 name="pattern-selector"
                                 onChange={[Function]}
@@ -1225,31 +1218,44 @@ fieldset[disabled] .c1 {
                                 placeholder=""
                                 type="text"
                                 value=""
-                              />
+                              >
+                                <input
+                                  autoComplete="off"
+                                  className="c2 form-control"
+                                  id="pattern-selector"
+                                  label="Filter pattern"
+                                  name="pattern-selector"
+                                  onChange={[Function]}
+                                  onKeyDown={[Function]}
+                                  placeholder=""
+                                  type="text"
+                                  value=""
+                                />
+                              </FormControl>
                             </FormControl>
-                          </FormControl>
-                        </span>
-                      </InputWrapper>
-                    </div>
-                  </FormGroup>
-                </FormGroup__StyledFormGroup>
-              </Component>
-            </Input>
-            <ListGroup
-              bsClass="resultList"
-            >
+                          </span>
+                        </InputWrapper>
+                      </div>
+                    </FormGroup>
+                  </FormGroup__StyledFormGroup>
+                </Component>
+              </Input>
               <ListGroup
                 bsClass="resultList"
               >
-                <ul
-                  className="resultList"
-                />
+                <ListGroup
+                  bsClass="resultList"
+                >
+                  <ul
+                    className="resultList"
+                  />
+                </ListGroup>
               </ListGroup>
-            </ListGroup>
-          </GrokPatternFilter>
-        </div>
-      </Col>
-    </div>
+            </GrokPatternFilter>
+          </div>
+        </Col>
+      </div>
+    </Row>
   </Row>
 </GrokPatternInput>
 `;

@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
-.c3.btn-danger {
+.c4.btn-danger {
   background-color: #ad0707;
   border-color: #b23939;
   color: rgb(252,249,249);
@@ -9,39 +9,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-danger:hover {
+.c4.btn-danger:hover {
   background-color: #a00e0e;
   border-color: #a53636;
   color: #e9e6e6;
 }
 
-.c3.btn-danger.active {
+.c4.btn-danger.active {
   background-color: #b75151;
   border-color: #bc6363;
   color: rgb(252,249,249);
 }
 
-.c3.btn-danger.active:hover {
+.c4.btn-danger.active:hover {
   background-color: #a94c4c;
   border-color: #ad5c5c;
   color: #e9e6e6;
 }
 
-.c3.btn-danger[disabled],
-.c3.btn-danger.disabled {
+.c4.btn-danger[disabled],
+.c4.btn-danger.disabled {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c3.btn-danger[disabled]:hover,
-.c3.btn-danger.disabled:hover {
+.c4.btn-danger[disabled]:hover,
+.c4.btn-danger.disabled:hover {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c3.btn-default {
+.c4.btn-default {
   background-color: #e6e6e6;
   border-color: #e0e0e0;
   color: rgb(73,73,73);
@@ -49,39 +49,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-default:hover {
+.c4.btn-default:hover {
   background-color: #d4d4d4;
   border-color: #cfcfcf;
   color: #444444;
 }
 
-.c3.btn-default.active {
+.c4.btn-default.active {
   background-color: #dadada;
   border-color: #d4d4d4;
   color: rgb(49,49,49);
 }
 
-.c3.btn-default.active:hover {
+.c4.btn-default.active:hover {
   background-color: #cacaca;
   border-color: #c4c4c4;
   color: #2f2f2f;
 }
 
-.c3.btn-default[disabled],
-.c3.btn-default.disabled {
+.c4.btn-default[disabled],
+.c4.btn-default.disabled {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c3.btn-default[disabled]:hover,
-.c3.btn-default.disabled:hover {
+.c4.btn-default[disabled]:hover,
+.c4.btn-default.disabled:hover {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c3.btn-info {
+.c4.btn-info {
   background-color: #0063be;
   border-color: #3970c2;
   color: rgb(249,250,252);
@@ -89,39 +89,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-info:hover {
+.c4.btn-info:hover {
   background-color: #0c5cb0;
   border-color: #3668b3;
   color: #e6e7e9;
 }
 
-.c3.btn-info.active {
+.c4.btn-info.active {
   background-color: #517cc5;
   border-color: #6386c9;
   color: rgb(249,250,252);
 }
 
-.c3.btn-info.active:hover {
+.c4.btn-info.active:hover {
   background-color: #4b73b6;
   border-color: #5c7dba;
   color: #e6e7e9;
 }
 
-.c3.btn-info[disabled],
-.c3.btn-info.disabled {
+.c4.btn-info[disabled],
+.c4.btn-info.disabled {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c3.btn-info[disabled]:hover,
-.c3.btn-info.disabled:hover {
+.c4.btn-info[disabled]:hover,
+.c4.btn-info.disabled:hover {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c3.btn-link {
+.c4.btn-link {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
@@ -129,39 +129,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-link:hover {
+.c4.btn-link:hover {
   background-color: #ebebeb26;
   border-color: #ebebeb26;
   color: #68267b;
 }
 
-.c3.btn-link.active {
+.c4.btn-link.active {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #410057;
 }
 
-.c3.btn-link.active:hover {
+.c4.btn-link.active:hover {
   background-color: rgba(255,255,255,0);
   border-color: #ebebeb26;
   color: #3d0c51;
 }
 
-.c3.btn-link[disabled],
-.c3.btn-link.disabled {
+.c4.btn-link[disabled],
+.c4.btn-link.disabled {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c3.btn-link[disabled]:hover,
-.c3.btn-link.disabled:hover {
+.c4.btn-link[disabled]:hover,
+.c4.btn-link.disabled:hover {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c3.btn-primary {
+.c4.btn-primary {
   background-color: #702785;
   border-color: #7b458e;
   color: rgb(234,229,236);
@@ -169,39 +169,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-primary:hover {
+.c4.btn-primary:hover {
   background-color: #68267b;
   border-color: #724083;
   color: #d8d3da;
 }
 
-.c3.btn-primary.active {
+.c4.btn-primary.active {
   background-color: #855996;
   border-color: #8f699d;
   color: rgb(250,249,251);
 }
 
-.c3.btn-primary.active:hover {
+.c4.btn-primary.active:hover {
   background-color: #7c538b;
   border-color: #846292;
   color: #e7e6e8;
 }
 
-.c3.btn-primary[disabled],
-.c3.btn-primary.disabled {
+.c4.btn-primary[disabled],
+.c4.btn-primary.disabled {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c3.btn-primary[disabled]:hover,
-.c3.btn-primary.disabled:hover {
+.c4.btn-primary[disabled]:hover,
+.c4.btn-primary.disabled:hover {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c3.btn-success {
+.c4.btn-success {
   background-color: #00ae42;
   border-color: #39b356;
   color: rgb(249,252,249);
@@ -209,39 +209,39 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-success:hover {
+.c4.btn-success:hover {
   background-color: #0ca13e;
   border-color: #36a550;
   color: #e6e9e6;
 }
 
-.c3.btn-success.active {
+.c4.btn-success.active {
   background-color: #51b866;
   border-color: #63bc74;
   color: rgb(249,252,250);
 }
 
-.c3.btn-success.active:hover {
+.c4.btn-success.active:hover {
   background-color: #4baa5f;
   border-color: #5cae6c;
   color: #e6e9e7;
 }
 
-.c3.btn-success[disabled],
-.c3.btn-success.disabled {
+.c4.btn-success[disabled],
+.c4.btn-success.disabled {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c3.btn-success[disabled]:hover,
-.c3.btn-success.disabled:hover {
+.c4.btn-success[disabled]:hover,
+.c4.btn-success.disabled:hover {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c3.btn-warning {
+.c4.btn-warning {
   background-color: #ffd200;
   border-color: #f9cd07;
   color: rgb(57,47,0);
@@ -249,87 +249,95 @@ exports[`<ContentPackSelection /> should render with empty content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-warning:hover {
+.c4.btn-warning:hover {
   background-color: #ebc20c;
   border-color: #e6bd0e;
   color: #362d0c;
 }
 
-.c3.btn-warning.active {
+.c4.btn-warning.active {
   background-color: #f2c70a;
   border-color: #ebc20c;
   color: rgb(54,45,2);
 }
 
-.c3.btn-warning.active:hover {
+.c4.btn-warning.active:hover {
   background-color: #e0b80f;
   border-color: #d9b310;
   color: #332b0c;
 }
 
-.c3.btn-warning[disabled],
-.c3.btn-warning.disabled {
+.c4.btn-warning[disabled],
+.c4.btn-warning.disabled {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c3.btn-warning[disabled]:hover,
-.c3.btn-warning.disabled:hover {
+.c4.btn-warning[disabled]:hover,
+.c4.btn-warning.disabled:hover {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c0 {
+.c1 {
   color: #1f1f1f;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.c1 {
+.c2.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c2.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c2.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c2.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c2.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c2.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c2.form-control[disabled],
+.c2.form-control[readonly],
+fieldset[disabled] .c2.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c2.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
-.c2 {
+.c3 {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   color: #838383;
+}
+
+.c0.content {
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 9px;
+  border-radius: 4px;
 }
 
 <ContentPackSelection
@@ -353,95 +361,83 @@ fieldset[disabled] .c1 {
   selectedEntities={Object {}}
 >
   <div>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
           >
-            <h2>
-              General Information
-            </h2>
-            <br />
-            <form
-              className="content-selection-form"
-              id="content-selection-form"
-              onSubmit={[Function]}
+            <div
+              className="col-lg-8 col-sm-offset-1"
             >
-              <fieldset>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Give a descriptive name for this content pack."
-                  id="name"
-                  label="Name"
-                  maxLength={250}
-                  name="name"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value=""
-                >
-                  <Component
-                    controlId="name"
-                    validationState={null}
+              <h2>
+                General Information
+              </h2>
+              <br />
+              <form
+                className="content-selection-form"
+                id="content-selection-form"
+                onSubmit={[Function]}
+              >
+                <fieldset>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Give a descriptive name for this content pack."
+                    id="name"
+                    label="Name"
+                    maxLength={250}
+                    name="name"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value=""
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="name"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="name"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="name"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="name"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Name
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="name"
+                                >
+                                  Name
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Name"
-                                maxLength={250}
-                                name="name"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value=""
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Name"
@@ -453,9 +449,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value=""
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="name"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Name"
                                     maxLength={250}
                                     name="name"
@@ -464,91 +462,89 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value=""
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Give a descriptive name for this content pack.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="name"
+                                      label="Name"
+                                      maxLength={250}
+                                      name="name"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Give a descriptive name for this content pack.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Give a short summary of the content pack."
-                  id="summary"
-                  label="Summary"
-                  maxLength={250}
-                  name="summary"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value=""
-                >
-                  <Component
-                    controlId="summary"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Give a short summary of the content pack."
+                    id="summary"
+                    label="Summary"
+                    maxLength={250}
+                    name="summary"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value=""
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="summary"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="summary"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="summary"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="summary"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Summary
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="summary"
+                                >
+                                  Summary
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Summary"
-                                maxLength={250}
-                                name="summary"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value=""
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Summary"
@@ -560,9 +556,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value=""
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="summary"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Summary"
                                     maxLength={250}
                                     name="summary"
@@ -571,89 +569,88 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value=""
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Give a short summary of the content pack.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="summary"
+                                      label="Summary"
+                                      maxLength={250}
+                                      name="summary"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Give a short summary of the content pack.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Give a long description of the content pack in markdown."
-                  id="description"
-                  label="Description"
-                  name="description"
-                  onChange={[Function]}
-                  placeholder=""
-                  rows={6}
-                  type="textarea"
-                  value=""
-                >
-                  <Component
-                    controlId="description"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Give a long description of the content pack in markdown."
+                    id="description"
+                    label="Description"
+                    name="description"
+                    onChange={[Function]}
+                    placeholder=""
+                    rows={6}
+                    type="textarea"
+                    value=""
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="description"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="description"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="description"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="description"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Description
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="description"
+                                >
+                                  Description
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="textarea"
-                                inputRef={[Function]}
-                                label="Description"
-                                name="description"
-                                onChange={[Function]}
-                                placeholder=""
-                                rows={6}
-                                type="textarea"
-                                value=""
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="textarea"
                                   inputRef={[Function]}
                                   label="Description"
@@ -664,9 +661,11 @@ fieldset[disabled] .c1 {
                                   type="textarea"
                                   value=""
                                 >
-                                  <textarea
-                                    className="c1 form-control"
-                                    id="description"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="textarea"
+                                    inputRef={[Function]}
                                     label="Description"
                                     name="description"
                                     onChange={[Function]}
@@ -674,91 +673,88 @@ fieldset[disabled] .c1 {
                                     rows={6}
                                     type="textarea"
                                     value=""
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Give a long description of the content pack in markdown.
-                                  </span>
+                                    <textarea
+                                      className="c2 form-control"
+                                      id="description"
+                                      label="Description"
+                                      name="description"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      rows={6}
+                                      type="textarea"
+                                      value=""
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Give a long description of the content pack in markdown.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
-                  id="vendor"
-                  label="Vendor"
-                  maxLength={250}
-                  name="vendor"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value=""
-                >
-                  <Component
-                    controlId="vendor"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
+                    id="vendor"
+                    label="Vendor"
+                    maxLength={250}
+                    name="vendor"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value=""
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="vendor"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="vendor"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="vendor"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="vendor"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Vendor
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="vendor"
+                                >
+                                  Vendor
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Vendor"
-                                maxLength={250}
-                                name="vendor"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value=""
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Vendor"
@@ -770,9 +766,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value=""
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="vendor"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Vendor"
                                     maxLength={250}
                                     name="vendor"
@@ -781,89 +779,88 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value=""
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Who did this content pack and how can they be reached, e.g. Name and email.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="vendor"
+                                      label="Vendor"
+                                      maxLength={250}
+                                      name="vendor"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value=""
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Where can I find the content pack. e.g. github url"
-                  id="url"
-                  label="URL"
-                  maxLength={250}
-                  name="url"
-                  onChange={[Function]}
-                  placeholder=""
-                  type="text"
-                  value=""
-                >
-                  <Component
-                    controlId="url"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Where can I find the content pack. e.g. github url"
+                    id="url"
+                    label="URL"
+                    maxLength={250}
+                    name="url"
+                    onChange={[Function]}
+                    placeholder=""
+                    type="text"
+                    value=""
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="url"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="url"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="url"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="url"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                URL
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="url"
+                                >
+                                  URL
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="URL"
-                                maxLength={250}
-                                name="url"
-                                onChange={[Function]}
-                                placeholder=""
-                                type="text"
-                                value=""
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="URL"
@@ -874,9 +871,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value=""
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="url"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="URL"
                                     maxLength={250}
                                     name="url"
@@ -884,140 +883,151 @@ fieldset[disabled] .c1 {
                                     placeholder=""
                                     type="text"
                                     value=""
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Where can I find the content pack. e.g. github url
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="url"
+                                      label="URL"
+                                      maxLength={250}
+                                      name="url"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      type="text"
+                                      value=""
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Where can I find the content pack. e.g. github url
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-              </fieldset>
-            </form>
-          </div>
-        </Col>
-      </div>
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                </fieldset>
+              </form>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
           >
-            <h2>
-              Content Pack selection
-            </h2>
-          </div>
-        </Col>
-      </div>
-    </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
-      >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
-        >
-          <div
-            className="col-lg-8 col-sm-offset-1"
-          >
-            <SearchForm
-              buttonLeftMargin={5}
-              focusAfterMount={false}
-              id="filter-input"
-              label={null}
-              loadingLabel="Loading..."
-              onQueryChange={[Function]}
-              onReset={[Function]}
-              onSearch={[Function]}
-              placeholder="Enter search query..."
-              query=""
-              queryHelpComponent={null}
-              queryWidth="auto"
-              resetButtonLabel="Reset"
-              searchBsStyle="default"
-              searchButtonLabel="Filter"
-              topMargin={15}
-              useLoadingState={false}
-              wrapperClass="search"
+            <div
+              className="col-lg-8 col-sm-offset-1"
             >
-              <div
-                className="search"
-                style={
-                  Object {
-                    "marginTop": 15,
-                  }
-                }
+              <h2>
+                Content Pack selection
+              </h2>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </Row>
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
+      >
+        <div
+          className="c0 row"
+        >
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
+          >
+            <div
+              className="col-lg-8 col-sm-offset-1"
+            >
+              <SearchForm
+                buttonLeftMargin={5}
+                focusAfterMount={false}
+                id="filter-input"
+                label={null}
+                loadingLabel="Loading..."
+                onQueryChange={[Function]}
+                onReset={[Function]}
+                onSearch={[Function]}
+                placeholder="Enter search query..."
+                query=""
+                queryHelpComponent={null}
+                queryWidth="auto"
+                resetButtonLabel="Reset"
+                searchBsStyle="default"
+                searchButtonLabel="Filter"
+                topMargin={15}
+                useLoadingState={false}
+                wrapperClass="search"
               >
-                <form
-                  className="form-inline"
-                  onSubmit={[Function]}
+                <div
+                  className="search"
+                  style={
+                    Object {
+                      "marginTop": 15,
+                    }
+                  }
                 >
-                  <div
-                    className="form-group has-feedback"
+                  <form
+                    className="form-inline"
+                    onSubmit={[Function]}
                   >
-                    <input
-                      autoComplete="off"
-                      autoFocus={false}
-                      className="query form-control"
-                      id="common-search-form-query-input"
-                      onChange={[Function]}
-                      placeholder="Enter search query..."
-                      spellCheck="false"
+                    <div
+                      className="form-group has-feedback"
+                    >
+                      <input
+                        autoComplete="off"
+                        autoFocus={false}
+                        className="query form-control"
+                        id="common-search-form-query-input"
+                        onChange={[Function]}
+                        placeholder="Enter search query..."
+                        spellCheck="false"
+                        style={
+                          Object {
+                            "width": "auto",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="form-group"
                       style={
                         Object {
-                          "width": "auto",
+                          "marginLeft": 5,
                         }
                       }
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div
-                    className="form-group"
-                    style={
-                      Object {
-                        "marginLeft": 5,
-                      }
-                    }
-                  >
-                    <ForwardRef
-                      bsStyle="default"
-                      className="submit-button"
-                      disabled={false}
-                      type="submit"
                     >
-                      <Button__StyledButton
+                      <Button
                         bsStyle="default"
                         className="submit-button"
                         disabled={false}
@@ -1028,35 +1038,29 @@ fieldset[disabled] .c1 {
                           block={false}
                           bsClass="btn"
                           bsStyle="default"
-                          className="c3 submit-button"
+                          className="c4 submit-button"
                           disabled={false}
                           type="submit"
                         >
                           <button
-                            className="c3 submit-button btn btn-default"
+                            className="c4 submit-button btn btn-default"
                             disabled={false}
                             type="submit"
                           >
                             Filter
                           </button>
                         </Button>
-                      </Button__StyledButton>
-                    </ForwardRef>
-                  </div>
-                  <div
-                    className="form-group"
-                    style={
-                      Object {
-                        "marginLeft": 5,
+                      </Button>
+                    </div>
+                    <div
+                      className="form-group"
+                      style={
+                        Object {
+                          "marginLeft": 5,
+                        }
                       }
-                    }
-                  >
-                    <ForwardRef
-                      className="reset-button"
-                      onClick={[Function]}
-                      type="reset"
                     >
-                      <Button__StyledButton
+                      <Button
                         className="reset-button"
                         onClick={[Function]}
                         type="reset"
@@ -1066,13 +1070,13 @@ fieldset[disabled] .c1 {
                           block={false}
                           bsClass="btn"
                           bsStyle="default"
-                          className="c3 reset-button"
+                          className="c4 reset-button"
                           disabled={false}
                           onClick={[Function]}
                           type="reset"
                         >
                           <button
-                            className="c3 reset-button btn btn-default"
+                            className="c4 reset-button btn btn-default"
                             disabled={false}
                             onClick={[Function]}
                             type="reset"
@@ -1080,48 +1084,51 @@ fieldset[disabled] .c1 {
                             Reset
                           </button>
                         </Button>
-                      </Button__StyledButton>
-                    </ForwardRef>
-                  </div>
-                </form>
-              </div>
-            </SearchForm>
-          </div>
-        </Col>
-      </div>
+                      </Button>
+                    </div>
+                  </form>
+                </div>
+              </SearchForm>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          sm={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            sm={8}
+            smOffset={1}
           >
-            <ExpandableList>
-              <ul
-                className="list"
-              />
-            </ExpandableList>
-          </div>
-        </Col>
-      </div>
+            <div
+              className="col-lg-8 col-sm-8 col-sm-offset-1"
+            >
+              <ExpandableList>
+                <ul
+                  className="list"
+                />
+              </ExpandableList>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
   </div>
 </ContentPackSelection>
 `;
 
 exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
-.c3.btn-danger {
+.c4.btn-danger {
   background-color: #ad0707;
   border-color: #b23939;
   color: rgb(252,249,249);
@@ -1129,39 +1136,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-danger:hover {
+.c4.btn-danger:hover {
   background-color: #a00e0e;
   border-color: #a53636;
   color: #e9e6e6;
 }
 
-.c3.btn-danger.active {
+.c4.btn-danger.active {
   background-color: #b75151;
   border-color: #bc6363;
   color: rgb(252,249,249);
 }
 
-.c3.btn-danger.active:hover {
+.c4.btn-danger.active:hover {
   background-color: #a94c4c;
   border-color: #ad5c5c;
   color: #e9e6e6;
 }
 
-.c3.btn-danger[disabled],
-.c3.btn-danger.disabled {
+.c4.btn-danger[disabled],
+.c4.btn-danger.disabled {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c3.btn-danger[disabled]:hover,
-.c3.btn-danger.disabled:hover {
+.c4.btn-danger[disabled]:hover,
+.c4.btn-danger.disabled:hover {
   background-color: #c07272;
   border-color: #bc6363;
   color: rgb(252,250,250);
 }
 
-.c3.btn-default {
+.c4.btn-default {
   background-color: #e6e6e6;
   border-color: #e0e0e0;
   color: rgb(73,73,73);
@@ -1169,39 +1176,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-default:hover {
+.c4.btn-default:hover {
   background-color: #d4d4d4;
   border-color: #cfcfcf;
   color: #444444;
 }
 
-.c3.btn-default.active {
+.c4.btn-default.active {
   background-color: #dadada;
   border-color: #d4d4d4;
   color: rgb(49,49,49);
 }
 
-.c3.btn-default.active:hover {
+.c4.btn-default.active:hover {
   background-color: #cacaca;
   border-color: #c4c4c4;
   color: #2f2f2f;
 }
 
-.c3.btn-default[disabled],
-.c3.btn-default.disabled {
+.c4.btn-default[disabled],
+.c4.btn-default.disabled {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c3.btn-default[disabled]:hover,
-.c3.btn-default.disabled:hover {
+.c4.btn-default[disabled]:hover,
+.c4.btn-default.disabled:hover {
   background-color: #cecece;
   border-color: #d4d4d4;
   color: rgb(80,80,80);
 }
 
-.c3.btn-info {
+.c4.btn-info {
   background-color: #0063be;
   border-color: #3970c2;
   color: rgb(249,250,252);
@@ -1209,39 +1216,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-info:hover {
+.c4.btn-info:hover {
   background-color: #0c5cb0;
   border-color: #3668b3;
   color: #e6e7e9;
 }
 
-.c3.btn-info.active {
+.c4.btn-info.active {
   background-color: #517cc5;
   border-color: #6386c9;
   color: rgb(249,250,252);
 }
 
-.c3.btn-info.active:hover {
+.c4.btn-info.active:hover {
   background-color: #4b73b6;
   border-color: #5c7dba;
   color: #e6e7e9;
 }
 
-.c3.btn-info[disabled],
-.c3.btn-info.disabled {
+.c4.btn-info[disabled],
+.c4.btn-info.disabled {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c3.btn-info[disabled]:hover,
-.c3.btn-info.disabled:hover {
+.c4.btn-info[disabled]:hover,
+.c4.btn-info.disabled:hover {
   background-color: #7290cd;
   border-color: #6386c9;
   color: rgb(250,251,253);
 }
 
-.c3.btn-link {
+.c4.btn-link {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
@@ -1249,39 +1256,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-link:hover {
+.c4.btn-link:hover {
   background-color: #ebebeb26;
   border-color: #ebebeb26;
   color: #68267b;
 }
 
-.c3.btn-link.active {
+.c4.btn-link.active {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #410057;
 }
 
-.c3.btn-link.active:hover {
+.c4.btn-link.active:hover {
   background-color: rgba(255,255,255,0);
   border-color: #ebebeb26;
   color: #3d0c51;
 }
 
-.c3.btn-link[disabled],
-.c3.btn-link.disabled {
+.c4.btn-link[disabled],
+.c4.btn-link.disabled {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c3.btn-link[disabled]:hover,
-.c3.btn-link.disabled:hover {
+.c4.btn-link[disabled]:hover,
+.c4.btn-link.disabled:hover {
   background-color: rgba(255,255,255,0);
   border-color: rgba(255,255,255,0);
   color: #702785;
 }
 
-.c3.btn-primary {
+.c4.btn-primary {
   background-color: #702785;
   border-color: #7b458e;
   color: rgb(234,229,236);
@@ -1289,39 +1296,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-primary:hover {
+.c4.btn-primary:hover {
   background-color: #68267b;
   border-color: #724083;
   color: #d8d3da;
 }
 
-.c3.btn-primary.active {
+.c4.btn-primary.active {
   background-color: #855996;
   border-color: #8f699d;
   color: rgb(250,249,251);
 }
 
-.c3.btn-primary.active:hover {
+.c4.btn-primary.active:hover {
   background-color: #7c538b;
   border-color: #846292;
   color: #e7e6e8;
 }
 
-.c3.btn-primary[disabled],
-.c3.btn-primary.disabled {
+.c4.btn-primary[disabled],
+.c4.btn-primary.disabled {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c3.btn-primary[disabled]:hover,
-.c3.btn-primary.disabled:hover {
+.c4.btn-primary[disabled]:hover,
+.c4.btn-primary.disabled:hover {
   background-color: #9877a5;
   border-color: #8f699d;
   color: rgb(251,250,251);
 }
 
-.c3.btn-success {
+.c4.btn-success {
   background-color: #00ae42;
   border-color: #39b356;
   color: rgb(249,252,249);
@@ -1329,39 +1336,39 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-success:hover {
+.c4.btn-success:hover {
   background-color: #0ca13e;
   border-color: #36a550;
   color: #e6e9e6;
 }
 
-.c3.btn-success.active {
+.c4.btn-success.active {
   background-color: #51b866;
   border-color: #63bc74;
   color: rgb(249,252,250);
 }
 
-.c3.btn-success.active:hover {
+.c4.btn-success.active:hover {
   background-color: #4baa5f;
   border-color: #5cae6c;
   color: #e6e9e7;
 }
 
-.c3.btn-success[disabled],
-.c3.btn-success.disabled {
+.c4.btn-success[disabled],
+.c4.btn-success.disabled {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c3.btn-success[disabled]:hover,
-.c3.btn-success.disabled:hover {
+.c4.btn-success[disabled]:hover,
+.c4.btn-success.disabled:hover {
   background-color: #72c180;
   border-color: #63bc74;
   color: rgb(250,252,250);
 }
 
-.c3.btn-warning {
+.c4.btn-warning {
   background-color: #ffd200;
   border-color: #f9cd07;
   color: rgb(57,47,0);
@@ -1369,111 +1376,119 @@ exports[`<ContentPackSelection /> should render with filled content pack 1`] = `
   transition: background-color 150ms ease-in-out,border 150ms ease-in-out,color 150ms ease-in-out;
 }
 
-.c3.btn-warning:hover {
+.c4.btn-warning:hover {
   background-color: #ebc20c;
   border-color: #e6bd0e;
   color: #362d0c;
 }
 
-.c3.btn-warning.active {
+.c4.btn-warning.active {
   background-color: #f2c70a;
   border-color: #ebc20c;
   color: rgb(54,45,2);
 }
 
-.c3.btn-warning.active:hover {
+.c4.btn-warning.active:hover {
   background-color: #e0b80f;
   border-color: #d9b310;
   color: #332b0c;
 }
 
-.c3.btn-warning[disabled],
-.c3.btn-warning.disabled {
+.c4.btn-warning[disabled],
+.c4.btn-warning.disabled {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c3.btn-warning[disabled]:hover,
-.c3.btn-warning.disabled:hover {
+.c4.btn-warning[disabled]:hover,
+.c4.btn-warning.disabled:hover {
   background-color: #e4bc0e;
   border-color: #ebc20c;
   color: rgb(88,73,5);
 }
 
-.c0 {
+.c1 {
   color: #1f1f1f;
   font-weight: bold;
   margin-bottom: 5px;
   display: inline-block;
 }
 
-.c1 {
+.c2.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c2.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c2.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c2.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c2.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c2.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c2.form-control[disabled],
+.c2.form-control[readonly],
+fieldset[disabled] .c2.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c2.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
-.c2 {
+.c3 {
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
   color: #838383;
 }
 
-.c4 {
+.c0.content {
+  background-color: #fff;
+  border: 1px solid #cdcdcd;
+  margin-bottom: 9px;
+  border-radius: 4px;
+}
+
+.c5 {
   font-size: 1rem;
   line-height: 20px;
 }
 
-.c4 label {
+.c5 label {
   min-height: 20px;
   margin-bottom: 2px;
   margin-right: 5px;
 }
 
-.c4 label * {
+.c5 label * {
   cursor: pointer;
 }
 
-.c5 {
+.c6 {
   display: inline-block;
   width: 20px;
   margin-right: 5px;
 }
 
-.c6.fa-stack {
+.c7.fa-stack {
   cursor: pointer;
   font-size: 1.125rem;
   line-height: 20px;
@@ -1482,31 +1497,31 @@ fieldset[disabled] .c1 {
   vertical-align: text-top;
 }
 
-.c6.fa-stack:hover [class*="fa-"] {
+.c7.fa-stack:hover [class*="fa-"] {
   color: #702785;
   opacity: 1;
 }
 
-.c6 [class*="fa-"]:first-child {
+.c7 [class*="fa-"]:first-child {
   opacity: 0;
 }
 
-.c6 [class*="fa-"]:first-child ~ [class*="fa-"]:hover {
+.c7 [class*="fa-"]:first-child ~ [class*="fa-"]:hover {
   color: #fff;
 }
 
-.c7 {
+.c8 {
   font-size: 1.125rem;
 }
 
-.c8 {
+.c9 {
   border: 0;
   padding: 0;
   text-align: left;
   background: transparent;
 }
 
-.c9 {
+.c10 {
   border-left: 1px #e6e6e6 solid;
   margin-left: 35px;
   margin-top: 10px;
@@ -1554,95 +1569,83 @@ fieldset[disabled] .c1 {
   selectedEntities={Object {}}
 >
   <div>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
           >
-            <h2>
-              General Information
-            </h2>
-            <br />
-            <form
-              className="content-selection-form"
-              id="content-selection-form"
-              onSubmit={[Function]}
+            <div
+              className="col-lg-8 col-sm-offset-1"
             >
-              <fieldset>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Give a descriptive name for this content pack."
-                  id="name"
-                  label="Name"
-                  maxLength={250}
-                  name="name"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value="name"
-                >
-                  <Component
-                    controlId="name"
-                    validationState={null}
+              <h2>
+                General Information
+              </h2>
+              <br />
+              <form
+                className="content-selection-form"
+                id="content-selection-form"
+                onSubmit={[Function]}
+              >
+                <fieldset>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Give a descriptive name for this content pack."
+                    id="name"
+                    label="Name"
+                    maxLength={250}
+                    name="name"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value="name"
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="name"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="name"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="name"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="name"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Name
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="name"
+                                >
+                                  Name
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Name"
-                                maxLength={250}
-                                name="name"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value="name"
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Name"
@@ -1654,9 +1657,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value="name"
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="name"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Name"
                                     maxLength={250}
                                     name="name"
@@ -1665,91 +1670,89 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value="name"
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Give a descriptive name for this content pack.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="name"
+                                      label="Name"
+                                      maxLength={250}
+                                      name="name"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value="name"
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Give a descriptive name for this content pack.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Give a short summary of the content pack."
-                  id="summary"
-                  label="Summary"
-                  maxLength={250}
-                  name="summary"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value="summary"
-                >
-                  <Component
-                    controlId="summary"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Give a short summary of the content pack."
+                    id="summary"
+                    label="Summary"
+                    maxLength={250}
+                    name="summary"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value="summary"
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="summary"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="summary"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="summary"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="summary"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Summary
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="summary"
+                                >
+                                  Summary
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Summary"
-                                maxLength={250}
-                                name="summary"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value="summary"
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Summary"
@@ -1761,9 +1764,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value="summary"
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="summary"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Summary"
                                     maxLength={250}
                                     name="summary"
@@ -1772,89 +1777,88 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value="summary"
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Give a short summary of the content pack.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="summary"
+                                      label="Summary"
+                                      maxLength={250}
+                                      name="summary"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value="summary"
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Give a short summary of the content pack.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Give a long description of the content pack in markdown."
-                  id="description"
-                  label="Description"
-                  name="description"
-                  onChange={[Function]}
-                  placeholder=""
-                  rows={6}
-                  type="textarea"
-                  value="description"
-                >
-                  <Component
-                    controlId="description"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Give a long description of the content pack in markdown."
+                    id="description"
+                    label="Description"
+                    name="description"
+                    onChange={[Function]}
+                    placeholder=""
+                    rows={6}
+                    type="textarea"
+                    value="description"
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="description"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="description"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="description"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="description"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Description
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="description"
+                                >
+                                  Description
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="textarea"
-                                inputRef={[Function]}
-                                label="Description"
-                                name="description"
-                                onChange={[Function]}
-                                placeholder=""
-                                rows={6}
-                                type="textarea"
-                                value="description"
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="textarea"
                                   inputRef={[Function]}
                                   label="Description"
@@ -1865,9 +1869,11 @@ fieldset[disabled] .c1 {
                                   type="textarea"
                                   value="description"
                                 >
-                                  <textarea
-                                    className="c1 form-control"
-                                    id="description"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="textarea"
+                                    inputRef={[Function]}
                                     label="Description"
                                     name="description"
                                     onChange={[Function]}
@@ -1875,91 +1881,88 @@ fieldset[disabled] .c1 {
                                     rows={6}
                                     type="textarea"
                                     value="description"
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Give a long description of the content pack in markdown.
-                                  </span>
+                                    <textarea
+                                      className="c2 form-control"
+                                      id="description"
+                                      label="Description"
+                                      name="description"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      rows={6}
+                                      type="textarea"
+                                      value="description"
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Give a long description of the content pack in markdown.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
-                  id="vendor"
-                  label="Vendor"
-                  maxLength={250}
-                  name="vendor"
-                  onChange={[Function]}
-                  placeholder=""
-                  required={true}
-                  type="text"
-                  value="vendor"
-                >
-                  <Component
-                    controlId="vendor"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
+                    id="vendor"
+                    label="Vendor"
+                    maxLength={250}
+                    name="vendor"
+                    onChange={[Function]}
+                    placeholder=""
+                    required={true}
+                    type="text"
+                    value="vendor"
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="vendor"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="vendor"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="vendor"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="vendor"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                Vendor
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="vendor"
+                                >
+                                  Vendor
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="Vendor"
-                                maxLength={250}
-                                name="vendor"
-                                onChange={[Function]}
-                                placeholder=""
-                                required={true}
-                                type="text"
-                                value="vendor"
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="Vendor"
@@ -1971,9 +1974,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value="vendor"
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="vendor"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="Vendor"
                                     maxLength={250}
                                     name="vendor"
@@ -1982,89 +1987,88 @@ fieldset[disabled] .c1 {
                                     required={true}
                                     type="text"
                                     value="vendor"
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Required. Who did this content pack and how can they be reached, e.g. Name and email.
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="vendor"
+                                      label="Vendor"
+                                      maxLength={250}
+                                      name="vendor"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      required={true}
+                                      type="text"
+                                      value="vendor"
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-                <Input
-                  addonAfter={null}
-                  bsStyle={null}
-                  buttonAfter={null}
-                  help="Where can I find the content pack. e.g. github url"
-                  id="url"
-                  label="URL"
-                  maxLength={250}
-                  name="url"
-                  onChange={[Function]}
-                  placeholder=""
-                  type="text"
-                  value="http://example.com"
-                >
-                  <Component
-                    controlId="url"
-                    validationState={null}
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                  <Input
+                    addonAfter={null}
+                    bsStyle={null}
+                    buttonAfter={null}
+                    help="Where can I find the content pack. e.g. github url"
+                    id="url"
+                    label="URL"
+                    maxLength={250}
+                    name="url"
+                    onChange={[Function]}
+                    placeholder=""
+                    type="text"
+                    value="http://example.com"
                   >
-                    <FormGroup__StyledFormGroup
+                    <Component
                       controlId="url"
                       validationState={null}
                     >
-                      <FormGroup
-                        bsClass="form-group"
-                        className=""
+                      <FormGroup__StyledFormGroup
                         controlId="url"
                         validationState={null}
                       >
-                        <div
-                          className="form-group"
+                        <FormGroup
+                          bsClass="form-group"
+                          className=""
+                          controlId="url"
+                          validationState={null}
                         >
-                          <ControlLabel>
-                            <ControlLabel
-                              bsClass="control-label"
-                              className="c0"
-                              srOnly={false}
-                            >
-                              <label
-                                className="c0 control-label"
-                                htmlFor="url"
+                          <div
+                            className="form-group"
+                          >
+                            <ControlLabel>
+                              <ControlLabel
+                                bsClass="control-label"
+                                className="c1"
+                                srOnly={false}
                               >
-                                URL
-                              </label>
+                                <label
+                                  className="c1 control-label"
+                                  htmlFor="url"
+                                >
+                                  URL
+                                </label>
+                              </ControlLabel>
                             </ControlLabel>
-                          </ControlLabel>
-                          <InputWrapper>
-                            <span>
-                              <FormControl
-                                componentClass="input"
-                                inputRef={[Function]}
-                                label="URL"
-                                maxLength={250}
-                                name="url"
-                                onChange={[Function]}
-                                placeholder=""
-                                type="text"
-                                value="http://example.com"
-                              >
+                            <InputWrapper>
+                              <span>
                                 <FormControl
-                                  bsClass="form-control"
-                                  className="c1"
                                   componentClass="input"
                                   inputRef={[Function]}
                                   label="URL"
@@ -2075,9 +2079,11 @@ fieldset[disabled] .c1 {
                                   type="text"
                                   value="http://example.com"
                                 >
-                                  <input
-                                    className="c1 form-control"
-                                    id="url"
+                                  <FormControl
+                                    bsClass="form-control"
+                                    className="c2"
+                                    componentClass="input"
+                                    inputRef={[Function]}
                                     label="URL"
                                     maxLength={250}
                                     name="url"
@@ -2085,190 +2091,201 @@ fieldset[disabled] .c1 {
                                     placeholder=""
                                     type="text"
                                     value="http://example.com"
-                                  />
-                                </FormControl>
-                              </FormControl>
-                              <HelpBlock>
-                                <HelpBlock
-                                  bsClass="help-block"
-                                  className="c2"
-                                >
-                                  <span
-                                    className="c2 help-block"
                                   >
-                                    Where can I find the content pack. e.g. github url
-                                  </span>
+                                    <input
+                                      className="c2 form-control"
+                                      id="url"
+                                      label="URL"
+                                      maxLength={250}
+                                      name="url"
+                                      onChange={[Function]}
+                                      placeholder=""
+                                      type="text"
+                                      value="http://example.com"
+                                    />
+                                  </FormControl>
+                                </FormControl>
+                                <HelpBlock>
+                                  <HelpBlock
+                                    bsClass="help-block"
+                                    className="c3"
+                                  >
+                                    <span
+                                      className="c3 help-block"
+                                    >
+                                      Where can I find the content pack. e.g. github url
+                                    </span>
+                                  </HelpBlock>
                                 </HelpBlock>
-                              </HelpBlock>
-                            </span>
-                          </InputWrapper>
-                        </div>
-                      </FormGroup>
-                    </FormGroup__StyledFormGroup>
-                  </Component>
-                </Input>
-              </fieldset>
-            </form>
-          </div>
-        </Col>
-      </div>
+                              </span>
+                            </InputWrapper>
+                          </div>
+                        </FormGroup>
+                      </FormGroup__StyledFormGroup>
+                    </Component>
+                  </Input>
+                </fieldset>
+              </form>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
           >
-            <h2>
-              Content Pack selection
-            </h2>
-            <HelpBlock>
-              <HelpBlock
-                bsClass="help-block"
-                className="c2"
-              >
-                <span
-                  className="c2 help-block"
-                >
-                  You can select between installed entities from the server (
-                  <Icon
-                    name="server"
-                    type="solid"
-                  >
-                    <FontAwesomeIcon
-                      icon={
-                        Object {
-                          "iconName": "server",
-                          "prefix": "fas",
-                        }
-                      }
-                    >
-                      <svg
-                        className="svg-inline--fa fa-server"
-                      />
-                    </FontAwesomeIcon>
-                  </Icon>
-                  ) or entities from the former content pack revision (
-                  <Icon
-                    className="contentPackEntity"
-                    name="archive"
-                    type="solid"
-                  >
-                    <FontAwesomeIcon
-                      className="contentPackEntity"
-                      icon={
-                        Object {
-                          "iconName": "archive",
-                          "prefix": "fas",
-                        }
-                      }
-                    >
-                      <svg
-                        className="svg-inline--fa fa-archive"
-                      />
-                    </FontAwesomeIcon>
-                  </Icon>
-                  ).
-                </span>
-              </HelpBlock>
-            </HelpBlock>
-          </div>
-        </Col>
-      </div>
-    </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
-      >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          smOffset={1}
-        >
-          <div
-            className="col-lg-8 col-sm-offset-1"
-          >
-            <SearchForm
-              buttonLeftMargin={5}
-              focusAfterMount={false}
-              id="filter-input"
-              label={null}
-              loadingLabel="Loading..."
-              onQueryChange={[Function]}
-              onReset={[Function]}
-              onSearch={[Function]}
-              placeholder="Enter search query..."
-              query=""
-              queryHelpComponent={null}
-              queryWidth="auto"
-              resetButtonLabel="Reset"
-              searchBsStyle="default"
-              searchButtonLabel="Filter"
-              topMargin={15}
-              useLoadingState={false}
-              wrapperClass="search"
+            <div
+              className="col-lg-8 col-sm-offset-1"
             >
-              <div
-                className="search"
-                style={
-                  Object {
-                    "marginTop": 15,
-                  }
-                }
-              >
-                <form
-                  className="form-inline"
-                  onSubmit={[Function]}
+              <h2>
+                Content Pack selection
+              </h2>
+              <HelpBlock>
+                <HelpBlock
+                  bsClass="help-block"
+                  className="c3"
                 >
-                  <div
-                    className="form-group has-feedback"
+                  <span
+                    className="c3 help-block"
                   >
-                    <input
-                      autoComplete="off"
-                      autoFocus={false}
-                      className="query form-control"
-                      id="common-search-form-query-input"
-                      onChange={[Function]}
-                      placeholder="Enter search query..."
-                      spellCheck="false"
+                    You can select between installed entities from the server (
+                    <Icon
+                      name="server"
+                      type="solid"
+                    >
+                      <FontAwesomeIcon
+                        icon={
+                          Object {
+                            "iconName": "server",
+                            "prefix": "fas",
+                          }
+                        }
+                      >
+                        <svg
+                          className="svg-inline--fa fa-server"
+                        />
+                      </FontAwesomeIcon>
+                    </Icon>
+                    ) or entities from the former content pack revision (
+                    <Icon
+                      className="contentPackEntity"
+                      name="archive"
+                      type="solid"
+                    >
+                      <FontAwesomeIcon
+                        className="contentPackEntity"
+                        icon={
+                          Object {
+                            "iconName": "archive",
+                            "prefix": "fas",
+                          }
+                        }
+                      >
+                        <svg
+                          className="svg-inline--fa fa-archive"
+                        />
+                      </FontAwesomeIcon>
+                    </Icon>
+                    ).
+                  </span>
+                </HelpBlock>
+              </HelpBlock>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </Row>
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
+      >
+        <div
+          className="c0 row"
+        >
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            smOffset={1}
+          >
+            <div
+              className="col-lg-8 col-sm-offset-1"
+            >
+              <SearchForm
+                buttonLeftMargin={5}
+                focusAfterMount={false}
+                id="filter-input"
+                label={null}
+                loadingLabel="Loading..."
+                onQueryChange={[Function]}
+                onReset={[Function]}
+                onSearch={[Function]}
+                placeholder="Enter search query..."
+                query=""
+                queryHelpComponent={null}
+                queryWidth="auto"
+                resetButtonLabel="Reset"
+                searchBsStyle="default"
+                searchButtonLabel="Filter"
+                topMargin={15}
+                useLoadingState={false}
+                wrapperClass="search"
+              >
+                <div
+                  className="search"
+                  style={
+                    Object {
+                      "marginTop": 15,
+                    }
+                  }
+                >
+                  <form
+                    className="form-inline"
+                    onSubmit={[Function]}
+                  >
+                    <div
+                      className="form-group has-feedback"
+                    >
+                      <input
+                        autoComplete="off"
+                        autoFocus={false}
+                        className="query form-control"
+                        id="common-search-form-query-input"
+                        onChange={[Function]}
+                        placeholder="Enter search query..."
+                        spellCheck="false"
+                        style={
+                          Object {
+                            "width": "auto",
+                          }
+                        }
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                    <div
+                      className="form-group"
                       style={
                         Object {
-                          "width": "auto",
+                          "marginLeft": 5,
                         }
                       }
-                      type="text"
-                      value=""
-                    />
-                  </div>
-                  <div
-                    className="form-group"
-                    style={
-                      Object {
-                        "marginLeft": 5,
-                      }
-                    }
-                  >
-                    <ForwardRef
-                      bsStyle="default"
-                      className="submit-button"
-                      disabled={false}
-                      type="submit"
                     >
-                      <Button__StyledButton
+                      <Button
                         bsStyle="default"
                         className="submit-button"
                         disabled={false}
@@ -2279,35 +2296,29 @@ fieldset[disabled] .c1 {
                           block={false}
                           bsClass="btn"
                           bsStyle="default"
-                          className="c3 submit-button"
+                          className="c4 submit-button"
                           disabled={false}
                           type="submit"
                         >
                           <button
-                            className="c3 submit-button btn btn-default"
+                            className="c4 submit-button btn btn-default"
                             disabled={false}
                             type="submit"
                           >
                             Filter
                           </button>
                         </Button>
-                      </Button__StyledButton>
-                    </ForwardRef>
-                  </div>
-                  <div
-                    className="form-group"
-                    style={
-                      Object {
-                        "marginLeft": 5,
+                      </Button>
+                    </div>
+                    <div
+                      className="form-group"
+                      style={
+                        Object {
+                          "marginLeft": 5,
+                        }
                       }
-                    }
-                  >
-                    <ForwardRef
-                      className="reset-button"
-                      onClick={[Function]}
-                      type="reset"
                     >
-                      <Button__StyledButton
+                      <Button
                         className="reset-button"
                         onClick={[Function]}
                         type="reset"
@@ -2317,13 +2328,13 @@ fieldset[disabled] .c1 {
                           block={false}
                           bsClass="btn"
                           bsStyle="default"
-                          className="c3 reset-button"
+                          className="c4 reset-button"
                           disabled={false}
                           onClick={[Function]}
                           type="reset"
                         >
                           <button
-                            className="c3 reset-button btn btn-default"
+                            className="c4 reset-button btn btn-default"
                             disabled={false}
                             onClick={[Function]}
                             type="reset"
@@ -2331,173 +2342,176 @@ fieldset[disabled] .c1 {
                             Reset
                           </button>
                         </Button>
-                      </Button__StyledButton>
-                    </ForwardRef>
-                  </div>
-                </form>
-              </div>
-            </SearchForm>
-          </div>
-        </Col>
-      </div>
+                      </Button>
+                    </div>
+                  </form>
+                </div>
+              </SearchForm>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
-    <Row
-      bsClass="row"
-      componentClass="div"
-    >
-      <div
-        className="row"
+    <Row>
+      <Row
+        bsClass="row"
+        className="c0"
+        componentClass="div"
       >
-        <Col
-          bsClass="col"
-          componentClass="div"
-          lg={8}
-          sm={8}
-          smOffset={1}
+        <div
+          className="c0 row"
         >
-          <div
-            className="col-lg-8 col-sm-8 col-sm-offset-1"
+          <Col
+            bsClass="col"
+            componentClass="div"
+            lg={8}
+            sm={8}
+            smOffset={1}
           >
-            <ExpandableList>
-              <ul
-                className="list"
-              >
-                <ExpandableListItem
-                  checked={false}
-                  expandable={true}
-                  expanded={false}
-                  header="Spaceship"
-                  indetermined={false}
-                  key="spaceship"
-                  onChange={[Function]}
-                  padded={false}
-                  selectable={true}
-                  stayExpanded={false}
+            <div
+              className="col-lg-8 col-sm-8 col-sm-offset-1"
+            >
+              <ExpandableList>
+                <ul
+                  className="list"
                 >
-                  <ExpandableListItem__ItemWrap
+                  <ExpandableListItem
+                    checked={false}
+                    expandable={true}
+                    expanded={false}
+                    header="Spaceship"
+                    indetermined={false}
+                    key="spaceship"
+                    onChange={[Function]}
                     padded={false}
+                    selectable={true}
+                    stayExpanded={false}
                   >
-                    <li
-                      className=""
+                    <ExpandableListItem__ItemWrap
+                      padded={false}
                     >
-                      <ExpandableListItem__Container>
-                        <div
-                          className="c4"
-                        >
-                          <Checkbox
-                            bsClass="checkbox"
-                            checked={false}
-                            disabled={false}
-                            inline={true}
-                            inputRef={[Function]}
-                            onChange={[Function]}
-                            title=""
+                      <li
+                        className=""
+                      >
+                        <ExpandableListItem__Container>
+                          <div
+                            className="c5"
                           >
-                            <label
-                              className="checkbox-inline"
+                            <Checkbox
+                              bsClass="checkbox"
+                              checked={false}
+                              disabled={false}
+                              inline={true}
+                              inputRef={[Function]}
+                              onChange={[Function]}
                               title=""
                             >
-                              <input
-                                checked={false}
-                                disabled={false}
-                                onChange={[Function]}
-                                type="checkbox"
-                              />
-                            </label>
-                          </Checkbox>
-                          <ExpandableListItem__Toggle>
-                            <div
-                              className="c5"
-                            >
-                              <ExpandableListItem__IconStack
-                                className="fa-stack"
-                                onClick={[Function]}
-                                tabIndex={0}
+                              <label
+                                className="checkbox-inline"
+                                title=""
                               >
-                                <div
-                                  className="c6 fa-stack"
+                                <input
+                                  checked={false}
+                                  disabled={false}
+                                  onChange={[Function]}
+                                  type="checkbox"
+                                />
+                              </label>
+                            </Checkbox>
+                            <ExpandableListItem__Toggle>
+                              <div
+                                className="c6"
+                              >
+                                <ExpandableListItem__IconStack
+                                  className="fa-stack"
                                   onClick={[Function]}
                                   tabIndex={0}
                                 >
-                                  <Icon
-                                    className="fa-stack-1x"
-                                    name="circle"
-                                    type="solid"
+                                  <div
+                                    className="c7 fa-stack"
+                                    onClick={[Function]}
+                                    tabIndex={0}
                                   >
-                                    <FontAwesomeIcon
+                                    <Icon
                                       className="fa-stack-1x"
-                                      icon={
-                                        Object {
-                                          "iconName": "circle",
-                                          "prefix": "fas",
-                                        }
-                                      }
+                                      name="circle"
+                                      type="solid"
                                     >
-                                      <svg
-                                        className="svg-inline--fa fa-circle"
-                                      />
-                                    </FontAwesomeIcon>
-                                  </Icon>
-                                  <Icon
-                                    className="fa-stack-1x"
-                                    name="angle-up"
-                                    type="solid"
-                                  >
-                                    <FontAwesomeIcon
+                                      <FontAwesomeIcon
+                                        className="fa-stack-1x"
+                                        icon={
+                                          Object {
+                                            "iconName": "circle",
+                                            "prefix": "fas",
+                                          }
+                                        }
+                                      >
+                                        <svg
+                                          className="svg-inline--fa fa-circle"
+                                        />
+                                      </FontAwesomeIcon>
+                                    </Icon>
+                                    <Icon
                                       className="fa-stack-1x"
-                                      icon={
-                                        Object {
-                                          "iconName": "angle-up",
-                                          "prefix": "fas",
-                                        }
-                                      }
+                                      name="angle-up"
+                                      type="solid"
                                     >
-                                      <svg
-                                        className="svg-inline--fa fa-angle-up"
-                                      />
-                                    </FontAwesomeIcon>
-                                  </Icon>
-                                </div>
-                              </ExpandableListItem__IconStack>
-                            </div>
-                          </ExpandableListItem__Toggle>
-                          <ExpandableListItem__HeaderWrap
-                            className="header"
-                          >
-                            <span
-                              className="c7 header"
+                                      <FontAwesomeIcon
+                                        className="fa-stack-1x"
+                                        icon={
+                                          Object {
+                                            "iconName": "angle-up",
+                                            "prefix": "fas",
+                                          }
+                                        }
+                                      >
+                                        <svg
+                                          className="svg-inline--fa fa-angle-up"
+                                        />
+                                      </FontAwesomeIcon>
+                                    </Icon>
+                                  </div>
+                                </ExpandableListItem__IconStack>
+                              </div>
+                            </ExpandableListItem__Toggle>
+                            <ExpandableListItem__HeaderWrap
+                              className="header"
                             >
-                              <ExpandableListItem__Header
-                                onClick={[Function]}
-                                tabIndex={0}
-                                type="button"
+                              <span
+                                className="c8 header"
                               >
-                                <button
-                                  className="c8"
+                                <ExpandableListItem__Header
                                   onClick={[Function]}
                                   tabIndex={0}
                                   type="button"
                                 >
-                                  Spaceship
-                                </button>
-                              </ExpandableListItem__Header>
-                            </span>
-                          </ExpandableListItem__HeaderWrap>
-                        </div>
-                      </ExpandableListItem__Container>
-                      <ExpandableListItem__ExpandableContent>
-                        <div
-                          className="c9"
-                        />
-                      </ExpandableListItem__ExpandableContent>
-                    </li>
-                  </ExpandableListItem__ItemWrap>
-                </ExpandableListItem>
-              </ul>
-            </ExpandableList>
-          </div>
-        </Col>
-      </div>
+                                  <button
+                                    className="c9"
+                                    onClick={[Function]}
+                                    tabIndex={0}
+                                    type="button"
+                                  >
+                                    Spaceship
+                                  </button>
+                                </ExpandableListItem__Header>
+                              </span>
+                            </ExpandableListItem__HeaderWrap>
+                          </div>
+                        </ExpandableListItem__Container>
+                        <ExpandableListItem__ExpandableContent>
+                          <div
+                            className="c10"
+                          />
+                        </ExpandableListItem__ExpandableContent>
+                      </li>
+                    </ExpandableListItem__ItemWrap>
+                  </ExpandableListItem>
+                </ul>
+              </ExpandableList>
+            </div>
+          </Col>
+        </div>
+      </Row>
     </Row>
   </div>
 </ContentPackSelection>

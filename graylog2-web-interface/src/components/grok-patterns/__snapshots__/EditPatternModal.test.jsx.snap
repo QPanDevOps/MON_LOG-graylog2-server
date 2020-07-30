@@ -281,27 +281,6 @@ exports[`<EditPatternModal /> should render a modal button with as create 1`] = 
   color: rgb(88,73,5);
 }
 
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -309,6 +288,31 @@ exports[`<EditPatternModal /> should render a modal button with as create 1`] = 
 
 .c1 form {
   margin-bottom: 0;
+}
+
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
 }
 
 .c1 .modal-body .form-group {
@@ -327,34 +331,29 @@ exports[`<EditPatternModal /> should render a modal button with as create 1`] = 
   validPatternName={[Function]}
 >
   <span>
-    <ForwardRef
+    <Button
       bsStyle="success"
       onClick={[Function]}
     >
-      <Button__StyledButton
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
         bsStyle="success"
+        className="c0"
+        disabled={false}
         onClick={[Function]}
       >
-        <Button
-          active={false}
-          block={false}
-          bsClass="btn"
-          bsStyle="success"
-          className="c0"
+        <button
+          className="c0 btn btn-success"
           disabled={false}
           onClick={[Function]}
+          type="button"
         >
-          <button
-            className="c0 btn btn-success"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            Create pattern
-          </button>
-        </Button>
-      </Button__StyledButton>
-    </ForwardRef>
+          Create pattern
+        </button>
+      </Button>
+    </Button>
     <BootstrapModalForm
       bsSize="large"
       cancelButtonText="Cancel"
@@ -727,27 +726,6 @@ exports[`<EditPatternModal /> should render a modal button with as edit 1`] = `
   color: rgb(88,73,5);
 }
 
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -755,6 +733,31 @@ exports[`<EditPatternModal /> should render a modal button with as edit 1`] = `
 
 .c1 form {
   margin-bottom: 0;
+}
+
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
 }
 
 .c1 .modal-body .form-group {
@@ -773,39 +776,33 @@ exports[`<EditPatternModal /> should render a modal button with as edit 1`] = `
   validPatternName={[Function]}
 >
   <span>
-    <ForwardRef
+    <Button
       bsSize="xs"
       bsStyle="info"
       onClick={[Function]}
     >
-      <Button__StyledButton
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
         bsSize="xs"
         bsStyle="info"
+        className="c0"
+        disabled={false}
         onClick={[Function]}
       >
-        <Button
-          active={false}
-          block={false}
-          bsClass="btn"
-          bsSize="xs"
-          bsStyle="info"
-          className="c0"
+        <button
+          className="c0 btn btn-xs btn-info"
           disabled={false}
           onClick={[Function]}
+          type="button"
         >
-          <button
-            className="c0 btn btn-xs btn-info"
-            disabled={false}
-            onClick={[Function]}
-            type="button"
-          >
-            <span>
-              Edit
-            </span>
-          </button>
-        </Button>
-      </Button__StyledButton>
-    </ForwardRef>
+          <span>
+            Edit
+          </span>
+        </button>
+      </Button>
+    </Button>
     <BootstrapModalForm
       bsSize="large"
       cancelButtonText="Cancel"

@@ -7,18 +7,18 @@ exports[`<Pagination /> should display Pagination 1`] = `
 
 .c0.pagination > li > a,
 .c0.pagination > li > span {
-  color: #1f1f1f;
+  color: rgb(81,81,81);
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
 .c0.pagination > li > a:hover,
 .c0.pagination > li > span:hover,
 .c0.pagination > li > a:focus,
 .c0.pagination > li > span:focus {
-  color: #1f1f1f;
-  background-color: #e6e6e6;
-  border-color: #cdcdcd;
+  color: rgb(47,47,47);
+  background-color: #d0d0d0;
+  border-color: #a6a6a6;
 }
 
 .c0.pagination > li.active > a,
@@ -27,7 +27,7 @@ exports[`<Pagination /> should display Pagination 1`] = `
 .c0.pagination > li.active > span:hover,
 .c0.pagination > li.active > a:focus,
 .c0.pagination > li.active > span:focus {
-  color: #1f1f1f;
+  color: rgb(76,77,78);
   background-color: #eff2f8;
   border-color: #bdc8e4;
 }
@@ -38,9 +38,9 @@ exports[`<Pagination /> should display Pagination 1`] = `
 .c0.pagination > li.disabled > span,
 .c0.pagination > li.disabled > span:hover,
 .c0.pagination > li.disabled > span:focus {
-  color: #b4b4b4;
-  background-color: #ffffff;
-  border-color: #e6e6e6;
+  color: #a6a6a6;
+  background-color: #fff;
+  border-color: #d0d0d0;
 }
 
 <ul

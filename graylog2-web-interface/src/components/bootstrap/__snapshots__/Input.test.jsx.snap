@@ -1,47 +1,48 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input renders a addon after the input if addonAfter is passed 1`] = `
-.c0 {
+.c0.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c0::-webkit-input-placeholder {
+.c0.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::-moz-placeholder {
+.c0.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c0:-ms-input-placeholder {
+.c0.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::placeholder {
+.c0.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c0:focus {
+.c0.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c0[disabled],
-.c0[readonly],
-fieldset[disabled] .c0 {
-  background-color: #cdcdcd;
+.c0.form-control[disabled],
+.c0.form-control[readonly],
+fieldset[disabled] .c0.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c0 ~ .form-control-feedback.glyphicon {
+.c0.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
 .c1 {
-  color: #515151;
+  color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
 <Input
@@ -424,47 +425,48 @@ exports[`Input renders a button after the input if buttonAfter is passed 1`] = `
   color: rgb(88,73,5);
 }
 
-.c0 {
+.c0.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c0::-webkit-input-placeholder {
+.c0.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::-moz-placeholder {
+.c0.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c0:-ms-input-placeholder {
+.c0.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::placeholder {
+.c0.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c0:focus {
+.c0.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c0[disabled],
-.c0[readonly],
-fieldset[disabled] .c0 {
-  background-color: #cdcdcd;
+.c0.form-control[disabled],
+.c0.form-control[readonly],
+fieldset[disabled] .c0.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c0 ~ .form-control-feedback.glyphicon {
+.c0.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
 <Input
   addonAfter={null}
   bsStyle={null}
-  buttonAfter={<ForwardRef />}
+  buttonAfter={<Button />}
   help=""
   id="inputWithButton"
   label=""
@@ -536,24 +538,22 @@ fieldset[disabled] .c0 {
                         <span
                           className="input-group-btn"
                         >
-                          <ForwardRef>
-                            <Button__StyledButton>
-                              <Button
-                                active={false}
-                                block={false}
-                                bsClass="btn"
-                                bsStyle="default"
-                                className="c1"
+                          <Button>
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              className="c1"
+                              disabled={false}
+                            >
+                              <button
+                                className="c1 btn btn-default"
                                 disabled={false}
-                              >
-                                <button
-                                  className="c1 btn btn-default"
-                                  disabled={false}
-                                  type="button"
-                                />
-                              </Button>
-                            </Button__StyledButton>
-                          </ForwardRef>
+                                type="button"
+                              />
+                            </Button>
+                          </Button>
                         </span>
                       </InputGroupButton>
                     </Button>
@@ -570,47 +570,48 @@ fieldset[disabled] .c0 {
 `;
 
 exports[`Input renders a checkbox addon after the input if addonAfter is passed 1`] = `
-.c0 {
+.c0.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c0::-webkit-input-placeholder {
+.c0.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::-moz-placeholder {
+.c0.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c0:-ms-input-placeholder {
+.c0.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::placeholder {
+.c0.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c0:focus {
+.c0.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c0[disabled],
-.c0[readonly],
-fieldset[disabled] .c0 {
-  background-color: #cdcdcd;
+.c0.form-control[disabled],
+.c0.form-control[readonly],
+fieldset[disabled] .c0.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c0 ~ .form-control-feedback.glyphicon {
+.c0.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
 .c1 {
-  color: #515151;
+  color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
 <Input
@@ -723,40 +724,41 @@ fieldset[disabled] .c0 {
 `;
 
 exports[`Input renders input w/ \`name\` attribute w/ setting prop 1`] = `
-.c0 {
+.c0.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c0::-webkit-input-placeholder {
+.c0.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::-moz-placeholder {
+.c0.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c0:-ms-input-placeholder {
+.c0.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::placeholder {
+.c0.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c0:focus {
+.c0.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c0[disabled],
-.c0[readonly],
-fieldset[disabled] .c0 {
-  background-color: #cdcdcd;
+.c0.form-control[disabled],
+.c0.form-control[readonly],
+fieldset[disabled] .c0.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c0 ~ .form-control-feedback.glyphicon {
+.c0.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
@@ -828,40 +830,41 @@ fieldset[disabled] .c0 {
 `;
 
 exports[`Input renders input w/ \`name\` attribute w/o setting prop 1`] = `
-.c0 {
+.c0.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c0::-webkit-input-placeholder {
+.c0.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::-moz-placeholder {
+.c0.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c0:-ms-input-placeholder {
+.c0.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c0::placeholder {
+.c0.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c0:focus {
+.c0.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c0[disabled],
-.c0[readonly],
-fieldset[disabled] .c0 {
-  background-color: #cdcdcd;
+.c0.form-control[disabled],
+.c0.form-control[readonly],
+fieldset[disabled] .c0.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c0 ~ .form-control-feedback.glyphicon {
+.c0.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 

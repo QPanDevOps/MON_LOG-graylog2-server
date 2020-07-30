@@ -365,37 +365,30 @@ exports[`<ContentPackParameterList /> should render with empty parameters with r
               }
             }
           >
-            <ForwardRef
+            <Button
               bsStyle="default"
               className="submit-button"
               disabled={false}
               type="submit"
             >
-              <Button__StyledButton
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
                 bsStyle="default"
-                className="submit-button"
+                className="c0 submit-button"
                 disabled={false}
                 type="submit"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 submit-button"
+                <button
+                  className="c0 submit-button btn btn-default"
                   disabled={false}
                   type="submit"
                 >
-                  <button
-                    className="c0 submit-button btn btn-default"
-                    disabled={false}
-                    type="submit"
-                  >
-                    Filter
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Filter
+                </button>
+              </Button>
+            </Button>
           </div>
           <div
             className="form-group"
@@ -405,37 +398,31 @@ exports[`<ContentPackParameterList /> should render with empty parameters with r
               }
             }
           >
-            <ForwardRef
+            <Button
               className="reset-button"
               onClick={[Function]}
               type="reset"
             >
-              <Button__StyledButton
-                className="reset-button"
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                className="c0 reset-button"
+                disabled={false}
                 onClick={[Function]}
                 type="reset"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 reset-button"
+                <button
+                  className="c0 reset-button btn btn-default"
                   disabled={false}
                   onClick={[Function]}
                   type="reset"
                 >
-                  <button
-                    className="c0 reset-button btn btn-default"
-                    disabled={false}
-                    onClick={[Function]}
-                    type="reset"
-                  >
-                    Reset
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Reset
+                </button>
+              </Button>
+            </Button>
           </div>
         </form>
       </div>
@@ -770,27 +757,6 @@ exports[`<ContentPackParameterList /> should render with empty parameters withou
   color: rgb(88,73,5);
 }
 
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -798,6 +764,31 @@ exports[`<ContentPackParameterList /> should render with empty parameters withou
 
 .c1 form {
   margin-bottom: 0;
+}
+
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
 }
 
 .c1 .modal-body .form-group {
@@ -829,41 +820,34 @@ exports[`<ContentPackParameterList /> should render with empty parameters withou
       Parameters list
     </h2>
     <br />
-    <ForwardRef
+    <Button
       bsSize="small"
       bsStyle="info"
       onClick={[Function]}
       title="Edit Modal"
     >
-      <Button__StyledButton
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
         bsSize="small"
         bsStyle="info"
+        className="c0"
+        disabled={false}
         onClick={[Function]}
         title="Edit Modal"
       >
-        <Button
-          active={false}
-          block={false}
-          bsClass="btn"
-          bsSize="small"
-          bsStyle="info"
-          className="c0"
+        <button
+          className="c0 btn btn-sm btn-info"
           disabled={false}
           onClick={[Function]}
           title="Edit Modal"
+          type="button"
         >
-          <button
-            className="c0 btn btn-sm btn-info"
-            disabled={false}
-            onClick={[Function]}
-            title="Edit Modal"
-            type="button"
-          >
-            Create parameter
-          </button>
-        </Button>
-      </Button__StyledButton>
-    </ForwardRef>
+          Create parameter
+        </button>
+      </Button>
+    </Button>
     <BootstrapModalWrapper
       backdrop="static"
       bsSize="large"
@@ -1000,37 +984,30 @@ exports[`<ContentPackParameterList /> should render with empty parameters withou
               }
             }
           >
-            <ForwardRef
+            <Button
               bsStyle="default"
               className="submit-button"
               disabled={false}
               type="submit"
             >
-              <Button__StyledButton
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
                 bsStyle="default"
-                className="submit-button"
+                className="c0 submit-button"
                 disabled={false}
                 type="submit"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 submit-button"
+                <button
+                  className="c0 submit-button btn btn-default"
                   disabled={false}
                   type="submit"
                 >
-                  <button
-                    className="c0 submit-button btn btn-default"
-                    disabled={false}
-                    type="submit"
-                  >
-                    Filter
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Filter
+                </button>
+              </Button>
+            </Button>
           </div>
           <div
             className="form-group"
@@ -1040,37 +1017,31 @@ exports[`<ContentPackParameterList /> should render with empty parameters withou
               }
             }
           >
-            <ForwardRef
+            <Button
               className="reset-button"
               onClick={[Function]}
               type="reset"
             >
-              <Button__StyledButton
-                className="reset-button"
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                className="c0 reset-button"
+                disabled={false}
                 onClick={[Function]}
                 type="reset"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 reset-button"
+                <button
+                  className="c0 reset-button btn btn-default"
                   disabled={false}
                   onClick={[Function]}
                   type="reset"
                 >
-                  <button
-                    className="c0 reset-button btn btn-default"
-                    disabled={false}
-                    onClick={[Function]}
-                    type="reset"
-                  >
-                    Reset
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Reset
+                </button>
+              </Button>
+            </Button>
           </div>
         </form>
       </div>
@@ -1661,37 +1632,30 @@ exports[`<ContentPackParameterList /> should render with parameters with readOnl
               }
             }
           >
-            <ForwardRef
+            <Button
               bsStyle="default"
               className="submit-button"
               disabled={false}
               type="submit"
             >
-              <Button__StyledButton
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
                 bsStyle="default"
-                className="submit-button"
+                className="c0 submit-button"
                 disabled={false}
                 type="submit"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 submit-button"
+                <button
+                  className="c0 submit-button btn btn-default"
                   disabled={false}
                   type="submit"
                 >
-                  <button
-                    className="c0 submit-button btn btn-default"
-                    disabled={false}
-                    type="submit"
-                  >
-                    Filter
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Filter
+                </button>
+              </Button>
+            </Button>
           </div>
           <div
             className="form-group"
@@ -1701,37 +1665,31 @@ exports[`<ContentPackParameterList /> should render with parameters with readOnl
               }
             }
           >
-            <ForwardRef
+            <Button
               className="reset-button"
               onClick={[Function]}
               type="reset"
             >
-              <Button__StyledButton
-                className="reset-button"
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                className="c0 reset-button"
+                disabled={false}
                 onClick={[Function]}
                 type="reset"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 reset-button"
+                <button
+                  className="c0 reset-button btn btn-default"
                   disabled={false}
                   onClick={[Function]}
                   type="reset"
                 >
-                  <button
-                    className="c0 reset-button btn btn-default"
-                    disabled={false}
-                    onClick={[Function]}
-                    type="reset"
-                  >
-                    Reset
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Reset
+                </button>
+              </Button>
+            </Button>
           </div>
         </form>
       </div>
@@ -2222,27 +2180,6 @@ exports[`<ContentPackParameterList /> should render with parameters without read
   color: rgb(88,73,5);
 }
 
-.c1 .modal-content {
-  background-color: #fff;
-  border-color: rgba(31,31,31,0.2);
-}
-
-.c1 .modal-content .modal-header {
-  border-bottom-color: #e6e6e6;
-}
-
-.c1 .modal-content .modal-footer {
-  border-top-color: #e6e6e6;
-}
-
-.c1 .modal-title {
-  font-size: 1.424rem;
-}
-
-.c1 .modal-dialog {
-  margin-top: 55px;
-}
-
 .c1 .modal-backdrop {
   height: 100000%;
   z-index: 1030;
@@ -2250,6 +2187,31 @@ exports[`<ContentPackParameterList /> should render with parameters without read
 
 .c1 form {
   margin-bottom: 0;
+}
+
+.c1 .modal-dialog {
+  margin-top: 55px;
+}
+
+.c1 .modal-dialog .modal-content {
+  background-color: #fff;
+  border-color: #a6a6a6;
+}
+
+.c1 .modal-header {
+  border-bottom-color: #a6a6a6;
+}
+
+.c1 .modal-header button.close {
+  color: currentColor;
+}
+
+.c1 .modal-footer {
+  border-top-color: #a6a6a6;
+}
+
+.c1 .modal-title {
+  font-size: 1.424rem;
 }
 
 .c1 .modal-body .form-group {
@@ -2452,41 +2414,34 @@ exports[`<ContentPackParameterList /> should render with parameters without read
       Parameters list
     </h2>
     <br />
-    <ForwardRef
+    <Button
       bsSize="small"
       bsStyle="info"
       onClick={[Function]}
       title="Edit Modal"
     >
-      <Button__StyledButton
+      <Button
+        active={false}
+        block={false}
+        bsClass="btn"
         bsSize="small"
         bsStyle="info"
+        className="c0"
+        disabled={false}
         onClick={[Function]}
         title="Edit Modal"
       >
-        <Button
-          active={false}
-          block={false}
-          bsClass="btn"
-          bsSize="small"
-          bsStyle="info"
-          className="c0"
+        <button
+          className="c0 btn btn-sm btn-info"
           disabled={false}
           onClick={[Function]}
           title="Edit Modal"
+          type="button"
         >
-          <button
-            className="c0 btn btn-sm btn-info"
-            disabled={false}
-            onClick={[Function]}
-            title="Edit Modal"
-            type="button"
-          >
-            Create parameter
-          </button>
-        </Button>
-      </Button__StyledButton>
-    </ForwardRef>
+          Create parameter
+        </button>
+      </Button>
+    </Button>
     <BootstrapModalWrapper
       backdrop="static"
       bsSize="large"
@@ -2623,37 +2578,30 @@ exports[`<ContentPackParameterList /> should render with parameters without read
               }
             }
           >
-            <ForwardRef
+            <Button
               bsStyle="default"
               className="submit-button"
               disabled={false}
               type="submit"
             >
-              <Button__StyledButton
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
                 bsStyle="default"
-                className="submit-button"
+                className="c0 submit-button"
                 disabled={false}
                 type="submit"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 submit-button"
+                <button
+                  className="c0 submit-button btn btn-default"
                   disabled={false}
                   type="submit"
                 >
-                  <button
-                    className="c0 submit-button btn btn-default"
-                    disabled={false}
-                    type="submit"
-                  >
-                    Filter
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Filter
+                </button>
+              </Button>
+            </Button>
           </div>
           <div
             className="form-group"
@@ -2663,37 +2611,31 @@ exports[`<ContentPackParameterList /> should render with parameters without read
               }
             }
           >
-            <ForwardRef
+            <Button
               className="reset-button"
               onClick={[Function]}
               type="reset"
             >
-              <Button__StyledButton
-                className="reset-button"
+              <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                className="c0 reset-button"
+                disabled={false}
                 onClick={[Function]}
                 type="reset"
               >
-                <Button
-                  active={false}
-                  block={false}
-                  bsClass="btn"
-                  bsStyle="default"
-                  className="c0 reset-button"
+                <button
+                  className="c0 reset-button btn btn-default"
                   disabled={false}
                   onClick={[Function]}
                   type="reset"
                 >
-                  <button
-                    className="c0 reset-button btn btn-default"
-                    disabled={false}
-                    onClick={[Function]}
-                    type="reset"
-                  >
-                    Reset
-                  </button>
-                </Button>
-              </Button__StyledButton>
-            </ForwardRef>
+                  Reset
+                </button>
+              </Button>
+            </Button>
           </div>
         </form>
       </div>
@@ -2908,78 +2850,63 @@ exports[`<ContentPackParameterList /> should render with parameters without read
                               className="btn-toolbar"
                               role="toolbar"
                             >
-                              <ForwardRef
+                              <Button
                                 bsSize="xs"
                                 bsStyle="primary"
                                 disabled={false}
                                 onClick={[Function]}
                                 title="Delete Parameter"
                               >
-                                <Button__StyledButton
+                                <Button
+                                  active={false}
+                                  block={false}
+                                  bsClass="btn"
                                   bsSize="xs"
                                   bsStyle="primary"
+                                  className="c0"
                                   disabled={false}
                                   onClick={[Function]}
                                   title="Delete Parameter"
                                 >
-                                  <Button
-                                    active={false}
-                                    block={false}
-                                    bsClass="btn"
-                                    bsSize="xs"
-                                    bsStyle="primary"
-                                    className="c0"
+                                  <button
+                                    className="c0 btn btn-xs btn-primary"
                                     disabled={false}
                                     onClick={[Function]}
                                     title="Delete Parameter"
+                                    type="button"
                                   >
-                                    <button
-                                      className="c0 btn btn-xs btn-primary"
-                                      disabled={false}
-                                      onClick={[Function]}
-                                      title="Delete Parameter"
-                                      type="button"
-                                    >
-                                      Delete
-                                    </button>
-                                  </Button>
-                                </Button__StyledButton>
-                              </ForwardRef>
-                              <ForwardRef
+                                    Delete
+                                  </button>
+                                </Button>
+                              </Button>
+                              <Button
                                 bsSize="xsmall"
                                 bsStyle="info"
                                 onClick={[Function]}
                                 title="Edit Modal"
                               >
-                                <Button__StyledButton
+                                <Button
+                                  active={false}
+                                  block={false}
+                                  bsClass="btn"
                                   bsSize="xsmall"
                                   bsStyle="info"
+                                  className="c0"
+                                  disabled={false}
                                   onClick={[Function]}
                                   title="Edit Modal"
                                 >
-                                  <Button
-                                    active={false}
-                                    block={false}
-                                    bsClass="btn"
-                                    bsSize="xsmall"
-                                    bsStyle="info"
-                                    className="c0"
+                                  <button
+                                    className="c0 btn btn-xs btn-info"
                                     disabled={false}
                                     onClick={[Function]}
                                     title="Edit Modal"
+                                    type="button"
                                   >
-                                    <button
-                                      className="c0 btn btn-xs btn-info"
-                                      disabled={false}
-                                      onClick={[Function]}
-                                      title="Edit Modal"
-                                      type="button"
-                                    >
-                                      Edit
-                                    </button>
-                                  </Button>
-                                </Button__StyledButton>
-                              </ForwardRef>
+                                    Edit
+                                  </button>
+                                </Button>
+                              </Button>
                               <BootstrapModalWrapper
                                 backdrop="static"
                                 bsSize="large"

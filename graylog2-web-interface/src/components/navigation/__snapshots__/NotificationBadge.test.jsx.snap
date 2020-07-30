@@ -6,24 +6,29 @@ exports[`NotificationBadge renders count when there are notifications 1`] = `
   color: #fff;
 }
 
+.c0.nav > li > a {
+  -webkit-transition: background-color 150ms ease-in-out;
+  transition: background-color 150ms ease-in-out;
+}
+
 .c0.nav > li > a:hover,
 .c0.nav > li > a:focus {
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
 }
 
 .c0.nav > li.disabled > a {
-  color: #9b9b9b;
+  color: #a6a6a6;
 }
 
 .c0.nav > li.disabled > a:hover,
 .c0.nav > li.disabled > a:focus {
-  color: #9b9b9b;
+  color: #a6a6a6;
 }
 
 .c0.nav .open > a,
 .c0.nav .open > a:hover,
 .c0.nav .open > a:focus {
-  background-color: #e6e6e6;
+  background-color: #f3f3f3;
   border-color: #702785;
 }
 
@@ -42,12 +47,12 @@ exports[`NotificationBadge renders count when there are notifications 1`] = `
   -webkit-transition: background-color 150ms ease-in-out;
   transition: background-color 150ms ease-in-out;
   color: #1f1f1f;
-  border-color: #cdcdcd #cdcdcd rgb(198,207,231);
+  border-color: #d0d0d0 #d0d0d0 rgb(198,207,231);
 }
 
 .c0.nav .nav-tabs > li > a:hover {
-  background-color: #cdcdcd;
-  color: rgb(46,46,46);
+  background-color: #f3f3f3;
+  color: #1f1f1f;
 }
 
 .c0.nav .nav-tabs > li.active > a,

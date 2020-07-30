@@ -279,7 +279,7 @@ exports[`DataTable renders column pivot header without offset when rollup is dis
 .c1 th i.sort-order-item {
   margin-right: 2px;
   color: #1f1f1f;
-  visiblity: hidden;
+  visibility: hidden;
 }
 
 .c1 th i.sort-order-active,
@@ -1554,7 +1554,7 @@ exports[`DataTable should render with empty data 1`] = `
 .c1 th i.sort-order-item {
   margin-right: 2px;
   color: #1f1f1f;
-  visiblity: hidden;
+  visibility: hidden;
 }
 
 .c1 th i.sort-order-active,
@@ -1958,7 +1958,7 @@ exports[`DataTable should render with filled data with rollup 1`] = `
 .c1 th i.sort-order-item {
   margin-right: 2px;
   color: #1f1f1f;
-  visiblity: hidden;
+  visibility: hidden;
 }
 
 .c1 th i.sort-order-active,
@@ -3470,7 +3470,7 @@ exports[`DataTable should render with filled data without rollup 1`] = `
 .c1 th i.sort-order-item {
   margin-right: 2px;
   color: #1f1f1f;
-  visiblity: hidden;
+  visibility: hidden;
 }
 
 .c1 th i.sort-order-active,

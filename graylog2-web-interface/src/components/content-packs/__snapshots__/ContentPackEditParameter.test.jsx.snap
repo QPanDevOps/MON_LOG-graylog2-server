@@ -8,40 +8,41 @@ exports[`<ContentPackEditParameters /> should render a form for creation 1`] = `
   display: inline-block;
 }
 
-.c1 {
+.c1.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c1.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c1.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c1.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c1.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c1.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c1.form-control[disabled],
+.c1.form-control[readonly],
+fieldset[disabled] .c1.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c1.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
@@ -643,40 +644,41 @@ exports[`<ContentPackEditParameters /> should render a form for edition 1`] = `
   display: inline-block;
 }
 
-.c1 {
+.c1.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c1.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c1.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c1.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c1.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c1.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c1.form-control[disabled],
+.c1.form-control[readonly],
+fieldset[disabled] .c1.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c1.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
@@ -1287,40 +1289,41 @@ exports[`<ContentPackEditParameters /> should render with empty parameters 1`] =
   display: inline-block;
 }
 
-.c1 {
+.c1.form-control {
   color: #1f1f1f;
   background-color: #fff;
-  border-color: #cdcdcd;
+  border-color: #a6a6a6;
 }
 
-.c1::-webkit-input-placeholder {
+.c1.form-control::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::-moz-placeholder {
+.c1.form-control::-moz-placeholder {
   color: #9b9b9b;
 }
 
-.c1:-ms-input-placeholder {
+.c1.form-control:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.c1::placeholder {
+.c1.form-control::placeholder {
   color: #9b9b9b;
 }
 
-.c1:focus {
+.c1.form-control:focus {
   border-color: #7894ce;
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(120,148,206,0.4);
 }
 
-.c1[disabled],
-.c1[readonly],
-fieldset[disabled] .c1 {
-  background-color: #cdcdcd;
+.c1.form-control[disabled],
+.c1.form-control[readonly],
+fieldset[disabled] .c1.form-control {
+  background-color: #dddddd;
+  color: #9b9b9b;
 }
 
-.c1 ~ .form-control-feedback.glyphicon {
+.c1.form-control ~ .form-control-feedback.glyphicon {
   display: none;
 }
 
