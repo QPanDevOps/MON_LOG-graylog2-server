@@ -1,16 +1,12 @@
 import PropTypes from 'prop-types';
 import React from 'react';
+// eslint-disable-next-line no-restricted-imports
 import createReactClass from 'create-react-class';
-import styled from 'styled-components';
 
 import { Col } from 'components/graylog';
 import { Input } from 'components/bootstrap';
-import TimeoutUnitSelect from 'components/users/TimeoutUnitSelect';
 
-export const MS_DAY = 24 * 60 * 60 * 1000;
-export const MS_HOUR = 60 * 60 * 1000;
-export const MS_MINUTE = 60 * 1000;
-export const MS_SECOND = 1000;
+import TimeoutUnitSelect, { MS_DAY, MS_HOUR, MS_MINUTE, MS_SECOND } from './TimeoutUnitSelect';
 
 const TimeoutInput = createReactClass({
   displayName: 'TimeoutInput',
@@ -27,21 +23,25 @@ const TimeoutInput = createReactClass({
       value: 60 * 60 * 1000,
       labelSize: 2,
       controlSize: 10,
+      onChange: () => {},
     };
   },
 
   getInitialState() {
-    const unit = this._estimateUnit(this.props.value);
+    const { value } = this.props;
+    const unit = this._estimateUnit(value);
 
     return {
-      sessionTimeoutNever: (this.props.value ? this.props.value === -1 : false),
-      value: (this.props.value ? Math.floor(this.props.value / unit) : 0),
+      sessionTimeoutNever: (value ? value === -1 : false),
+      value: (value ? Math.floor(value / unit) : 0),
       unit: unit,
     };
   },
 
   getValue() {
-    if (this.state.sessionTimeoutNever) {
+    const { sessionTimeoutNever } = this.state;
+
+    if (sessionTimeoutNever) {
       return -1;
     }
 
@@ -81,29 +81,34 @@ const TimeoutInput = createReactClass({
   },
 
   _notifyChange() {
-    if (typeof this.props.onChange === 'function') {
-      this.props.onChange(this.getValue());
+    const { onChange } = this.props;
+
+    if (typeof onChange === 'function') {
+      onChange(this.getValue());
     }
   },
 
   render() {
+    const { sessionTimeoutNever, value, unit } = this.state;
+    const { controlSize, labelSize } = this.props;
+
     return (
       <span>
         <Input type="checkbox"
                id="session-timeout-never"
                name="session_timeout_never"
-               labelClassName={`col-sm-${this.props.controlSize}`}
-               wrapperClassName={`col-sm-offset-${this.props.labelSize} col-sm-${this.props.controlSize}`}
+               labelClassName={`col-sm-${controlSize}`}
+               wrapperClassName={`col-sm-offset-${labelSize} col-sm-${controlSize}`}
                label="Sessions do not time out"
                help="When checked sessions never time out due to inactivity."
                onChange={this._onClick}
-               checked={this.state.sessionTimeoutNever} />
+               checked={sessionTimeoutNever} />
 
         <Input id="timeout-controls"
                label="Timeout"
                help="Session automatically end after this amount of time, unless they are actively used."
-               labelClassName={`col-sm-${this.props.labelSize}`}
-               wrapperClassName={`col-sm-${this.props.controlSize}`}>
+               labelClassName={`col-sm-${labelSize}`}
+               wrapperClassName={`col-sm-${controlSize}`}>
           <div className="clearfix">
             <Col sm={2}>
               <Input ref={(timeout) => { this.timeout = timeout; }}
@@ -113,14 +118,14 @@ const TimeoutInput = createReactClass({
                      name="timeout"
                      min={1}
                      data-validate="positive_number"
-                     disabled={this.state.sessionTimeoutNever}
-                     value={this.state.value}
+                     disabled={sessionTimeoutNever}
+                     value={value}
                      onChange={this._onChangeValue} />
             </Col>
             <Col sm={3}>
               <TimeoutUnitSelect ref={(sessionTimeoutUnit) => { this.sessionTimeoutUnit = sessionTimeoutUnit; }}
-                                 disabled={this.state.sessionTimeoutNever}
-                                 value={`${this.state.unit}`}
+                                 disabled={sessionTimeoutNever}
+                                 value={`${unit}`}
                                  onChange={this._onChangeUnit} />
             </Col>
           </div>

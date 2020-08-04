@@ -3,7 +3,10 @@ import styled from 'styled-components';
 
 import Select from 'components/common/Select';
 
-import { MS_DAY, MS_HOUR, MS_MINUTE, MS_SECOND } from './TimeoutInput';
+export const MS_DAY = 24 * 60 * 60 * 1000;
+export const MS_HOUR = 60 * 60 * 1000;
+export const MS_MINUTE = 60 * 1000;
+export const MS_SECOND = 1000;
 
 const TimeoutSelect = styled(Select)`
   width: 150px;
