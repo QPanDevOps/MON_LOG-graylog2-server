@@ -1,10 +1,16 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import createReactClass from 'create-react-class';
+import styled from 'styled-components';
 
-import { Row, Col } from 'components/graylog';
+import { Col } from 'components/graylog';
 import { Input } from 'components/bootstrap';
 import TimeoutUnitSelect from 'components/users/TimeoutUnitSelect';
+
+export const MS_DAY = 24 * 60 * 60 * 1000;
+export const MS_HOUR = 60 * 60 * 1000;
+export const MS_MINUTE = 60 * 1000;
+export const MS_SECOND = 1000;
 
 const TimeoutInput = createReactClass({
   displayName: 'TimeoutInput',
@@ -39,32 +45,27 @@ const TimeoutInput = createReactClass({
       return -1;
     }
 
-    return (this.timeout.value * this.session_timeout_unit.getValue());
+    return (this.timeout.value * this.sessionTimeoutUnit.getValue());
   },
-
-  MS_DAY: 24 * 60 * 60 * 1000,
-  MS_HOUR: 60 * 60 * 1000,
-  MS_MINUTE: 60 * 1000,
-  MS_SECOND: 1000,
 
   _estimateUnit(value) {
     if (value === 0) {
-      return this.MS_SECOND;
+      return MS_SECOND;
     }
 
-    if (value % this.MS_DAY === 0) {
-      return this.MS_DAY;
+    if (value % MS_DAY === 0) {
+      return MS_DAY;
     }
 
-    if (value % this.MS_HOUR === 0) {
-      return this.MS_HOUR;
+    if (value % MS_HOUR === 0) {
+      return MS_HOUR;
     }
 
-    if (value % this.MS_MINUTE === 0) {
-      return this.MS_MINUTE;
+    if (value % MS_MINUTE === 0) {
+      return MS_MINUTE;
     }
 
-    return this.MS_SECOND;
+    return MS_SECOND;
   },
 
   _onClick(evt) {
@@ -103,12 +104,12 @@ const TimeoutInput = createReactClass({
                help="Session automatically end after this amount of time, unless they are actively used."
                labelClassName={`col-sm-${this.props.labelSize}`}
                wrapperClassName={`col-sm-${this.props.controlSize}`}>
-          <Row>
+          <div className="clearfix">
             <Col sm={2}>
-              <input ref={(timeout) => { this.timeout = timeout; }}
+              <Input ref={(timeout) => { this.timeout = timeout; }}
                      type="number"
                      id="timeout"
-                     className="session-timeout-fields validatable form-control"
+                     className="validatable"
                      name="timeout"
                      min={1}
                      data-validate="positive_number"
@@ -117,13 +118,12 @@ const TimeoutInput = createReactClass({
                      onChange={this._onChangeValue} />
             </Col>
             <Col sm={3}>
-              <TimeoutUnitSelect ref={(session_timeout_unit) => { this.session_timeout_unit = session_timeout_unit; }}
-                                 className="form-control session-timeout-fields"
+              <TimeoutUnitSelect ref={(sessionTimeoutUnit) => { this.sessionTimeoutUnit = sessionTimeoutUnit; }}
                                  disabled={this.state.sessionTimeoutNever}
-                                 value={this.state.unit}
+                                 value={`${this.state.unit}`}
                                  onChange={this._onChangeUnit} />
             </Col>
-          </Row>
+          </div>
         </Input>
       </span>
     );
