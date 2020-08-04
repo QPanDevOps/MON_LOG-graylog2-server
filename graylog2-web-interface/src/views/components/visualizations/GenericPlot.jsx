@@ -136,7 +136,7 @@ class GenericPlot extends React.Component<Props, State> {
     const { chartData, layout, setChartColor, theme } = this.props;
     const defaultLayout = {
       autosize: true,
-      showlegend: true,
+      z: true,
       margin: {
         t: 10,
         l: 40,
@@ -146,20 +146,26 @@ class GenericPlot extends React.Component<Props, State> {
       },
       legend: {
         orientation: 'h',
+        font: {
+          color: theme.colors.variant.darkest.default,
+        },
       },
       hoverlabel: {
         namelength: -1,
       },
+      paper_bgcolor: 'transparent',
+      plot_bgcolor: 'transparent',
       yaxis: {
         automargin: true,
+        gridcolor: theme.colors.variant.lighter.default,
         tickfont: {
-          color: theme.colors.gray[50],
+          color: theme.colors.variant.darkest.default,
         },
       },
       xaxis: {
         automargin: true,
         tickfont: {
-          color: theme.colors.gray[50],
+          color: theme.colors.variant.darkest.default,
         },
       },
     };
