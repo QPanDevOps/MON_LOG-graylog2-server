@@ -32,11 +32,19 @@ const Toolbar = styled.div(({ theme }) => css`
   border-radius: 5px 5px 0 0;
 
   .btn-link {
-    color: ${theme.colors.variant.default};
+    color: ${theme.colors.variant.dark.info};
+    
+    :hover {
+      color: ${theme.colors.variant.darkest.info};
+    }
 
     &.disabled,
     &[disabled] {
-      color: ${theme.colors.variant.lighter.default};
+      color: ${theme.colors.variant.light.default};
+      
+      :hover {
+        color: ${theme.colors.variant.light.default};
+      }
     }
   }
 
