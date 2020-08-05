@@ -136,7 +136,7 @@ class GenericPlot extends React.Component<Props, State> {
     const { chartData, layout, setChartColor, theme } = this.props;
     const defaultLayout = {
       autosize: true,
-      z: true,
+      showlegend: true,
       margin: {
         t: 10,
         l: 40,
