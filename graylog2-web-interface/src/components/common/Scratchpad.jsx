@@ -26,9 +26,8 @@ const Textarea = styled.textarea(({ copied, theme }) => css`
   resize: none;
   flex: 1;
   margin: 15px 0 7px;
-  border: 1px solid ${copied ? theme.colors.variant.success : theme.colors.gray[80]};
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 8px ${chroma(copied ? theme.colors.variant.success : theme.colors.gray[80]).alpha(0.4).css()};
+  border: 1px solid ${copied ? theme.colors.variant.success : theme.colors.variant.lighter.default};
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.075)${copied && `, 0 0 8px ${chroma(theme.colors.variant.success).alpha(0.4).css()}`};
   transition: border 150ms ease-in-out, box-shadow 150ms ease-in-out;
   font-family: ${theme.fonts.family.monospace};
   font-size: ${theme.fonts.size.body};
@@ -67,6 +66,10 @@ const SavingMessage = styled.span(({ theme, visible }) => css`
   opacity: ${visible ? '1' : '0'};
   transition: opacity 150ms ease-in-out;
 `);
+
+const StyledTooltip = styled(Tooltip)`
+  transform: translateY(-45px);
+`;
 
 const Scratchpad = () => {
   let clipboard;
@@ -189,11 +192,11 @@ const Scratchpad = () => {
           <OverlayTrigger placement="right"
                           trigger={['hover', 'focus']}
                           overlay={(
-                            <Tooltip id="scratchpad-help">
+                            <StyledTooltip id="scratchpad-help">
                               You can use this space to store personal notes and other information while interacting with
                               Graylog, without leaving your browser window. For example, store timestamps, user IDs, or IP
                               addresses you need in various investigations.
-                            </Tooltip>
+                            </StyledTooltip>
                           )}>
             <Button bsStyle="link">
               <Icon name="question-circle" />

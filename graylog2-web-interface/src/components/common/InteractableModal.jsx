@@ -27,10 +27,11 @@ const InteractableModalWrapper = styled.div`
 `;
 
 const StyledRnd = styled(Rnd)(({ theme }) => css`
-  box-shadow: 0 0 9px rgba(31, 31, 31, 0.5),
-    0 0 6px rgba(31, 31, 31, 0.5),
-    0 0 3px rgba(31, 31, 31, 0.5);
+  box-shadow: 0 0 9px ${theme.colors.global.navigationBoxShadow},
+    0 0 6px ${theme.colors.global.navigationBoxShadow},
+    0 0 3px ${theme.colors.global.navigationBoxShadow};
   background-color: ${theme.colors.global.contentBackground};
+  border: 1px solid ${theme.colors.variant.lightest.default};
   border-radius: 3px;
   flex-direction: column;
   display: flex !important;
