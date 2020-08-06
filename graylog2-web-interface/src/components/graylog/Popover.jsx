@@ -7,7 +7,7 @@ import GraylogThemeProvider from 'theme/GraylogThemeProvider';
 
 const StyledPopover = styled(BoostrapPopover)(({ theme }) => {
   const borderColor = theme.colors.variant.light.default;
-  const arrowColor = theme.colors.variant.lighter.default;
+  const arrowColor = theme.colors.variant.lightest.default;
 
   return css`
     background-color: ${theme.colors.global.contentBackground};
@@ -16,6 +16,7 @@ const StyledPopover = styled(BoostrapPopover)(({ theme }) => {
 
     .popover-title {
       background-color: ${arrowColor};
+      border-color: ${borderColor};
       color: ${theme.colors.variant.darkest.default};
     }
 
