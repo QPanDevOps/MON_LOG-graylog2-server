@@ -76,8 +76,8 @@ const TimeoutInput = createReactClass({
     this.setState({ value: evt.target.value }, this._notifyChange);
   },
 
-  _onChangeUnit(evt) {
-    this.setState({ unit: evt.target.value }, this._notifyChange);
+  _onChangeUnit(unit) {
+    this.setState({ unit }, this._notifyChange);
   },
 
   _notifyChange() {
